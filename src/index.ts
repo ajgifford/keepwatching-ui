@@ -1,2 +1,2 @@
-export * from './utils/watchStatusColors';
-export * from './components'
+export * from './components';
+export * from './utils';
