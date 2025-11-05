@@ -9,7 +9,7 @@ interface DistributionPieChartProps {
 
 const DEFAULT_COLORS = ['#4CAF50', '#FFC107', '#F44336', '#2196F3', '#9C27B0', '#FF9800'];
 
-const DistributionPieChart = ({ data, height = 300, colors = DEFAULT_COLORS }: DistributionPieChartProps) => {
+export function DistributionPieChart({ data, height = 300, colors = DEFAULT_COLORS }: DistributionPieChartProps) {
   const validData = data && data.length > 0 ? data : [{ name: 'No Data', value: 1 }];
 
   return (
@@ -38,6 +38,4 @@ const DistributionPieChart = ({ data, height = 300, colors = DEFAULT_COLORS }: D
       </PieChart>
     </ResponsiveContainer>
   );
-};
-
-export default DistributionPieChart;
+}

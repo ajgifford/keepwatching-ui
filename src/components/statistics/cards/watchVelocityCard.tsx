@@ -12,7 +12,7 @@ interface WatchVelocityCardProps {
   isLoading?: boolean;
 }
 
-const WatchVelocityCard = ({ velocityData, isLoading = false }: WatchVelocityCardProps) => {
+export function WatchVelocityCard({ velocityData, isLoading = false }: WatchVelocityCardProps) {
   const theme = useTheme();
 
   const trendIcon = useMemo(() => {
@@ -157,6 +157,4 @@ const WatchVelocityCard = ({ velocityData, isLoading = false }: WatchVelocityCar
       </CardContent>
     </Card>
   );
-};
-
-export default WatchVelocityCard;
+}

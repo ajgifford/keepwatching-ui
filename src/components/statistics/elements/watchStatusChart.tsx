@@ -16,7 +16,7 @@ interface WatchStatusChartProps {
   height?: number;
 }
 
-const WatchStatusChart = ({ data, height = 300 }: WatchStatusChartProps) => {
+export function WatchStatusChart({ data, height = 300 }: WatchStatusChartProps) {
   return (
     <ResponsiveContainer width="100%" height={height}>
       <BarChart data={data} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
@@ -33,6 +33,4 @@ const WatchStatusChart = ({ data, height = 300 }: WatchStatusChartProps) => {
       </BarChart>
     </ResponsiveContainer>
   );
-};
-
-export default WatchStatusChart;
+}

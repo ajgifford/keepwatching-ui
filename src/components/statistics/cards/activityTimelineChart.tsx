@@ -22,7 +22,7 @@ interface ActivityTimelineChartProps {
   isLoading?: boolean;
 }
 
-const ActivityTimelineChart = ({ timeline, isLoading = false }: ActivityTimelineChartProps) => {
+export function ActivityTimelineChart({ timeline, isLoading = false }: ActivityTimelineChartProps) {
   const theme = useTheme();
   const [activeTab, setActiveTab] = useState(0);
 
@@ -202,6 +202,4 @@ const ActivityTimelineChart = ({ timeline, isLoading = false }: ActivityTimeline
       </CardContent>
     </Card>
   );
-};
-
-export default ActivityTimelineChart;
+}

@@ -15,7 +15,7 @@ interface BacklogAgingDataPoint {
   severity: 'low' | 'medium' | 'high';
 }
 
-export default function BacklogAgingCard({ stats }: BacklogAgingCardProps) {
+export function BacklogAgingCard({ stats }: BacklogAgingCardProps) {
   const theme = useTheme();
 
   if (!stats || !stats.backlogAging) {

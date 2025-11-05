@@ -1,5 +1,3 @@
-import React from 'react';
-
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import { Box, Card, CardContent, Grid, Stack, Tooltip, Typography, useTheme } from '@mui/material';
 
@@ -9,7 +7,7 @@ interface SeasonalViewingCardProps {
   stats: SeasonalViewingStats | null;
 }
 
-export const SeasonalViewingCard: React.FC<SeasonalViewingCardProps> = ({ stats }) => {
+export function SeasonalViewingCard({ stats }: SeasonalViewingCardProps) {
   const theme = useTheme();
 
   if (!stats) {
@@ -253,4 +251,4 @@ export const SeasonalViewingCard: React.FC<SeasonalViewingCardProps> = ({ stats 
       </CardContent>
     </Card>
   );
-};
+}

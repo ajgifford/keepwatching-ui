@@ -7,7 +7,7 @@ interface ContentSummaryCardProps {
   children: ReactNode;
 }
 
-export default function ContentSummaryCard({ title, children }: ContentSummaryCardProps) {
+export function ContentSummaryCard({ title, children }: ContentSummaryCardProps) {
   return (
     <Card>
       <CardContent>

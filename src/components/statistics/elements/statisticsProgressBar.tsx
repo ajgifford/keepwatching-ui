@@ -11,14 +11,14 @@ interface StatisticsProgressBarProps {
   height?: number;
 }
 
-const StatisticsProgressBar = ({
+export function StatisticsProgressBar({
   value,
   current,
   total,
   label,
   color = 'primary',
   height = 10,
-}: StatisticsProgressBarProps) => {
+}: StatisticsProgressBarProps) {
   const progressColor = color || getProgressBarColor(value);
   return (
     <>
@@ -43,6 +43,4 @@ const StatisticsProgressBar = ({
       </Box>
     </>
   );
-};
-
-export default StatisticsProgressBar;
+}

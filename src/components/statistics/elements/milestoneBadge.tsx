@@ -70,21 +70,11 @@ function getTooltipContent(
   return `Next Goal: ${formattedThreshold} ${typeLabel}`;
 }
 
-export const MilestoneBadge: React.FC<MilestoneBadgeProps> = ({
-  type,
-  threshold,
-  achieved,
-  onClick,
-  currentProgress,
-}) => {
+export function MilestoneBadge({ type, threshold, achieved, onClick, currentProgress }: MilestoneBadgeProps) {
   const theme = useTheme();
-
   const backgroundColor = achieved ? alpha(theme.palette.warning.main, 0.2) : alpha(theme.palette.grey[500], 0.15);
-
   const textColor = achieved ? theme.palette.warning.light : alpha('#ffffff', 0.6);
-
   const borderColor = achieved ? alpha(theme.palette.warning.main, 0.5) : alpha('#ffffff', 0.2);
-
   const tooltipContent = getTooltipContent(type, threshold, achieved, currentProgress);
 
   return (
@@ -139,6 +129,4 @@ export const MilestoneBadge: React.FC<MilestoneBadgeProps> = ({
       />
     </Tooltip>
   );
-};
-
-export default MilestoneBadge;
+}

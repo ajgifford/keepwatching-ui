@@ -12,7 +12,7 @@ interface ContentBreakdownCardProps {
   items: ContentBreakdownItem[];
 }
 
-export default function ContentBreakdownCard({ title, items }: ContentBreakdownCardProps) {
+export function ContentBreakdownCard({ title, items }: ContentBreakdownCardProps) {
   return (
     <Card>
       <CardContent>

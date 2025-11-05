@@ -4,6 +4,7 @@ export * from './backlogAgingCard';
 export * from './bingeWatchingCard';
 export * from './contentBreakdownCard';
 export * from './contentDepthCard';
+export * from './contentDiscoveryCard';
 export * from './contentSummaryCard';
 export * from './milestonesAndAnniversaryCard';
 export * from './seasonalViewingCard';

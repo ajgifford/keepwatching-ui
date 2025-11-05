@@ -1,5 +1,3 @@
-import React from 'react';
-
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import SpeedIcon from '@mui/icons-material/Speed';
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
@@ -11,7 +9,7 @@ interface TimeToWatchCardProps {
   stats: TimeToWatchStats | null;
 }
 
-export const TimeToWatchCard: React.FC<TimeToWatchCardProps> = ({ stats }) => {
+export function TimeToWatchCard({ stats }: TimeToWatchCardProps) {
   if (!stats) {
     return null;
   }
@@ -97,4 +95,4 @@ export const TimeToWatchCard: React.FC<TimeToWatchCardProps> = ({ stats }) => {
       </CardContent>
     </Card>
   );
-};
+}

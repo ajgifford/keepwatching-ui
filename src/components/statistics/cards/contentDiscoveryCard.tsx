@@ -1,5 +1,3 @@
-import React from 'react';
-
 import TrendingDownIcon from '@mui/icons-material/TrendingDown';
 import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
@@ -11,7 +9,7 @@ interface ContentDiscoveryCardProps {
   stats: ContentDiscoveryStats | null;
 }
 
-export const ContentDiscoveryCard: React.FC<ContentDiscoveryCardProps> = ({ stats }) => {
+export function ContentDiscoveryCard({ stats }: ContentDiscoveryCardProps) {
   if (!stats) {
     return (
       <Card sx={{ height: '100%' }}>
@@ -127,4 +125,4 @@ export const ContentDiscoveryCard: React.FC<ContentDiscoveryCardProps> = ({ stat
       </CardContent>
     </Card>
   );
-};
+}

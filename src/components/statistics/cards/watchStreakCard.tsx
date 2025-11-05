@@ -9,7 +9,7 @@ interface WatchStreakCardProps {
   isLoading?: boolean;
 }
 
-const WatchStreakCard = ({ streakData, isLoading = false }: WatchStreakCardProps) => {
+export function WatchStreakCard({ streakData, isLoading = false }: WatchStreakCardProps) {
   const theme = useTheme();
 
   if (isLoading) {
@@ -138,6 +138,4 @@ const WatchStreakCard = ({ streakData, isLoading = false }: WatchStreakCardProps
       </CardContent>
     </Card>
   );
-};
-
-export default WatchStreakCard;
+}

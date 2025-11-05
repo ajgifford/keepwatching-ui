@@ -1,9 +1,7 @@
-import React from 'react';
-
 import { Box, Card, CardContent, Grid, Typography } from '@mui/material';
 
-import DistributionBarChart from '../elements/distributionBarChart';
-import DistributionPieChart from '../elements/distributionPieChart';
+import { DistributionBarChart } from '../elements/distributionBarChart';
+import { DistributionPieChart } from '../elements/distributionPieChart';
 import { convertToChartData } from '../utils/distributionTypes';
 import { ContentDepthStats } from '@ajgifford/keepwatching-types';
 
@@ -11,7 +9,7 @@ interface ContentDepthCardProps {
   stats: ContentDepthStats | null;
 }
 
-export const ContentDepthCard: React.FC<ContentDepthCardProps> = ({ stats }) => {
+export function ContentDepthCard({ stats }: ContentDepthCardProps) {
   if (!stats) {
     return (
       <Card sx={{ height: '100%' }}>
@@ -95,4 +93,4 @@ export const ContentDepthCard: React.FC<ContentDepthCardProps> = ({ stats }) => 
       </CardContent>
     </Card>
   );
-};
+}

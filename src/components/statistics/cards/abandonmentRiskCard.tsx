@@ -1,5 +1,3 @@
-import React from 'react';
-
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
 import { Box, Card, CardContent, Chip, Grid, List, ListItem, ListItemText, Typography } from '@mui/material';
 
@@ -9,7 +7,7 @@ interface AbandonmentRiskCardProps {
   stats: AbandonmentRiskStats | null;
 }
 
-export const AbandonmentRiskCard: React.FC<AbandonmentRiskCardProps> = ({ stats }) => {
+export function AbandonmentRiskCard({ stats }: AbandonmentRiskCardProps) {
   if (!stats) {
     return (
       <Card sx={{ height: '100%' }}>
@@ -128,4 +126,4 @@ export const AbandonmentRiskCard: React.FC<AbandonmentRiskCardProps> = ({ stats 
       </CardContent>
     </Card>
   );
-};
+}

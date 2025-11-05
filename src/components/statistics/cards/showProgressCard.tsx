@@ -18,7 +18,7 @@ export interface ShowProgressCardProps {
   maxItems?: number;
 }
 
-export default function ShowProgressCard({
+export function ShowProgressCard({
   title,
   shows,
   filters = null,

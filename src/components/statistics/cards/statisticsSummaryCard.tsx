@@ -1,6 +1,6 @@
 import { Box, Grid, Paper, Typography } from '@mui/material';
 
-import StatisticsProgressBar from '../elements/statisticsProgressBar';
+import { StatisticsProgressBar } from '../elements/statisticsProgressBar';
 
 interface StatItem {
   value: number;
@@ -16,13 +16,13 @@ interface StatisticsSummaryCardProps {
   stats: StatItem[];
 }
 
-const StatisticsSummaryCard = ({
+export function StatisticsSummaryCard({
   progressLabel = 'Overall Progress',
   progressValue,
   currentCount,
   totalCount,
   stats,
-}: StatisticsSummaryCardProps) => {
+}: StatisticsSummaryCardProps) {
   return (
     <Paper elevation={2} sx={{ p: 3, mb: 4 }}>
       <Grid container spacing={2} alignItems="center">
@@ -55,6 +55,4 @@ const StatisticsSummaryCard = ({
       </Grid>
     </Paper>
   );
-};
-
-export default StatisticsSummaryCard;
+}

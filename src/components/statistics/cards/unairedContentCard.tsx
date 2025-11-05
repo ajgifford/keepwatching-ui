@@ -1,5 +1,3 @@
-import React from 'react';
-
 import MovieIcon from '@mui/icons-material/Movie';
 import TvIcon from '@mui/icons-material/Tv';
 import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
@@ -11,7 +9,7 @@ interface UnairedContentCardProps {
   stats: UnairedContentStats | null;
 }
 
-export const UnairedContentCard: React.FC<UnairedContentCardProps> = ({ stats }) => {
+export function UnairedContentCard({ stats }: UnairedContentCardProps) {
   if (!stats) {
     return (
       <Card sx={{ height: '100%' }}>
@@ -108,4 +106,4 @@ export const UnairedContentCard: React.FC<UnairedContentCardProps> = ({ stats })
       </CardContent>
     </Card>
   );
-};
+}

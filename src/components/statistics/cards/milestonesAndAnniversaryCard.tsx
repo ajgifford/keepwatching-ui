@@ -149,7 +149,7 @@ function MilestoneProgressBar({ milestone }: { milestone: Milestone }) {
   );
 }
 
-export default function MilestonesAndAnniversaryCard({ stats, isLoading = false }: MilestonesAndAnniversaryCardProps) {
+export function MilestonesAndAnniversaryCard({ stats, isLoading = false }: MilestonesAndAnniversaryCardProps) {
   const theme = useTheme();
 
   const milestoneData = useMemo(() => {

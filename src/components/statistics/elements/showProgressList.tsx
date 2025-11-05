@@ -11,7 +11,7 @@ interface ShowProgressListProps {
   filter?: WatchStatus | null;
 }
 
-const ShowProgressList = ({ shows, maxHeight = 300, filter = WatchStatus.WATCHING }: ShowProgressListProps) => {
+export function ShowProgressList({ shows, maxHeight = 300, filter = WatchStatus.WATCHING }: ShowProgressListProps) {
   const filteredShows = filter ? shows.filter((show) => show.status === filter) : shows;
   const sortedShows = [...filteredShows].sort((a, b) => b.percentComplete - a.percentComplete);
 
@@ -61,6 +61,4 @@ const ShowProgressList = ({ shows, maxHeight = 300, filter = WatchStatus.WATCHIN
       ))}
     </Box>
   );
-};
-
-export default ShowProgressList;
+}

@@ -20,7 +20,7 @@ interface BingeWatchingCardProps {
   isLoading?: boolean;
 }
 
-const BingeWatchingCard = ({ bingeData, isLoading = false }: BingeWatchingCardProps) => {
+export function BingeWatchingCard({ bingeData, isLoading = false }: BingeWatchingCardProps) {
   const theme = useTheme();
 
   if (isLoading) {
@@ -152,6 +152,4 @@ const BingeWatchingCard = ({ bingeData, isLoading = false }: BingeWatchingCardPr
       </CardContent>
     </Card>
   );
-};
-
-export default BingeWatchingCard;
+}

@@ -9,7 +9,7 @@ interface DistributionBarChartProps {
   color?: string;
 }
 
-const DistributionBarChart = ({ data, height = 300, color }: DistributionBarChartProps) => {
+export function DistributionBarChart({ data, height = 300, color }: DistributionBarChartProps) {
   const theme = useTheme();
   const barColor = color || theme.palette.primary.main;
 
@@ -38,6 +38,4 @@ const DistributionBarChart = ({ data, height = 300, color }: DistributionBarChar
       </BarChart>
     </ResponsiveContainer>
   );
-};
-
-export default DistributionBarChart;
+}
