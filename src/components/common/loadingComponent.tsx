@@ -6,19 +6,11 @@ export interface LoadingComponentProps {
 
 export function LoadingComponent({ message = 'Loading...' }: LoadingComponentProps) {
   return (
-    <Box
-      sx={{
-        textAlign: 'center',
-        mt: 4,
-        px: 2,
-      }}
-    >
-      <Typography variant="h2" gutterBottom>
+    <Box display="flex" justifyContent="center" alignItems="center" height="50vh">
+      <CircularProgress />
+      <Typography variant="h3" sx={{ ml: 2 }}>
         {message}
       </Typography>
-      <Box display="flex" justifyContent="center" p={2}>
-        <CircularProgress />
-      </Box>
     </Box>
   );
 }
