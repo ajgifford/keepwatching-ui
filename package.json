@@ -39,7 +39,7 @@
   "author": "Andy Gifford <ajgifford@users.noreply.github.com>",
   "license": "ISC",
   "peerDependencies": {
-    "@ajgifford/keepwatching-types": "^0.6.1",
+    "@ajgifford/keepwatching-types": "^0.7.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.4",
@@ -50,11 +50,13 @@
     "recharts": "^2.15.1"
   },
   "devDependencies": {
-    "@ajgifford/keepwatching-types": "^0.6.1",
-    "@types/react": "^18.3.10",
-    "@types/react-dom": "^18.3.10",
+    "@ajgifford/keepwatching-types": "^0.7.0",
+    "@mui/icons-material": "^7.3.4",
+    "@mui/material": "^7.3.4",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "@types/jest": "^29.5.14",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.10",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
     "eslint": "^8.57.0",
@@ -64,13 +66,11 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^3.5.3",
+    "react-router-dom": "^7.9.4",
+    "recharts": "^2.15.1",
     "rimraf": "^6.0.1",
     "tsup": "^8.0.2",
-    "typescript": "^5.6.3",
-    "@mui/material": "^7.3.4",
-    "@mui/icons-material": "^7.3.4",
-    "recharts": "^2.15.1",
-    "react-router-dom": "^7.9.4"
+    "typescript": "^5.6.3"
   },
   "packageManager": "yarn@1.22.22"
 }
