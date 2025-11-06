@@ -115,7 +115,9 @@ export function TrendingContentCard({ stats, isLoading = false }: TrendingConten
               >
                 {index + 1}
               </Box>
-              {item.contentType === 'show' ? <TvIcon color="primary" /> : <MovieIcon color="secondary" />}
+              <Box sx={{ px: 2 }}>
+                {item.contentType === 'show' ? <TvIcon color="primary" /> : <MovieIcon color="secondary" />}
+              </Box>
             </ListItemIcon>
             <ListItemText
               primary={
