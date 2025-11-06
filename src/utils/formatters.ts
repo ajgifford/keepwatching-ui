@@ -39,13 +39,73 @@ export function formatCurrency(amount: number | undefined): string {
   });
 }
 
+interface DateDisplayOptions {
+  locale?: string;
+  options?: Intl.DateTimeFormatOptions;
+  fallbackText?: string;
+}
+
+/**
+ * Formats a given date into a human-readable string using `toLocaleDateString`.
+ *
+ * - Returns a fallback string if the date is null, undefined, or invalid.
+ * - Optionally accepts a locale and Intl.DateTimeFormatOptions for custom formatting.
+ * - Only applies `locale` and `options` if they are defined.
+ *
+ * @param {string | Date | null | undefined} date - The date value to format.
+ * @param {Object} [dateDisplayOptions] - Optional configuration for date formatting.
+ * @param {string} [dateDisplayOptions.locale] - BCP 47 language tag (e.g., `"en-US"`, `"en-GB"`).
+ * @param {Intl.DateTimeFormatOptions} [dateDisplayOptions.options] - Intl formatting options.
+ * @param {string} [dateDisplayOptions.fallbackText='Unknown'] - Text to return if date is missing or invalid.
+ * @returns {string} The formatted date string or the fallback text.
+ */
+export function formatDateDisplay(
+  date: string | Date | null | undefined,
+  { locale, options, fallbackText = 'Unknown' }: DateDisplayOptions = {}
+): string {
+  if (!date) return fallbackText;
+
+  const d = new Date(date);
+  // Only include locale/options if defined
+  if (locale && options) return d.toLocaleDateString(locale, options);
+  if (locale) return d.toLocaleDateString(locale);
+  if (options) return d.toLocaleDateString(undefined, options);
+  return d.toLocaleDateString();
+}
+
+/**
+ * Helper to format a date as "Month Day, Year" (e.g. "November 6, 2025").
+ *
+ * Wraps {@link formatDateDisplay} with preset Intl.DateTimeFormat options:
+ * `{ year: 'numeric', month: 'long', day: 'numeric' }`.
+ *
+ * @param {string | Date | null | undefined} date - The date to format.
+ * @param {DateDisplayOptions} [overrides] - Optional overrides (e.g., locale or fallbackText).
+ * @returns {string} Formatted date string or fallback text.
+ */
+export function formatFullDate(date: string | Date | null | undefined, overrides: DateDisplayOptions = {}): string {
+  const defaultOptions: Intl.DateTimeFormatOptions = {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  };
+
+  // Merge default options with any user overrides
+  const merged: DateDisplayOptions = {
+    ...overrides,
+    options: { ...defaultOptions, ...overrides.options },
+  };
+
+  return formatDateDisplay(date, merged);
+}
+
 /**
  * Formats a date string or Date object to locale string
  * @param date - Date string or Date object
  * @returns Formatted date string
  */
 export function formatDate(date: string | Date): string {
-  return new Date(date).toLocaleString();
+  return new Date(date).toLocaleDateString();
 }
 
 /**
