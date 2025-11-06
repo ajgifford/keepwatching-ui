@@ -15,11 +15,11 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "build": "tsup",
     "prepare": "yarn build",
     "clean": "rimraf dist",
     "rebuild": "yarn clean && yarn build",
-    "dev": "tsup src/index.ts --watch",
+    "dev": "tsup --watch",
     "lint": "eslint src --ext .ts,.tsx",
     "lint:fix": "eslint . --fix",
     "format": "prettier --config .prettierrc.js . --write",
@@ -51,6 +51,8 @@
   },
   "devDependencies": {
     "@ajgifford/keepwatching-types": "^0.7.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.4",
     "@mui/material": "^7.3.4",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
