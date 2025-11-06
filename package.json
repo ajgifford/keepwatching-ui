@@ -11,15 +11,33 @@
       "require": "./dist/index.js"
     }
   },
-  "private": false,
-  "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "clean": "rimraf dist",
     "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "prepare": "yarn build",
+    "clean": "rimraf dist",
+    "rebuild": "yarn clean && yarn build",
     "dev": "tsup src/index.ts --watch",
     "lint": "eslint src --ext .ts,.tsx",
-    "format": "prettier --config .prettierrc.js . --write"
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --config .prettierrc.js . --write",
+    "type-check": "tsc --noEmit",
+    "version:patch": "npm version patch",
+    "version:minor": "npm version minor",
+    "version:major": "npm version major"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajgifford/keepwatching-ui.git"
+  },
+  "private": false,
+  "author": "Andy Gifford <ajgifford@users.noreply.github.com>",
+  "license": "ISC",
   "peerDependencies": {
     "@ajgifford/keepwatching-types": "^0.6.1",
     "@emotion/react": "^11.14.0",
@@ -54,8 +72,5 @@
     "recharts": "^2.15.1",
     "react-router-dom": "^7.9.4"
   },
-  "files": [
-    "dist"
-  ],
   "packageManager": "yarn@1.22.22"
 }
