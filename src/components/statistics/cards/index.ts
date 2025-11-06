@@ -16,6 +16,7 @@ export * from './platformTrendsCard';
 export * from './profileComparisonCard';
 export * from './seasonalViewingCard';
 export * from './showProgressCard';
+export * from './singleAccountHealthCard';
 export * from './statisticsSummaryCard';
 export * from './timeToWatchCard';
 export * from './trendingContentCard';
