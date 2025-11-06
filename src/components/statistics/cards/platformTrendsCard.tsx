@@ -89,7 +89,7 @@ export function PlatformTrendsCard({ stats, isLoading = false }: PlatformTrendsC
           <Grid size={{ xs: 6, md: 3 }}>
             <Box sx={{ textAlign: 'center' }}>
               <Typography variant="h4" color="primary" fontWeight="bold">
-                {stats.newAccountsInPeriod}
+                {stats.newAccountsInPeriod.toLocaleString()}
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 New Accounts
@@ -99,7 +99,7 @@ export function PlatformTrendsCard({ stats, isLoading = false }: PlatformTrendsC
           <Grid size={{ xs: 6, md: 3 }}>
             <Box sx={{ textAlign: 'center' }}>
               <Typography variant="h4" color="primary" fontWeight="bold">
-                {stats.episodesWatchedInPeriod}
+                {stats.episodesWatchedInPeriod.toLocaleString()}
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 Episodes Watched
@@ -109,7 +109,7 @@ export function PlatformTrendsCard({ stats, isLoading = false }: PlatformTrendsC
           <Grid size={{ xs: 6, md: 3 }}>
             <Box sx={{ textAlign: 'center' }}>
               <Typography variant="h4" color="primary" fontWeight="bold">
-                {stats.moviesWatchedInPeriod}
+                {stats.moviesWatchedInPeriod.toLocaleString()}
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 Movies Watched
@@ -119,7 +119,7 @@ export function PlatformTrendsCard({ stats, isLoading = false }: PlatformTrendsC
           <Grid size={{ xs: 6, md: 3 }}>
             <Box sx={{ textAlign: 'center' }}>
               <Typography variant="h4" color="primary" fontWeight="bold">
-                {stats.episodesWatchedInPeriod + stats.moviesWatchedInPeriod}
+                {(stats.episodesWatchedInPeriod + stats.moviesWatchedInPeriod).toLocaleString()}
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 Total Activity
