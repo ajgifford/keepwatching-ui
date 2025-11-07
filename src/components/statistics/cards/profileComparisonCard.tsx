@@ -25,7 +25,7 @@ import {
 import { ProfileComparisonStats } from '@ajgifford/keepwatching-types';
 
 interface ProfileComparisonCardProps {
-  stats: ProfileComparisonStats;
+  stats: ProfileComparisonStats | null;
   isLoading?: boolean;
 }
 
@@ -41,6 +41,21 @@ export function ProfileComparisonCard({ stats, isLoading = false }: ProfileCompa
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center', py: 3 }}>
             Loading...
+          </Typography>
+        </CardContent>
+      </Card>
+    );
+  }
+
+  if (!stats) {
+    return (
+      <Card>
+        <CardContent>
+          <Typography variant="h6" gutterBottom>
+            Profile Comparison
+          </Typography>
+          <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center', py: 3 }}>
+            No comparison data available
           </Typography>
         </CardContent>
       </Card>

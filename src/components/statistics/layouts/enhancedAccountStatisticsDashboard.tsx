@@ -24,6 +24,7 @@ import {
   ContentDiscoveryCard,
   ContentSummaryCard,
   MilestonesAndAnniversaryCard,
+  ProfileComparisonCard,
   SeasonalViewingCard,
   TimeToWatchCard,
   UnairedContentCard,
@@ -43,6 +44,7 @@ export interface EnhancedAccountStatisticsDashboardProps {
 
 // Define section categories
 const SECTION_CATEGORIES = [
+  { id: 'profiles', label: 'Profile Comparison', icon: '👥' },
   { id: 'milestones', label: 'Milestones & Achievements', icon: '🏆' },
   { id: 'progress', label: 'Progress & Activity', icon: '📊' },
   { id: 'patterns', label: 'Viewing Patterns', icon: '📺' },
@@ -69,6 +71,7 @@ export function EnhancedAccountStatisticsDashboard({
     contentDiscovery: contentDiscoveryData,
     abandonmentRisk: abandonmentRiskData,
     unairedContent: unairedContentData,
+    profileComparison: profileComparisonData,
   } = enhancedStatistics || {};
 
   // Refs for scrolling to sections
@@ -169,6 +172,24 @@ export function EnhancedAccountStatisticsDashboard({
             ))}
           </Stack>
         </Grid>
+
+        {/* Profile Comparison Section */}
+        {statistics.profileCount > 1 && (
+          <Grid size={12}>
+            <Accordion defaultExpanded ref={(el) => (sectionRefs.current['profiles'] = el)} sx={{ mb: 2 }}>
+              <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography variant="h6">👥 Profile Comparison</Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <Grid container spacing={2}>
+                  <Grid size={{ xs: 12 }}>
+                    <ProfileComparisonCard stats={profileComparisonData ?? null} isLoading={isLoadingEnhancedStats} />
+                  </Grid>
+                </Grid>
+              </AccordionDetails>
+            </Accordion>
+          </Grid>
+        )}
 
         {/* Milestones & Achievements Section */}
         <Grid size={12}>
@@ -321,6 +342,7 @@ export function EnhancedAccountStatisticsDashboard({
     contentDiscoveryData,
     abandonmentRiskData,
     unairedContentData,
+    profileComparisonData,
     isLoadingEnhancedStats,
   ]);
 
