@@ -47,7 +47,7 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.6",
-    "recharts": "^2.15.1"
+    "recharts": "^3.4.1"
   },
   "devDependencies": {
     "@ajgifford/keepwatching-types": "^0.7.3",
@@ -69,8 +69,9 @@
     "prettier": "^3.5.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-router-dom": "^7.9.4",
-    "recharts": "^2.15.1",
+    "react-is": "^19.0.0",
+    "react-router-dom": "^7.9.6",
+    "recharts": "^3.4.1",
     "rimraf": "^6.0.1",
     "tsup": "^8.5.1",
     "typescript": "^5.6.3"

@@ -1,6 +1,7 @@
 export interface ChartDataItem {
   name: string;
   value: number;
+  [key: string]: string | number;
 }
 
 export interface GenreDistribution {
