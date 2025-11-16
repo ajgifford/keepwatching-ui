@@ -122,7 +122,13 @@ export function EnhancedProfileStatisticsDashboard({
 
         {/* Milestones & Achievements Section */}
         <Grid size={12}>
-          <Accordion defaultExpanded ref={(el) => (sectionRefs.current['milestones'] = el)} sx={{ mb: 2 }}>
+          <Accordion
+            defaultExpanded
+            ref={(el) => {
+              sectionRefs.current['milestones'] = el;
+            }}
+            sx={{ mb: 2 }}
+          >
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
               <Typography variant="h6">🏆 Milestones & Achievements</Typography>
             </AccordionSummary>
@@ -138,7 +144,13 @@ export function EnhancedProfileStatisticsDashboard({
 
         {/* Progress & Activity Section */}
         <Grid size={12}>
-          <Accordion defaultExpanded ref={(el) => (sectionRefs.current['progress'] = el)} sx={{ mb: 2 }}>
+          <Accordion
+            defaultExpanded
+            ref={(el) => {
+              sectionRefs.current['progress'] = el;
+            }}
+            sx={{ mb: 2 }}
+          >
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
               <Typography variant="h6">📊 Progress & Activity</Typography>
             </AccordionSummary>
@@ -166,7 +178,12 @@ export function EnhancedProfileStatisticsDashboard({
 
         {/* Viewing Patterns Section */}
         <Grid size={12}>
-          <Accordion ref={(el) => (sectionRefs.current['patterns'] = el)} sx={{ mb: 2 }}>
+          <Accordion
+            ref={(el) => {
+              sectionRefs.current['patterns'] = el;
+            }}
+            sx={{ mb: 2 }}
+          >
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
               <Typography variant="h6">📺 Viewing Patterns</Typography>
             </AccordionSummary>
@@ -194,7 +211,12 @@ export function EnhancedProfileStatisticsDashboard({
 
         {/* Content Insights Section */}
         <Grid size={12}>
-          <Accordion ref={(el) => (sectionRefs.current['insights'] = el)} sx={{ mb: 2 }}>
+          <Accordion
+            ref={(el) => {
+              sectionRefs.current['insights'] = el;
+            }}
+            sx={{ mb: 2 }}
+          >
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
               <Typography variant="h6">💡 Content Insights</Typography>
             </AccordionSummary>
@@ -237,7 +259,12 @@ export function EnhancedProfileStatisticsDashboard({
 
         {/* Content Management Section */}
         <Grid size={12}>
-          <Accordion ref={(el) => (sectionRefs.current['management'] = el)} sx={{ mb: 2 }}>
+          <Accordion
+            ref={(el) => {
+              sectionRefs.current['management'] = el;
+            }}
+            sx={{ mb: 2 }}
+          >
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
               <Typography variant="h6">📋 Content Management</Typography>
             </AccordionSummary>
