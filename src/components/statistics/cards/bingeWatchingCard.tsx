@@ -13,6 +13,7 @@ import {
   useTheme,
 } from '@mui/material';
 
+import { formatDate } from '../../../utils';
 import { BingeWatchingStats } from '@ajgifford/keepwatching-types';
 
 interface BingeWatchingCardProps {
@@ -107,7 +108,7 @@ export function BingeWatchingCard({ bingeData, isLoading = false }: BingeWatchin
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
                     {bingeData.longestBingeSession.episodeCount} episodes on{' '}
-                    {new Date(bingeData.longestBingeSession.date).toLocaleDateString()}
+                    {formatDate(bingeData.longestBingeSession.date)}
                   </Typography>
                 </Box>
               </Grid>

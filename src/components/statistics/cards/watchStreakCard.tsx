@@ -2,6 +2,7 @@ import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import WhatshotIcon from '@mui/icons-material/Whatshot';
 import { Box, Card, CardContent, Chip, Divider, Grid, Typography, useTheme } from '@mui/material';
 
+import { formatDate } from '../../../utils';
 import { WatchStreakStats } from '@ajgifford/keepwatching-types';
 
 interface WatchStreakCardProps {
@@ -79,7 +80,7 @@ export function WatchStreakCard({ streakData, isLoading = false }: WatchStreakCa
               </Typography>
               {hasCurrentStreak && streakData.currentStreakStartDate && (
                 <Typography variant="caption" sx={{ display: 'block', mt: 0.5, opacity: 0.9 }}>
-                  Since {new Date(streakData.currentStreakStartDate).toLocaleDateString()}
+                  Since {formatDate(streakData.currentStreakStartDate)}
                 </Typography>
               )}
             </Box>
@@ -111,8 +112,8 @@ export function WatchStreakCard({ streakData, isLoading = false }: WatchStreakCa
                 Longest Streak Period
               </Typography>
               <Typography variant="body2" color="text.primary">
-                {new Date(streakData.longestStreakPeriod.startDate).toLocaleDateString()} -{' '}
-                {new Date(streakData.longestStreakPeriod.endDate).toLocaleDateString()}
+                {formatDate(streakData.longestStreakPeriod.startDate)} -{' '}
+                {formatDate(streakData.longestStreakPeriod.endDate)}
               </Typography>
               <Typography variant="caption" color="text.secondary">
                 ({streakData.longestStreakPeriod.days} consecutive days)

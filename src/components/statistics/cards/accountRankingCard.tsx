@@ -20,6 +20,7 @@ import {
   Typography,
 } from '@mui/material';
 
+import { formatDate } from '../../../utils';
 import { AccountRankingStats } from '@ajgifford/keepwatching-types';
 
 interface AccountRankingCardProps {
@@ -199,22 +200,22 @@ export function AccountRankingCard({ stats, onMetricChange, isLoading = false }:
                     </Box>
                   }
                   secondary={
-                    <Box sx={{ display: 'flex', gap: 2, mt: 0.5, flexWrap: 'wrap', alignItems: 'center' }}>
-                      <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
+                    <>
+                      <Box component="span" sx={{ display: 'inline-flex', gap: 0.5, alignItems: 'center', mr: 2 }}>
                         {getMetricIcon(metric)}
-                        <Typography variant="caption" color="primary.main" fontWeight="bold">
+                        <Typography component="span" variant="caption" color="primary.main" fontWeight="bold">
                           {getMetricValue(account, metric)}
                         </Typography>
-                        <Typography variant="caption" color="text.secondary">
+                        <Typography component="span" variant="caption" color="text.secondary">
                           {getMetricLabel(metric)}
                         </Typography>
                       </Box>
                       {account.lastActivityDate && (
-                        <Typography variant="caption" color="text.secondary">
-                          Last active: {new Date(account.lastActivityDate).toLocaleDateString()}
+                        <Typography component="span" variant="caption" color="text.secondary">
+                          Last active: {formatDate(account.lastActivityDate)}
                         </Typography>
                       )}
-                    </Box>
+                    </>
                   }
                 />
               </ListItem>

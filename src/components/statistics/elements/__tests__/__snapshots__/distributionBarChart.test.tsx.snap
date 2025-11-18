@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`DistributionBarChart should match snapshot 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="bar-chart"
+    >
+      <div
+        data-testid="bar-item-0"
+      >
+        Action
+        : 
+        25
+      </div>
+      <div
+        data-testid="bar-item-1"
+      >
+        Comedy
+        : 
+        15
+      </div>
+      <div
+        data-testid="bar-item-2"
+      >
+        Drama
+        : 
+        30
+      </div>
+      <div
+        data-testid="grid"
+      />
+      <div
+        data-testid="x-axis"
+      />
+      <div
+        data-testid="y-axis"
+      />
+      <div
+        data-testid="tooltip"
+      />
+      <div
+        data-testid="bar"
+      />
+    </div>
+  </div>
+</div>
+`;

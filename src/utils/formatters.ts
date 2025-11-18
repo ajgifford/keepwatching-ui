@@ -51,6 +51,7 @@ interface DateDisplayOptions {
  * - Returns a fallback string if the date is null, undefined, or invalid.
  * - Optionally accepts a locale and Intl.DateTimeFormatOptions for custom formatting.
  * - Only applies `locale` and `options` if they are defined.
+ * - Handles date-only strings (YYYY-MM-DD) as local dates to avoid timezone shifts.
  *
  * @param {string | Date | null | undefined} date - The date value to format.
  * @param {Object} [dateDisplayOptions] - Optional configuration for date formatting.
@@ -65,7 +66,15 @@ export function formatDateDisplay(
 ): string {
   if (!date) return fallbackText;
 
-  const d = new Date(date);
+  let d: Date;
+  if (typeof date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(date)) {
+    // Parse date-only strings (YYYY-MM-DD) as local dates to avoid timezone issues
+    const [year, month, day] = date.split('-').map(Number);
+    d = new Date(year, month - 1, day);
+  } else {
+    d = new Date(date);
+  }
+
   // Only include locale/options if defined
   if (locale && options) return d.toLocaleDateString(locale, options);
   if (locale) return d.toLocaleDateString(locale);
@@ -105,6 +114,11 @@ export function formatFullDate(date: string | Date | null | undefined, overrides
  * @returns Formatted date string
  */
 export function formatDate(date: string | Date): string {
+  if (typeof date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(date)) {
+    // Parse date-only strings (YYYY-MM-DD) as local dates to avoid timezone issues
+    const [year, month, day] = date.split('-').map(Number);
+    return new Date(year, month - 1, day).toLocaleDateString();
+  }
   return new Date(date).toLocaleDateString();
 }
 

@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ShowProgressCard should match snapshot with empty state 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Shows
+      </h6>
+      <div
+        class="MuiBox-root css-103cud0"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-10a03iq-MuiTypography-root"
+        >
+          No shows currently being watched
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ShowProgressCard should match snapshot with filtered shows 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Watching
+      </h6>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-19b5ozw-MuiTypography-root"
+      >
+        Showing 
+        2
+         show
+        s
+      </p>
+      <div
+        class="MuiBox-root css-103cud0"
+      >
+        <div
+          class="MuiBox-root css-1qm1lh"
+        >
+          <div
+            class="MuiBox-root css-wax5jp"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+            >
+              The Office
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              100
+              /
+              201
+            </p>
+          </div>
+          <div
+            class="MuiBox-root css-wax5jp"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Watching
+            </span>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              50
+              %
+            </span>
+          </div>
+          <span
+            aria-valuemax="100"
+            aria-valuemin="0"
+            aria-valuenow="50"
+            class="MuiLinearProgress-root MuiLinearProgress-colorWarning MuiLinearProgress-determinate css-lgbtdt-MuiLinearProgress-root"
+            role="progressbar"
+          >
+            <span
+              class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorWarning MuiLinearProgress-bar1Determinate css-iwrlqk-MuiLinearProgress-bar1"
+              style="transform: translateX(-50.25%);"
+            />
+          </span>
+          <hr
+            class="MuiDivider-root MuiDivider-fullWidth css-3i9g8-MuiDivider-root"
+          />
+        </div>
+        <div
+          class="MuiBox-root css-1qm1lh"
+        >
+          <div
+            class="MuiBox-root css-wax5jp"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+            >
+              Breaking Bad
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              30
+              /
+              62
+            </p>
+          </div>
+          <div
+            class="MuiBox-root css-wax5jp"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Watching
+            </span>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              48
+              %
+            </span>
+          </div>
+          <span
+            aria-valuemax="100"
+            aria-valuemin="0"
+            aria-valuenow="48"
+            class="MuiLinearProgress-root MuiLinearProgress-colorWarning MuiLinearProgress-determinate css-lgbtdt-MuiLinearProgress-root"
+            role="progressbar"
+          >
+            <span
+              class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorWarning MuiLinearProgress-bar1Determinate css-iwrlqk-MuiLinearProgress-bar1"
+              style="transform: translateX(-51.61%);"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

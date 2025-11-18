@@ -1,0 +1,378 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`BacklogAgingCard should match snapshot in empty state 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Backlog Aging
+      </h6>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-2iyr4a-MuiTypography-root"
+      >
+        No backlog data available
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BacklogAgingCard should match snapshot with full data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiBox-root css-1amc7ct"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-1wtp6o0-MuiSvgIcon-root"
+          data-testid="AccessTimeIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+          />
+          <path
+            d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+          />
+        </svg>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+        >
+          Backlog Aging
+        </h6>
+      </div>
+      <div
+        class="MuiStack-root css-1sazv7p-MuiStack-root"
+      >
+        <div
+          class="MuiBox-root css-y2qv3r"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ks3r0l-MuiSvgIcon-root"
+            data-testid="WarningIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M1 21h22L12 2zm12-3h-2v-2h2zm0-4h-2v-4h2z"
+            />
+          </svg>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-yzezxb-MuiTypography-root"
+            >
+              17
+            </h4>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Unwatched Shows
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiStack-root css-10kbc59-MuiStack-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <div
+              class="MuiBox-root css-n64gf7"
+            >
+              <div
+                class="MuiBox-root css-axw7ok"
+              >
+                <div
+                  class="MuiBox-root css-1w64bpj"
+                />
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+                >
+                  30+ Days
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-axw7ok"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-bvuapi-MuiTypography-root"
+                >
+                  10
+                </p>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+                >
+                  (
+                  59
+                  %)
+                </span>
+              </div>
+            </div>
+            <div
+              class="MuiBox-root css-1v6yg22"
+            >
+              <div
+                class="MuiBox-root css-g1tnzh"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <div
+              class="MuiBox-root css-n64gf7"
+            >
+              <div
+                class="MuiBox-root css-axw7ok"
+              >
+                <div
+                  class="MuiBox-root css-1hhvhf4"
+                />
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+                >
+                  90+ Days
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-axw7ok"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-bvuapi-MuiTypography-root"
+                >
+                  5
+                </p>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+                >
+                  (
+                  29
+                  %)
+                </span>
+              </div>
+            </div>
+            <div
+              class="MuiBox-root css-1v6yg22"
+            >
+              <div
+                class="MuiBox-root css-2ykbg"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <div
+              class="MuiBox-root css-n64gf7"
+            >
+              <div
+                class="MuiBox-root css-axw7ok"
+              >
+                <div
+                  class="MuiBox-root css-gdrrr2"
+                />
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+                >
+                  365+ Days
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-axw7ok"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-bvuapi-MuiTypography-root"
+                >
+                  2
+                </p>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+                >
+                  (
+                  12
+                  %)
+                </span>
+              </div>
+            </div>
+            <div
+              class="MuiBox-root css-1v6yg22"
+            >
+              <div
+                class="MuiBox-root css-6plulo"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-c90l4a"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-1cveumf-MuiTypography-root"
+          >
+            Average Time
+          </h6>
+          <div
+            class="MuiStack-root css-19y1cj7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-0"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1ie3cgg-MuiTypography-root"
+              >
+                15
+              </h6>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Days to Start
+              </span>
+            </div>
+            <div
+              class="MuiBox-root css-0"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1ie3cgg-MuiTypography-root"
+              >
+                45
+              </h6>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Days to Complete
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-0"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 css-bw1xwk-MuiTypography-root"
+          >
+            Fastest Completions
+          </h6>
+          <div
+            class="MuiStack-root css-jfdv4h-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-l2d4g4"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-ke6v4r-MuiTypography-root"
+              >
+                Breaking Bad
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-folmnz-MuiTypography-root"
+              >
+                7
+                 days
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-l2d4g4"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-ke6v4r-MuiTypography-root"
+              >
+                The Office
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-folmnz-MuiTypography-root"
+              >
+                10
+                 days
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-l2d4g4"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-ke6v4r-MuiTypography-root"
+              >
+                Game of Thrones
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-folmnz-MuiTypography-root"
+              >
+                14
+                 days
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BacklogAgingCard should match snapshot with no backlog 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiBox-root css-1amc7ct"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-1wtp6o0-MuiSvgIcon-root"
+          data-testid="AccessTimeIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+          />
+          <path
+            d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+          />
+        </svg>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+        >
+          Backlog Aging
+        </h6>
+      </div>
+      <div
+        class="MuiBox-root css-dtzxa9"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-zo5eee-MuiTypography-root"
+        >
+          No Aging Backlog
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-tmy7vb-MuiTypography-root"
+        >
+          You're staying on top of your watch list!
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

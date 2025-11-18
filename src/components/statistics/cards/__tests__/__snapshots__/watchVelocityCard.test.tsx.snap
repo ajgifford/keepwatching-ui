@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`WatchVelocityCard should match snapshot in empty state 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Watching Velocity
+      </h6>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-2iyr4a-MuiTypography-root"
+      >
+        No velocity data available
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WatchVelocityCard should match snapshot in loading state 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Watching Velocity
+      </h6>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-2iyr4a-MuiTypography-root"
+      >
+        Loading...
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WatchVelocityCard should match snapshot with full data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiBox-root css-mbx0dj"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+        >
+          Watching Velocity
+        </h6>
+        <div
+          class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-colorSuccess MuiSvgIcon-fontSizeMedium MuiChip-icon MuiChip-iconSmall MuiChip-iconColorSuccess css-1ejxkil-MuiSvgIcon-root"
+            data-testid="TrendingUpIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+            />
+          </svg>
+          <span
+            class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+          >
+            Increasing
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 css-8rtno-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1yrxulr"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1a9zl4x-MuiTypography-root"
+            >
+              2.5
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Episodes / Day
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 css-8rtno-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1yrxulr"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1a9zl4x-MuiTypography-root"
+            >
+              17.5
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Episodes / Week
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 css-8rtno-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1yrxulr"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1a9zl4x-MuiTypography-root"
+            >
+              75.0
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Episodes / Month
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <hr
+            class="MuiDivider-root MuiDivider-fullWidth css-hv6zls-MuiDivider-root"
+          />
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-13xb3fr-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-19midj6"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-1cveumf-MuiTypography-root"
+            >
+              Most Active Day
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-h6 css-vvtk0a-MuiTypography-root"
+            >
+              Saturday
+            </h6>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-13xb3fr-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-19midj6"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-1cveumf-MuiTypography-root"
+            >
+              Most Active Hour
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-h6 css-vvtk0a-MuiTypography-root"
+            >
+              20:00 - 21:00
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

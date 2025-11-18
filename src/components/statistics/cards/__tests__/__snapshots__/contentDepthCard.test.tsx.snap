@@ -1,0 +1,328 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ContentDepthCard should match snapshot with empty state 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Content Depth Analysis
+      </h6>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-2iyr4a-MuiTypography-root"
+      >
+        No data available
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ContentDepthCard should match snapshot with full data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Content Depth Analysis
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1u8xl8z-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1u2gdj3"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-17cfjyo-MuiTypography-root"
+            >
+              35.5
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Avg Episodes Per Show
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Balanced series length
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1u2gdj3"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-17cfjyo-MuiTypography-root"
+            >
+              120
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Avg Movie Runtime (min)
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Standard length films
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+          >
+            Release Year Distribution
+          </h6>
+          <div
+            data-testid="bar-chart"
+          >
+            Bar Chart (
+            4
+             items)
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+          >
+            Content Maturity Ratings
+          </h6>
+          <div
+            data-testid="pie-chart"
+          >
+            Pie Chart (
+            5
+             items)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ContentDepthCard should match snapshot with long film preference 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Content Depth Analysis
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1u8xl8z-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1u2gdj3"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-17cfjyo-MuiTypography-root"
+            >
+              35.5
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Avg Episodes Per Show
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Balanced series length
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1u2gdj3"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-17cfjyo-MuiTypography-root"
+            >
+              180
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Avg Movie Runtime (min)
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Preference for longer films
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+          >
+            Release Year Distribution
+          </h6>
+          <div
+            data-testid="bar-chart"
+          >
+            Bar Chart (
+            4
+             items)
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+          >
+            Content Maturity Ratings
+          </h6>
+          <div
+            data-testid="pie-chart"
+          >
+            Pie Chart (
+            5
+             items)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ContentDepthCard should match snapshot with short series preference 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Content Depth Analysis
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1u8xl8z-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1u2gdj3"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-17cfjyo-MuiTypography-root"
+            >
+              15.0
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Avg Episodes Per Show
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Preference for shorter series
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1u2gdj3"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-17cfjyo-MuiTypography-root"
+            >
+              120
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Avg Movie Runtime (min)
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Standard length films
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+          >
+            Release Year Distribution
+          </h6>
+          <div
+            data-testid="bar-chart"
+          >
+            Bar Chart (
+            4
+             items)
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+          >
+            Content Maturity Ratings
+          </h6>
+          <div
+            data-testid="pie-chart"
+          >
+            Pie Chart (
+            5
+             items)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

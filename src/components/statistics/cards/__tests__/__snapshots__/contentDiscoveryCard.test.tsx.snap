@@ -1,0 +1,565 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ContentDiscoveryCard should match snapshot with balanced ratios 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Content Discovery Patterns
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1u8xl8z-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1pbuioz"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-17cfjyo-MuiTypography-root"
+            >
+              15
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Days Since Last Content Added
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Actively discovering content
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-19midj6"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+            >
+              Shows Added Per Month
+            </h6>
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1a9zl4x-MuiTypography-root"
+            >
+              5.5
+            </h4>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-19midj6"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+            >
+              Movies Added Per Month
+            </h6>
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1a9zl4x-MuiTypography-root"
+            >
+              3.2
+            </h4>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+          >
+            Watch-to-Add Ratio
+          </h6>
+          <span
+            class="MuiTypography-root MuiTypography-caption MuiTypography-gutterBottom css-ss4t75-MuiTypography-root"
+          >
+            Values &gt; 1.0 mean your backlog is shrinking
+          </span>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-b5axzu"
+          >
+            <div
+              class="MuiBox-root css-efd5gz"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+              >
+                Shows
+              </p>
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorInfo MuiChip-filledInfo css-1f9sg9q-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiChip-icon MuiChip-iconSmall MuiChip-iconColorInfo css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="TrendingFlatIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m22 12-4-4v3H3v2h15v3z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  Balanced
+                </span>
+              </div>
+            </div>
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-f84ov1-MuiTypography-root"
+            >
+              0.90
+            </h4>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-b5axzu"
+          >
+            <div
+              class="MuiBox-root css-efd5gz"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+              >
+                Movies
+              </p>
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorInfo MuiChip-filledInfo css-1f9sg9q-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiChip-icon MuiChip-iconSmall MuiChip-iconColorInfo css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="TrendingFlatIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m22 12-4-4v3H3v2h15v3z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  Balanced
+                </span>
+              </div>
+            </div>
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-f84ov1-MuiTypography-root"
+            >
+              0.85
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ContentDiscoveryCard should match snapshot with empty state 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Content Discovery Patterns
+      </h6>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-2iyr4a-MuiTypography-root"
+      >
+        No data available
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ContentDiscoveryCard should match snapshot with full data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Content Discovery Patterns
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1u8xl8z-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1pbuioz"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-17cfjyo-MuiTypography-root"
+            >
+              15
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Days Since Last Content Added
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Actively discovering content
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-19midj6"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+            >
+              Shows Added Per Month
+            </h6>
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1a9zl4x-MuiTypography-root"
+            >
+              5.5
+            </h4>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-19midj6"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+            >
+              Movies Added Per Month
+            </h6>
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1a9zl4x-MuiTypography-root"
+            >
+              3.2
+            </h4>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+          >
+            Watch-to-Add Ratio
+          </h6>
+          <span
+            class="MuiTypography-root MuiTypography-caption MuiTypography-gutterBottom css-ss4t75-MuiTypography-root"
+          >
+            Values &gt; 1.0 mean your backlog is shrinking
+          </span>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-b5axzu"
+          >
+            <div
+              class="MuiBox-root css-efd5gz"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+              >
+                Shows
+              </p>
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiChip-icon MuiChip-iconSmall MuiChip-iconColorSuccess css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="TrendingDownIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m16 18 2.29-2.29-4.88-4.88-4 4L2 7.41 3.41 6l6 6 4-4 6.3 6.29L22 12v6z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  Backlog Shrinking
+                </span>
+              </div>
+            </div>
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-f84ov1-MuiTypography-root"
+            >
+              1.20
+            </h4>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-b5axzu"
+          >
+            <div
+              class="MuiBox-root css-efd5gz"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+              >
+                Movies
+              </p>
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorWarning MuiChip-filledWarning css-6f6bgo-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiChip-icon MuiChip-iconSmall MuiChip-iconColorWarning css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="TrendingUpIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  Backlog Growing
+                </span>
+              </div>
+            </div>
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-f84ov1-MuiTypography-root"
+            >
+              0.70
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ContentDiscoveryCard should match snapshot with old content warning 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Content Discovery Patterns
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1u8xl8z-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1pbuioz"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-1cbrq42-MuiTypography-root"
+            >
+              45
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Days Since Last Content Added
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Time to discover new content!
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-19midj6"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+            >
+              Shows Added Per Month
+            </h6>
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1a9zl4x-MuiTypography-root"
+            >
+              5.5
+            </h4>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-19midj6"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+            >
+              Movies Added Per Month
+            </h6>
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1a9zl4x-MuiTypography-root"
+            >
+              3.2
+            </h4>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+          >
+            Watch-to-Add Ratio
+          </h6>
+          <span
+            class="MuiTypography-root MuiTypography-caption MuiTypography-gutterBottom css-ss4t75-MuiTypography-root"
+          >
+            Values &gt; 1.0 mean your backlog is shrinking
+          </span>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-b5axzu"
+          >
+            <div
+              class="MuiBox-root css-efd5gz"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+              >
+                Shows
+              </p>
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiChip-icon MuiChip-iconSmall MuiChip-iconColorSuccess css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="TrendingDownIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m16 18 2.29-2.29-4.88-4.88-4 4L2 7.41 3.41 6l6 6 4-4 6.3 6.29L22 12v6z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  Backlog Shrinking
+                </span>
+              </div>
+            </div>
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-f84ov1-MuiTypography-root"
+            >
+              1.20
+            </h4>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-b5axzu"
+          >
+            <div
+              class="MuiBox-root css-efd5gz"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+              >
+                Movies
+              </p>
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorWarning MuiChip-filledWarning css-6f6bgo-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiChip-icon MuiChip-iconSmall MuiChip-iconColorWarning css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="TrendingUpIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  Backlog Growing
+                </span>
+              </div>
+            </div>
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-f84ov1-MuiTypography-root"
+            >
+              0.70
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`StatisticsProgressBar should match snapshot with all props 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-wax5jp"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+    >
+      Progress
+    </p>
+    <p
+      class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+    >
+      150
+      /
+      200
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-kmnzss"
+  >
+    <div
+      class="MuiBox-root css-1bhivts"
+    >
+      <span
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="MuiLinearProgress-root MuiLinearProgress-colorSuccess MuiLinearProgress-determinate css-16ghs1x-MuiLinearProgress-root"
+        role="progressbar"
+      >
+        <span
+          class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSuccess MuiLinearProgress-bar1Determinate css-1c6qn6j-MuiLinearProgress-bar1"
+          style="transform: translateX(-25%);"
+        />
+      </span>
+    </div>
+    <p
+      class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+    >
+      75
+      %
+    </p>
+  </div>
+</div>
+`;
+
+exports[`StatisticsProgressBar should match snapshot without label 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-wax5jp"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+    >
+      50
+      /
+      100
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-kmnzss"
+  >
+    <div
+      class="MuiBox-root css-1bhivts"
+    >
+      <span
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="50"
+        class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-193lbe6-MuiLinearProgress-root"
+        role="progressbar"
+      >
+        <span
+          class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+          style="transform: translateX(-50%);"
+        />
+      </span>
+    </div>
+    <p
+      class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+    >
+      50
+      %
+    </p>
+  </div>
+</div>
+`;

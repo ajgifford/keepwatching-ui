@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`TimeToWatchCard should match snapshot with full data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiStack-root css-1sazv7p-MuiStack-root"
+      >
+        <div
+          class="MuiBox-root css-axw7ok"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-1wtp6o0-MuiSvgIcon-root"
+            data-testid="AccessTimeIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+            />
+            <path
+              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+            />
+          </svg>
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+          >
+            Time to Watch
+          </h6>
+        </div>
+        <div
+          class="MuiStack-root css-jfdv4h-MuiStack-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Average Days to Start Show
+            </p>
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-f84ov1-MuiTypography-root"
+            >
+              15
+            </h4>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Average Days to Complete Show
+            </p>
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-f84ov1-MuiTypography-root"
+            >
+              45
+            </h4>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-0"
+        >
+          <div
+            class="MuiBox-root css-1gh5laf"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-colorSuccess MuiSvgIcon-fontSizeSmall css-8xa9kc-MuiSvgIcon-root"
+              data-testid="SpeedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m20.38 8.57-1.23 1.85a8 8 0 0 1-.22 7.58H5.07A8 8 0 0 1 15.58 6.85l1.85-1.23A10 10 0 0 0 3.35 19a2 2 0 0 0 1.72 1h13.85a2 2 0 0 0 1.74-1 10 10 0 0 0-.27-10.44zm-9.79 6.84a2 2 0 0 0 2.83 0l5.66-8.49-8.49 5.66a2 2 0 0 0 0 2.83"
+              />
+            </svg>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 css-1ypmsg6-MuiTypography-root"
+            >
+              Fastest Completions
+            </h6>
+          </div>
+          <ul
+            class="MuiList-root MuiList-dense css-54zhjy-MuiList-root"
+          >
+            <li
+              class="MuiListItem-root MuiListItem-dense MuiListItem-gutters css-11xi0be-MuiListItem-root"
+            >
+              <div
+                class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+                >
+                  Breaking Bad
+                </p>
+                <span
+                  class="MuiTypography-root MuiTypography-caption MuiListItemText-secondary css-1jkzbat-MuiTypography-root"
+                >
+                  7 days
+                </span>
+              </div>
+            </li>
+            <li
+              class="MuiListItem-root MuiListItem-dense MuiListItem-gutters css-11xi0be-MuiListItem-root"
+            >
+              <div
+                class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+                >
+                  The Office
+                </p>
+                <span
+                  class="MuiTypography-root MuiTypography-caption MuiListItemText-secondary css-1jkzbat-MuiTypography-root"
+                >
+                  10 days
+                </span>
+              </div>
+            </li>
+            <li
+              class="MuiListItem-root MuiListItem-dense MuiListItem-gutters css-11xi0be-MuiListItem-root"
+            >
+              <div
+                class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+                >
+                  Game of Thrones
+                </p>
+                <span
+                  class="MuiTypography-root MuiTypography-caption MuiListItemText-secondary css-1jkzbat-MuiTypography-root"
+                >
+                  14 days
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="MuiBox-root css-0"
+        >
+          <div
+            class="MuiBox-root css-1gh5laf"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-colorWarning MuiSvgIcon-fontSizeSmall css-jd7atb-MuiSvgIcon-root"
+              data-testid="WarningAmberIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 5.99 19.53 19H4.47zM12 2 1 21h22z"
+              />
+              <path
+                d="M13 16h-2v2h2zm0-6h-2v5h2z"
+              />
+            </svg>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 css-1ypmsg6-MuiTypography-root"
+            >
+              Backlog Aging
+            </h6>
+          </div>
+          <div
+            class="MuiStack-root css-pex525-MuiStack-root"
+          >
+            <div
+              class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-1lflu6f-MuiChip-root"
+            >
+              <span
+                class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+              >
+                5 over 30 days
+              </span>
+            </div>
+            <div
+              class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorWarning MuiChip-filledWarning css-6f6bgo-MuiChip-root"
+            >
+              <span
+                class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+              >
+                3 over 90 days
+              </span>
+            </div>
+            <div
+              class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorError MuiChip-filledError css-19grb1q-MuiChip-root"
+            >
+              <span
+                class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+              >
+                1 over 1 year
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TimeToWatchCard should match snapshot with minimal data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiStack-root css-1sazv7p-MuiStack-root"
+      >
+        <div
+          class="MuiBox-root css-axw7ok"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-1wtp6o0-MuiSvgIcon-root"
+            data-testid="AccessTimeIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+            />
+            <path
+              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+            />
+          </svg>
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+          >
+            Time to Watch
+          </h6>
+        </div>
+        <div
+          class="MuiStack-root css-jfdv4h-MuiStack-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Average Days to Start Show
+            </p>
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-f84ov1-MuiTypography-root"
+            >
+              10
+            </h4>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Average Days to Complete Show
+            </p>
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-f84ov1-MuiTypography-root"
+            >
+              30
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -103,20 +103,20 @@ export function ContentPopularityCard({ stats, isLoading = false }: ContentPopul
                 </Box>
               }
               secondary={
-                <Box sx={{ display: 'flex', gap: 2, mt: 0.5, flexWrap: 'wrap' }}>
-                  <Typography variant="caption" color="text.secondary">
+                <>
+                  <Typography component="span" variant="caption" color="text.secondary" sx={{ mr: 2 }}>
                     {item.profileCount.toLocaleString()} profiles
                   </Typography>
-                  <Typography variant="caption" color="text.secondary">
+                  <Typography component="span" variant="caption" color="text.secondary" sx={{ mr: 2 }}>
                     {item.accountCount.toLocaleString()} accounts
                   </Typography>
-                  <Typography variant="caption" color="text.secondary">
+                  <Typography component="span" variant="caption" color="text.secondary" sx={{ mr: 2 }}>
                     {item.totalWatchCount.toLocaleString()} watches
                   </Typography>
-                  <Typography variant="caption" color="success.main" fontWeight="medium">
+                  <Typography component="span" variant="caption" color="success.main" fontWeight="medium">
                     {item.completionRate}% completion
                   </Typography>
-                </Box>
+                </>
               }
             />
           </ListItem>

@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ShowProgressList should match snapshot with empty state 1`] = `
+<div>
+  <p
+    class="MuiTypography-root MuiTypography-body2 css-10a03iq-MuiTypography-root"
+  >
+    No shows currently being watched
+  </p>
+</div>
+`;
+
+exports[`ShowProgressList should match snapshot with filtered shows 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-103cud0"
+  >
+    <div
+      class="MuiBox-root css-1qm1lh"
+    >
+      <div
+        class="MuiBox-root css-wax5jp"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+        >
+          The Office
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+        >
+          100
+          /
+          201
+        </p>
+      </div>
+      <span
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="50"
+        class="MuiLinearProgress-root MuiLinearProgress-colorWarning MuiLinearProgress-determinate css-lgbtdt-MuiLinearProgress-root"
+        role="progressbar"
+      >
+        <span
+          class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorWarning MuiLinearProgress-bar1Determinate css-iwrlqk-MuiLinearProgress-bar1"
+          style="transform: translateX(-50.25%);"
+        />
+      </span>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-3i9g8-MuiDivider-root"
+      />
+    </div>
+    <div
+      class="MuiBox-root css-1qm1lh"
+    >
+      <div
+        class="MuiBox-root css-wax5jp"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+        >
+          Breaking Bad
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+        >
+          30
+          /
+          62
+        </p>
+      </div>
+      <span
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="48"
+        class="MuiLinearProgress-root MuiLinearProgress-colorWarning MuiLinearProgress-determinate css-lgbtdt-MuiLinearProgress-root"
+        role="progressbar"
+      >
+        <span
+          class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorWarning MuiLinearProgress-bar1Determinate css-iwrlqk-MuiLinearProgress-bar1"
+          style="transform: translateX(-51.61%);"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;

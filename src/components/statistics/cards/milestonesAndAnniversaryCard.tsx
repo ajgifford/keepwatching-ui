@@ -22,6 +22,7 @@ import {
   useTheme,
 } from '@mui/material';
 
+import { formatDate } from '../../../utils';
 import { MILESTONE_THRESHOLDS, Milestone, MilestoneStats } from '@ajgifford/keepwatching-types';
 
 interface MilestonesAndAnniversaryCardProps {
@@ -388,7 +389,7 @@ export function MilestonesAndAnniversaryCard({ stats, isLoading = false }: Miles
                               {achievement.description}
                             </Typography>
                             <Typography variant="caption" color="text.secondary">
-                              {new Date(achievement.achievedDate).toLocaleDateString()}
+                              {formatDate(achievement.achievedDate)}
                             </Typography>
                           </Box>
                         </Box>

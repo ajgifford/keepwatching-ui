@@ -22,6 +22,7 @@ import {
   Typography,
 } from '@mui/material';
 
+import { formatDate } from '../../../utils';
 import { ProfileComparisonStats } from '@ajgifford/keepwatching-types';
 
 interface ProfileComparisonCardProps {
@@ -233,7 +234,7 @@ export function ProfileComparisonCard({ stats, isLoading = false }: ProfileCompa
 
                 {profile.lastActivityDate && (
                   <Typography variant="caption" color="text.secondary" sx={{ mt: 1 }}>
-                    Last activity: {new Date(profile.lastActivityDate).toLocaleDateString()}
+                    Last activity: {formatDate(profile.lastActivityDate)}
                   </Typography>
                 )}
               </ListItem>

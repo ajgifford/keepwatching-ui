@@ -1,0 +1,364 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`BingeWatchingCard should match snapshot in empty state 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Binge-Watching Stats
+      </h6>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-2iyr4a-MuiTypography-root"
+      >
+        No binge sessions detected yet. Watch 3+ episodes of a show within 24 hours to start tracking!
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BingeWatchingCard should match snapshot in loading state 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Binge-Watching Stats
+      </h6>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-2iyr4a-MuiTypography-root"
+      >
+        Loading...
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BingeWatchingCard should match snapshot with full data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiBox-root css-mbx0dj"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+        >
+          Binge-Watching Stats
+        </h6>
+        <div
+          class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorWarning MuiChip-filledWarning css-6f6bgo-MuiChip-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiChip-icon MuiChip-iconSmall MuiChip-iconColorWarning css-1umw9bq-MuiSvgIcon-root"
+            data-testid="LocalFireDepartmentIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m12 12.9-2.13 2.09c-.56.56-.87 1.29-.87 2.07C9 18.68 10.35 20 12 20s3-1.32 3-2.94c0-.78-.31-1.52-.87-2.07z"
+            />
+            <path
+              d="m16 6-.44.55C14.38 8.02 12 7.19 12 5.3V2S4 6 4 13c0 2.92 1.56 5.47 3.89 6.86-.56-.79-.89-1.76-.89-2.8 0-1.32.52-2.56 1.47-3.5L12 10.1l3.53 3.47c.95.93 1.47 2.17 1.47 3.5 0 1.02-.31 1.96-.85 2.75 1.89-1.15 3.29-3.06 3.71-5.3.66-3.55-1.07-6.9-3.86-8.52"
+            />
+          </svg>
+          <span
+            class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+          >
+            15 Sessions
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-13xb3fr-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1yrxulr"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1a9zl4x-MuiTypography-root"
+            >
+              5.5
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Avg Episodes / Binge
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-13xb3fr-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1yrxulr"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1a9zl4x-MuiTypography-root"
+            >
+              12
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Longest Binge Session
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <hr
+            class="MuiDivider-root MuiDivider-fullWidth css-hv6zls-MuiDivider-root"
+          />
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-19midj6"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-1cveumf-MuiTypography-root"
+            >
+              Longest Binge Session
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-168iyll-MuiTypography-root"
+            >
+              Breaking Bad
+            </h6>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              12
+               episodes on
+               
+              1/15/2024
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <hr
+            class="MuiDivider-root MuiDivider-fullWidth css-hv6zls-MuiDivider-root"
+          />
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-73il19-MuiTypography-root"
+          >
+            Most Binged Shows
+          </h6>
+          <ul
+            class="MuiList-root MuiList-dense css-54zhjy-MuiList-root"
+          >
+            <li
+              class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-1fkc252-MuiListItem-root"
+            >
+              <div
+                class="MuiListItemText-root MuiListItemText-dense css-cfq8qh-MuiListItemText-root"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+                >
+                  <div
+                    class="MuiBox-root css-1lekzkb"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body2 css-bvuapi-MuiTypography-root"
+                    >
+                      Breaking Bad
+                    </p>
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-b8hmq8-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                      >
+                        5 sessions
+                      </span>
+                    </div>
+                  </div>
+                </span>
+              </div>
+            </li>
+            <li
+              class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-1fkc252-MuiListItem-root"
+            >
+              <div
+                class="MuiListItemText-root MuiListItemText-dense css-cfq8qh-MuiListItemText-root"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+                >
+                  <div
+                    class="MuiBox-root css-1lekzkb"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body2 css-19hrykt-MuiTypography-root"
+                    >
+                      The Office
+                    </p>
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-b8hmq8-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                      >
+                        3 sessions
+                      </span>
+                    </div>
+                  </div>
+                </span>
+              </div>
+            </li>
+            <li
+              class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-1fkc252-MuiListItem-root"
+            >
+              <div
+                class="MuiListItemText-root MuiListItemText-dense css-cfq8qh-MuiListItemText-root"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+                >
+                  <div
+                    class="MuiBox-root css-1lekzkb"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body2 css-19hrykt-MuiTypography-root"
+                    >
+                      Game of Thrones
+                    </p>
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-b8hmq8-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                      >
+                        2 sessions
+                      </span>
+                    </div>
+                  </div>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BingeWatchingCard should match snapshot with no longest binge 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiBox-root css-mbx0dj"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+        >
+          Binge-Watching Stats
+        </h6>
+        <div
+          class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorWarning MuiChip-filledWarning css-6f6bgo-MuiChip-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiChip-icon MuiChip-iconSmall MuiChip-iconColorWarning css-1umw9bq-MuiSvgIcon-root"
+            data-testid="LocalFireDepartmentIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m12 12.9-2.13 2.09c-.56.56-.87 1.29-.87 2.07C9 18.68 10.35 20 12 20s3-1.32 3-2.94c0-.78-.31-1.52-.87-2.07z"
+            />
+            <path
+              d="m16 6-.44.55C14.38 8.02 12 7.19 12 5.3V2S4 6 4 13c0 2.92 1.56 5.47 3.89 6.86-.56-.79-.89-1.76-.89-2.8 0-1.32.52-2.56 1.47-3.5L12 10.1l3.53 3.47c.95.93 1.47 2.17 1.47 3.5 0 1.02-.31 1.96-.85 2.75 1.89-1.15 3.29-3.06 3.71-5.3.66-3.55-1.07-6.9-3.86-8.52"
+            />
+          </svg>
+          <span
+            class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+          >
+            15 Sessions
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-13xb3fr-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1yrxulr"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1a9zl4x-MuiTypography-root"
+            >
+              5.5
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Avg Episodes / Binge
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-13xb3fr-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1yrxulr"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1a9zl4x-MuiTypography-root"
+            >
+              0
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Longest Binge Session
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

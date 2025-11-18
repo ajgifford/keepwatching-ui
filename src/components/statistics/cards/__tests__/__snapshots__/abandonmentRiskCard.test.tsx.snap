@@ -1,0 +1,485 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`AbandonmentRiskCard should match snapshot with empty state 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Abandonment Risk Analysis
+      </h6>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-2iyr4a-MuiTypography-root"
+      >
+        No data available
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AbandonmentRiskCard should match snapshot with full data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Abandonment Risk Analysis
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1u8xl8z-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1pbuioz"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-18ioaho-MuiTypography-root"
+            >
+              25.5
+              %
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Show Abandonment Rate
+            </p>
+            <div
+              class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorWarning MuiChip-filledWarning css-m2h89e-MuiChip-root"
+            >
+              <span
+                class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+              >
+                Medium Risk
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1pbuioz"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-v5elb2-MuiTypography-root"
+            >
+              3
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Shows at Risk
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              No progress in 30+ days
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+          >
+            Shows Needing Attention
+          </h6>
+          <div
+            class="MuiBox-root css-egvh6w"
+          >
+            <ul
+              class="MuiList-root MuiList-padding MuiList-dense css-b7dj7n-MuiList-root"
+            >
+              <li
+                class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-1ba0lv1-MuiListItem-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-wj6j07-MuiSvgIcon-root"
+                  data-testid="WarningAmberIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 5.99 19.53 19H4.47zM12 2 1 21h22z"
+                  />
+                  <path
+                    d="M13 16h-2v2h2zm0-6h-2v5h2z"
+                  />
+                </svg>
+                <div
+                  class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+                  >
+                    Breaking Bad
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-caption css-c1byjb-MuiTypography-root"
+                    >
+                      45
+                       days since last watch
+                    </span>
+                    <span
+                      class="MuiTypography-root MuiTypography-caption css-c1byjb-MuiTypography-root"
+                    >
+                      20
+                       unwatched episodes
+                    </span>
+                  </p>
+                </div>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-tkejvx-MuiTypography-root"
+                >
+                  John
+                </span>
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-180c4ss-MuiListItem-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-zml2iw-MuiSvgIcon-root"
+                  data-testid="WarningAmberIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 5.99 19.53 19H4.47zM12 2 1 21h22z"
+                  />
+                  <path
+                    d="M13 16h-2v2h2zm0-6h-2v5h2z"
+                  />
+                </svg>
+                <div
+                  class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+                  >
+                    Game of Thrones
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-caption css-c1byjb-MuiTypography-root"
+                    >
+                      95
+                       days since last watch
+                    </span>
+                    <span
+                      class="MuiTypography-root MuiTypography-caption css-c1byjb-MuiTypography-root"
+                    >
+                      15
+                       unwatched episodes
+                    </span>
+                  </p>
+                </div>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-tkejvx-MuiTypography-root"
+                >
+                  Jane
+                </span>
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-1ba0lv1-MuiListItem-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-wj6j07-MuiSvgIcon-root"
+                  data-testid="WarningAmberIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 5.99 19.53 19H4.47zM12 2 1 21h22z"
+                  />
+                  <path
+                    d="M13 16h-2v2h2zm0-6h-2v5h2z"
+                  />
+                </svg>
+                <div
+                  class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+                  >
+                    The Office
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-caption css-c1byjb-MuiTypography-root"
+                    >
+                      60
+                       days since last watch
+                    </span>
+                    <span
+                      class="MuiTypography-root MuiTypography-caption css-c1byjb-MuiTypography-root"
+                    >
+                      10
+                       unwatched episodes
+                    </span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AbandonmentRiskCard should match snapshot with high risk 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Abandonment Risk Analysis
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1u8xl8z-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1pbuioz"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-1cbrq42-MuiTypography-root"
+            >
+              35.0
+              %
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Show Abandonment Rate
+            </p>
+            <div
+              class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorError MuiChip-filledError css-152a0cc-MuiChip-root"
+            >
+              <span
+                class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+              >
+                High Risk
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1pbuioz"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-v5elb2-MuiTypography-root"
+            >
+              3
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Shows at Risk
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              No progress in 30+ days
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-a3u038-MuiTypography-root"
+          >
+            Shows Needing Attention
+          </h6>
+          <div
+            class="MuiBox-root css-egvh6w"
+          >
+            <ul
+              class="MuiList-root MuiList-padding MuiList-dense css-b7dj7n-MuiList-root"
+            >
+              <li
+                class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-1ba0lv1-MuiListItem-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-wj6j07-MuiSvgIcon-root"
+                  data-testid="WarningAmberIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 5.99 19.53 19H4.47zM12 2 1 21h22z"
+                  />
+                  <path
+                    d="M13 16h-2v2h2zm0-6h-2v5h2z"
+                  />
+                </svg>
+                <div
+                  class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+                  >
+                    Breaking Bad
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-caption css-c1byjb-MuiTypography-root"
+                    >
+                      45
+                       days since last watch
+                    </span>
+                    <span
+                      class="MuiTypography-root MuiTypography-caption css-c1byjb-MuiTypography-root"
+                    >
+                      20
+                       unwatched episodes
+                    </span>
+                  </p>
+                </div>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-tkejvx-MuiTypography-root"
+                >
+                  John
+                </span>
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-180c4ss-MuiListItem-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-zml2iw-MuiSvgIcon-root"
+                  data-testid="WarningAmberIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 5.99 19.53 19H4.47zM12 2 1 21h22z"
+                  />
+                  <path
+                    d="M13 16h-2v2h2zm0-6h-2v5h2z"
+                  />
+                </svg>
+                <div
+                  class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+                  >
+                    Game of Thrones
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-caption css-c1byjb-MuiTypography-root"
+                    >
+                      95
+                       days since last watch
+                    </span>
+                    <span
+                      class="MuiTypography-root MuiTypography-caption css-c1byjb-MuiTypography-root"
+                    >
+                      15
+                       unwatched episodes
+                    </span>
+                  </p>
+                </div>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-tkejvx-MuiTypography-root"
+                >
+                  Jane
+                </span>
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-1ba0lv1-MuiListItem-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-wj6j07-MuiSvgIcon-root"
+                  data-testid="WarningAmberIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 5.99 19.53 19H4.47zM12 2 1 21h22z"
+                  />
+                  <path
+                    d="M13 16h-2v2h2zm0-6h-2v5h2z"
+                  />
+                </svg>
+                <div
+                  class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+                  >
+                    The Office
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-caption css-c1byjb-MuiTypography-root"
+                    >
+                      60
+                       days since last watch
+                    </span>
+                    <span
+                      class="MuiTypography-root MuiTypography-caption css-c1byjb-MuiTypography-root"
+                    >
+                      10
+                       unwatched episodes
+                    </span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

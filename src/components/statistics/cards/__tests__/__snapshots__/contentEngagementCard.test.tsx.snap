@@ -1,0 +1,858 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ContentEngagementCard should match snapshot in loading state 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Content Engagement
+      </h6>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-2iyr4a-MuiTypography-root"
+      >
+        Loading...
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ContentEngagementCard should match snapshot with full data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiBox-root css-cwb3vc"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-1wtp6o0-MuiSvgIcon-root"
+          data-testid="TvIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2m0 14H3V5h18z"
+          />
+        </svg>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+        >
+          Breaking Bad
+        </h6>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1nlx18k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              100
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Total Profiles
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-j63gh9-MuiTypography-root"
+            >
+              45
+              %
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Completion Rate
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-2y9ydt-MuiTypography-root"
+            >
+              15
+              %
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Abandonment Rate
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1ld0eev-MuiTypography-root"
+            >
+              30
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Avg Days to Complete
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-1ouqunm-MuiDivider-root"
+      />
+      <h6
+        class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-37om1i-MuiTypography-root"
+      >
+        Profile Status Distribution
+      </h6>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Completed
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+          >
+            45
+             (
+            45
+            %)
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="45"
+          class="MuiLinearProgress-root MuiLinearProgress-colorSuccess MuiLinearProgress-determinate css-l59h16-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSuccess MuiLinearProgress-bar1Determinate css-1c6qn6j-MuiLinearProgress-bar1"
+            style="transform: translateX(-55%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Currently Watching
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+          >
+            30
+             (
+            30
+            %)
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="30"
+          class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-13s5bod-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+            style="transform: translateX(-70%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Not Started
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+          >
+            10
+             (
+            10
+            %)
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="10"
+          class="MuiLinearProgress-root MuiLinearProgress-colorInfo MuiLinearProgress-determinate css-i476bs-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorInfo MuiLinearProgress-bar1Determinate css-q2bgin-MuiLinearProgress-bar1"
+            style="transform: translateX(-90%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Abandoned
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+          >
+            15
+             (
+            15
+            %)
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="15"
+          class="MuiLinearProgress-root MuiLinearProgress-colorError MuiLinearProgress-determinate css-oa36v9-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorError MuiLinearProgress-bar1Determinate css-13x3ir3-MuiLinearProgress-bar1"
+            style="transform: translateX(-85%);"
+          />
+        </span>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-1ouqunm-MuiDivider-root"
+      />
+      <div
+        class="MuiBox-root css-xi606m"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom css-1bub9p-MuiTypography-root"
+        >
+          Average Progress
+        </p>
+        <div
+          class="MuiBox-root css-1a9re40"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 css-96rs8p-MuiTypography-root"
+          >
+            65
+            %
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ContentEngagementCard should match snapshot with high progress 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiBox-root css-cwb3vc"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-1wtp6o0-MuiSvgIcon-root"
+          data-testid="TvIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2m0 14H3V5h18z"
+          />
+        </svg>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+        >
+          Breaking Bad
+        </h6>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1nlx18k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              100
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Total Profiles
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-j63gh9-MuiTypography-root"
+            >
+              45
+              %
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Completion Rate
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-2y9ydt-MuiTypography-root"
+            >
+              15
+              %
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Abandonment Rate
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1ld0eev-MuiTypography-root"
+            >
+              30
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Avg Days to Complete
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-1ouqunm-MuiDivider-root"
+      />
+      <h6
+        class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-37om1i-MuiTypography-root"
+      >
+        Profile Status Distribution
+      </h6>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Completed
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+          >
+            45
+             (
+            45
+            %)
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="45"
+          class="MuiLinearProgress-root MuiLinearProgress-colorSuccess MuiLinearProgress-determinate css-l59h16-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSuccess MuiLinearProgress-bar1Determinate css-1c6qn6j-MuiLinearProgress-bar1"
+            style="transform: translateX(-55%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Currently Watching
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+          >
+            30
+             (
+            30
+            %)
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="30"
+          class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-13s5bod-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+            style="transform: translateX(-70%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Not Started
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+          >
+            10
+             (
+            10
+            %)
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="10"
+          class="MuiLinearProgress-root MuiLinearProgress-colorInfo MuiLinearProgress-determinate css-i476bs-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorInfo MuiLinearProgress-bar1Determinate css-q2bgin-MuiLinearProgress-bar1"
+            style="transform: translateX(-90%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Abandoned
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+          >
+            15
+             (
+            15
+            %)
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="15"
+          class="MuiLinearProgress-root MuiLinearProgress-colorError MuiLinearProgress-determinate css-oa36v9-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorError MuiLinearProgress-bar1Determinate css-13x3ir3-MuiLinearProgress-bar1"
+            style="transform: translateX(-85%);"
+          />
+        </span>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-1ouqunm-MuiDivider-root"
+      />
+      <div
+        class="MuiBox-root css-xi606m"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom css-1bub9p-MuiTypography-root"
+        >
+          Average Progress
+        </p>
+        <div
+          class="MuiBox-root css-1a9re40"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 css-96rs8p-MuiTypography-root"
+          >
+            85
+            %
+          </h3>
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-colorSuccess MuiSvgIcon-fontSizeLarge css-1ar0kvi-MuiSvgIcon-root"
+            data-testid="CheckCircleIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ContentEngagementCard should match snapshot with movie content type 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiBox-root css-cwb3vc"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-colorSecondary MuiSvgIcon-fontSizeMedium css-25to7p-MuiSvgIcon-root"
+          data-testid="MovieIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m18 4 2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4z"
+          />
+        </svg>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+        >
+          Inception
+        </h6>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1nlx18k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              100
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Total Profiles
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-j63gh9-MuiTypography-root"
+            >
+              45
+              %
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Completion Rate
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-2y9ydt-MuiTypography-root"
+            >
+              15
+              %
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Abandonment Rate
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1ld0eev-MuiTypography-root"
+            >
+              30
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Avg Days to Complete
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-1ouqunm-MuiDivider-root"
+      />
+      <h6
+        class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-37om1i-MuiTypography-root"
+      >
+        Profile Status Distribution
+      </h6>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Completed
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+          >
+            45
+             (
+            45
+            %)
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="45"
+          class="MuiLinearProgress-root MuiLinearProgress-colorSuccess MuiLinearProgress-determinate css-l59h16-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSuccess MuiLinearProgress-bar1Determinate css-1c6qn6j-MuiLinearProgress-bar1"
+            style="transform: translateX(-55%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Currently Watching
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+          >
+            30
+             (
+            30
+            %)
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="30"
+          class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-13s5bod-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+            style="transform: translateX(-70%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Not Started
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+          >
+            10
+             (
+            10
+            %)
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="10"
+          class="MuiLinearProgress-root MuiLinearProgress-colorInfo MuiLinearProgress-determinate css-i476bs-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorInfo MuiLinearProgress-bar1Determinate css-q2bgin-MuiLinearProgress-bar1"
+            style="transform: translateX(-90%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Abandoned
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+          >
+            15
+             (
+            15
+            %)
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="15"
+          class="MuiLinearProgress-root MuiLinearProgress-colorError MuiLinearProgress-determinate css-oa36v9-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorError MuiLinearProgress-bar1Determinate css-13x3ir3-MuiLinearProgress-bar1"
+            style="transform: translateX(-85%);"
+          />
+        </span>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-1ouqunm-MuiDivider-root"
+      />
+      <div
+        class="MuiBox-root css-xi606m"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom css-1bub9p-MuiTypography-root"
+        >
+          Average Progress
+        </p>
+        <div
+          class="MuiBox-root css-1a9re40"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 css-96rs8p-MuiTypography-root"
+          >
+            65
+            %
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

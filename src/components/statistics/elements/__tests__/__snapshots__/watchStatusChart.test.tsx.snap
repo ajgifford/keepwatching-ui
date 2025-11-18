@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`WatchStatusChart should match snapshot 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="bar-chart"
+    >
+      <div
+        data-testid="chart-item-0"
+      >
+        Shows
+        : watched=
+        25
+        , watching=
+        15
+        , notWatched=
+        10
+      </div>
+      <div
+        data-testid="chart-item-1"
+      >
+        Movies
+        : watched=
+        50
+        , watching=
+        5
+        , notWatched=
+        20
+      </div>
+      <div
+        data-testid="grid"
+      />
+      <div
+        data-testid="x-axis"
+      />
+      <div
+        data-testid="y-axis"
+      />
+      <div
+        data-testid="tooltip"
+      />
+      <div
+        data-testid="legend"
+      />
+      <div
+        data-testid="bar-watched"
+      >
+        Watched
+         (
+        watched
+        )
+      </div>
+      <div
+        data-testid="bar-upToDate"
+      >
+        Up To Date
+         (
+        upToDate
+        )
+      </div>
+      <div
+        data-testid="bar-watching"
+      >
+        Watching
+         (
+        watching
+        )
+      </div>
+      <div
+        data-testid="bar-notWatched"
+      >
+        Not Watched
+         (
+        notWatched
+        )
+      </div>
+      <div
+        data-testid="bar-unaired"
+      >
+        Unaired
+         (
+        unaired
+        )
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WatchStatusChart should match snapshot with empty data 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="bar-chart"
+    >
+      <div
+        data-testid="grid"
+      />
+      <div
+        data-testid="x-axis"
+      />
+      <div
+        data-testid="y-axis"
+      />
+      <div
+        data-testid="tooltip"
+      />
+      <div
+        data-testid="legend"
+      />
+      <div
+        data-testid="bar-watched"
+      >
+        Watched
+         (
+        watched
+        )
+      </div>
+      <div
+        data-testid="bar-upToDate"
+      >
+        Up To Date
+         (
+        upToDate
+        )
+      </div>
+      <div
+        data-testid="bar-watching"
+      >
+        Watching
+         (
+        watching
+        )
+      </div>
+      <div
+        data-testid="bar-notWatched"
+      >
+        Not Watched
+         (
+        notWatched
+        )
+      </div>
+      <div
+        data-testid="bar-unaired"
+      >
+        Unaired
+         (
+        unaired
+        )
+      </div>
+    </div>
+  </div>
+</div>
+`;

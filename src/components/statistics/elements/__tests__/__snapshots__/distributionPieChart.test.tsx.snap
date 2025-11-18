@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`DistributionPieChart should match snapshot 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="pie-chart"
+    >
+      <div
+        data-testid="pie"
+      >
+        <div
+          data-testid="pie-item-0"
+        >
+          Action
+          : 
+          25
+        </div>
+        <div
+          data-testid="pie-item-1"
+        >
+          Comedy
+          : 
+          15
+        </div>
+        <div
+          data-testid="pie-item-2"
+        >
+          Drama
+          : 
+          30
+        </div>
+      </div>
+      <div
+        data-testid="tooltip"
+      />
+    </div>
+  </div>
+</div>
+`;
