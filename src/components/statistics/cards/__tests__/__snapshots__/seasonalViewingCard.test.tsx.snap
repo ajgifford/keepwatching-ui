@@ -1,0 +1,1930 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`SeasonalViewingCard should match snapshot with N/A months 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiStack-root css-1sazv7p-MuiStack-root"
+      >
+        <div
+          class="MuiBox-root css-axw7ok"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-1wtp6o0-MuiSvgIcon-root"
+            data-testid="CalendarMonthIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 16H5V10h14zM9 14H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2zm-8 4H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2z"
+            />
+          </svg>
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+          >
+            Seasonal Viewing Patterns
+          </h6>
+        </div>
+        <div
+          class="MuiBox-root css-0"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 css-12fdlse-MuiTypography-root"
+          >
+            Episodes by Season
+          </h6>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 css-1lgyuji-MuiGrid-root"
+            >
+              <div
+                aria-label="450 episodes (24.5%)"
+                class="MuiBox-root css-1e5igh7"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-1j49ytk"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1e0nzws-MuiTypography-root"
+                  >
+                    Spring
+                  </span>
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-1bn171t-MuiTypography-root"
+                  >
+                    450
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 css-1lgyuji-MuiGrid-root"
+            >
+              <div
+                aria-label="380 episodes (20.7%)"
+                class="MuiBox-root css-rze5ju"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-112yhiu"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1e0nzws-MuiTypography-root"
+                  >
+                    Summer
+                  </span>
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-1bn171t-MuiTypography-root"
+                  >
+                    380
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 css-1lgyuji-MuiGrid-root"
+            >
+              <div
+                aria-label="520 episodes (28.3%)"
+                class="MuiBox-root css-1xyp9qu"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-l23rkg"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1e0nzws-MuiTypography-root"
+                  >
+                    Fall
+                  </span>
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-1bn171t-MuiTypography-root"
+                  >
+                    520
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 css-1lgyuji-MuiGrid-root"
+            >
+              <div
+                aria-label="490 episodes (26.6%)"
+                class="MuiBox-root css-gt6r2p"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-fuhwjo"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1e0nzws-MuiTypography-root"
+                  >
+                    Winter
+                  </span>
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-1bn171t-MuiTypography-root"
+                  >
+                    490
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-0"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 css-12fdlse-MuiTypography-root"
+          >
+            Episodes by Month
+          </h6>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-0.5 css-dhz1yg-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Jan: 150 episodes (8.3%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-ygtfbz"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Jan
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    150
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Feb: 140 episodes (7.7%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-844hxc"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Feb
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    140
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Mar: 160 episodes (8.8%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-2e0qwx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Mar
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    160
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Apr: 145 episodes (8.0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-xb8bnr"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Apr
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    145
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="May: 155 episodes (8.6%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-1i7qv6w"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    May
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    155
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Jun: 150 episodes (8.3%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-ygtfbz"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Jun
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    150
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Jul: 130 episodes (7.2%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-1pisqsb"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Jul
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    130
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Aug: 125 episodes (6.9%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-1voonva"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Aug
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    125
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Sep: 135 episodes (7.5%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-13yy71x"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Sep
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    135
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Oct: 175 episodes (9.7%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-1x1g66"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Oct
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    175
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Nov: 180 episodes (9.9%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-jltlo9"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Nov
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    180
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Dec: 165 episodes (9.1%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-mn1h56"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Dec
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    165
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SeasonalViewingCard should match snapshot with full data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiStack-root css-1sazv7p-MuiStack-root"
+      >
+        <div
+          class="MuiBox-root css-axw7ok"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-1wtp6o0-MuiSvgIcon-root"
+            data-testid="CalendarMonthIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 16H5V10h14zM9 14H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2zm-8 4H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2z"
+            />
+          </svg>
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+          >
+            Seasonal Viewing Patterns
+          </h6>
+        </div>
+        <div
+          class="MuiStack-root css-jfdv4h-MuiStack-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Peak Viewing Month
+            </p>
+            <h5
+              class="MuiTypography-root MuiTypography-h5 css-24ca7h-MuiTypography-root"
+            >
+              November
+            </h5>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Slowest Viewing Month
+            </p>
+            <h5
+              class="MuiTypography-root MuiTypography-h5 css-1f20j8p-MuiTypography-root"
+            >
+              August
+            </h5>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-0"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 css-12fdlse-MuiTypography-root"
+          >
+            Episodes by Season
+          </h6>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 css-1lgyuji-MuiGrid-root"
+            >
+              <div
+                aria-label="450 episodes (24.5%)"
+                class="MuiBox-root css-1e5igh7"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-1j49ytk"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1e0nzws-MuiTypography-root"
+                  >
+                    Spring
+                  </span>
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-1bn171t-MuiTypography-root"
+                  >
+                    450
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 css-1lgyuji-MuiGrid-root"
+            >
+              <div
+                aria-label="380 episodes (20.7%)"
+                class="MuiBox-root css-rze5ju"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-112yhiu"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1e0nzws-MuiTypography-root"
+                  >
+                    Summer
+                  </span>
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-1bn171t-MuiTypography-root"
+                  >
+                    380
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 css-1lgyuji-MuiGrid-root"
+            >
+              <div
+                aria-label="520 episodes (28.3%)"
+                class="MuiBox-root css-1xyp9qu"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-l23rkg"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1e0nzws-MuiTypography-root"
+                  >
+                    Fall
+                  </span>
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-1bn171t-MuiTypography-root"
+                  >
+                    520
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 css-1lgyuji-MuiGrid-root"
+            >
+              <div
+                aria-label="490 episodes (26.6%)"
+                class="MuiBox-root css-gt6r2p"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-fuhwjo"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1e0nzws-MuiTypography-root"
+                  >
+                    Winter
+                  </span>
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-1bn171t-MuiTypography-root"
+                  >
+                    490
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-0"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 css-12fdlse-MuiTypography-root"
+          >
+            Episodes by Month
+          </h6>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-0.5 css-dhz1yg-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Jan: 150 episodes (8.3%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-ygtfbz"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Jan
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    150
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Feb: 140 episodes (7.7%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-844hxc"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Feb
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    140
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Mar: 160 episodes (8.8%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-2e0qwx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Mar
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    160
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Apr: 145 episodes (8.0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-xb8bnr"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Apr
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    145
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="May: 155 episodes (8.6%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-1i7qv6w"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    May
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    155
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Jun: 150 episodes (8.3%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-ygtfbz"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Jun
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    150
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Jul: 130 episodes (7.2%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-1pisqsb"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Jul
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    130
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Aug: 125 episodes (6.9%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-1voonva"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Aug
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    125
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Sep: 135 episodes (7.5%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-13yy71x"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Sep
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    135
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Oct: 175 episodes (9.7%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-1x1g66"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Oct
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    175
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Nov: 180 episodes (9.9%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-jltlo9"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Nov
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    180
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Dec: 165 episodes (9.1%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-mn1h56"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Dec
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    165
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SeasonalViewingCard should match snapshot with null stats 1`] = `<div />`;
+
+exports[`SeasonalViewingCard should match snapshot with partial month data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiStack-root css-1sazv7p-MuiStack-root"
+      >
+        <div
+          class="MuiBox-root css-axw7ok"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-1wtp6o0-MuiSvgIcon-root"
+            data-testid="CalendarMonthIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 16H5V10h14zM9 14H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2zm-8 4H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2z"
+            />
+          </svg>
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+          >
+            Seasonal Viewing Patterns
+          </h6>
+        </div>
+        <div
+          class="MuiStack-root css-jfdv4h-MuiStack-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Peak Viewing Month
+            </p>
+            <h5
+              class="MuiTypography-root MuiTypography-h5 css-24ca7h-MuiTypography-root"
+            >
+              November
+            </h5>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Slowest Viewing Month
+            </p>
+            <h5
+              class="MuiTypography-root MuiTypography-h5 css-1f20j8p-MuiTypography-root"
+            >
+              August
+            </h5>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-0"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 css-12fdlse-MuiTypography-root"
+          >
+            Episodes by Season
+          </h6>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 css-1lgyuji-MuiGrid-root"
+            >
+              <div
+                aria-label="450 episodes (24.5%)"
+                class="MuiBox-root css-1e5igh7"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-1j49ytk"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1e0nzws-MuiTypography-root"
+                  >
+                    Spring
+                  </span>
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-1bn171t-MuiTypography-root"
+                  >
+                    450
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 css-1lgyuji-MuiGrid-root"
+            >
+              <div
+                aria-label="380 episodes (20.7%)"
+                class="MuiBox-root css-rze5ju"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-112yhiu"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1e0nzws-MuiTypography-root"
+                  >
+                    Summer
+                  </span>
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-1bn171t-MuiTypography-root"
+                  >
+                    380
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 css-1lgyuji-MuiGrid-root"
+            >
+              <div
+                aria-label="520 episodes (28.3%)"
+                class="MuiBox-root css-1xyp9qu"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-l23rkg"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1e0nzws-MuiTypography-root"
+                  >
+                    Fall
+                  </span>
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-1bn171t-MuiTypography-root"
+                  >
+                    520
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 css-1lgyuji-MuiGrid-root"
+            >
+              <div
+                aria-label="490 episodes (26.6%)"
+                class="MuiBox-root css-gt6r2p"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-fuhwjo"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1e0nzws-MuiTypography-root"
+                  >
+                    Winter
+                  </span>
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-1bn171t-MuiTypography-root"
+                  >
+                    490
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-0"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 css-12fdlse-MuiTypography-root"
+          >
+            Episodes by Month
+          </h6>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-0.5 css-dhz1yg-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Jan: 150 episodes (33.3%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-hhognm"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Jan
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    150
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Feb: 140 episodes (31.1%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-1fwttp2"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Feb
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    140
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Mar: 160 episodes (35.6%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-1s9sq2h"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Mar
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    160
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Apr: 0 episodes (0.0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Apr
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="May: 0 episodes (0.0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    May
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Jun: 0 episodes (0.0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Jun
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Jul: 0 episodes (0.0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Jul
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Aug: 0 episodes (0.0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Aug
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Sep: 0 episodes (0.0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Sep
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Oct: 0 episodes (0.0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Oct
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Nov: 0 episodes (0.0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Nov
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Dec: 0 episodes (0.0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Dec
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SeasonalViewingCard should match snapshot with zero data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-uqzz15-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiStack-root css-1sazv7p-MuiStack-root"
+      >
+        <div
+          class="MuiBox-root css-axw7ok"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-1wtp6o0-MuiSvgIcon-root"
+            data-testid="CalendarMonthIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 16H5V10h14zM9 14H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2zm-8 4H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2z"
+            />
+          </svg>
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+          >
+            Seasonal Viewing Patterns
+          </h6>
+        </div>
+        <div
+          class="MuiBox-root css-0"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 css-12fdlse-MuiTypography-root"
+          >
+            Episodes by Month
+          </h6>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-0.5 css-dhz1yg-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Jan: 0 episodes (0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Jan
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Feb: 0 episodes (0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Feb
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Mar: 0 episodes (0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Mar
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Apr: 0 episodes (0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Apr
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="May: 0 episodes (0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    May
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Jun: 0 episodes (0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Jun
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Jul: 0 episodes (0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Jul
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Aug: 0 episodes (0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Aug
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Sep: 0 episodes (0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Sep
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Oct: 0 episodes (0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Oct
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Nov: 0 episodes (0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Nov
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-1 css-26s39c-MuiGrid-root"
+            >
+              <div
+                aria-label="Dec: 0 episodes (0%)"
+                class="MuiBox-root css-1qdsoef"
+                data-mui-internal-clone-element="true"
+              >
+                <div
+                  class="MuiBox-root css-17hrnfx"
+                />
+                <div
+                  class="MuiBox-root css-xtab9t"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-lqqy3l-MuiTypography-root"
+                  >
+                    Dec
+                  </span>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+                  >
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

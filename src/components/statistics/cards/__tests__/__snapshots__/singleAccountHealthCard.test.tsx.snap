@@ -1,0 +1,1415 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`SingleAccountHealthCard should match snapshot in loading state 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Account Health
+      </h6>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-2iyr4a-MuiTypography-root"
+      >
+        Loading...
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SingleAccountHealthCard should match snapshot with full data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiBox-root css-v08z5u"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+        >
+          Account Health
+        </h6>
+        <div
+          class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSuccess MuiChip-filledSuccess css-1v3p74u-MuiChip-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSuccess css-1umw9bq-MuiSvgIcon-root"
+            data-testid="CheckCircleIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"
+            />
+          </svg>
+          <span
+            class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+          >
+            Low Risk
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1nlx18k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              85
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Engagement Score
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              out of 100
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-10r2qqu-MuiTypography-root"
+            >
+              8
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Days Since Activity
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              1,500
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Total Episodes
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              3
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Profiles
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-i3pbo"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Recent Activity (Last 30 Days)
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+          >
+            45
+             episodes
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="30"
+          class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-13s5bod-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+            style="transform: translateX(-70%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Activity Recency
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+          >
+            100
+            %
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="100"
+          class="MuiLinearProgress-root MuiLinearProgress-colorSuccess MuiLinearProgress-determinate css-l59h16-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSuccess MuiLinearProgress-bar1Determinate css-1c6qn6j-MuiLinearProgress-bar1"
+            style="transform: translateX(0%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-xi2iqh-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Account Created
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+            >
+              1/15/2023
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Last Activity
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+            >
+              11/10/2024
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Email Status
+            </span>
+            <div
+              class="MuiBox-root css-1fhgjcy"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  Verified
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              At Risk Status
+            </span>
+            <div
+              class="MuiBox-root css-1fhgjcy"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  Healthy
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SingleAccountHealthCard should match snapshot with high risk 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiBox-root css-v08z5u"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+        >
+          Account Health
+        </h6>
+        <div
+          class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorError MuiChip-filledError css-4xf1yh-MuiChip-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiChip-icon MuiChip-iconMedium MuiChip-iconColorError css-1umw9bq-MuiSvgIcon-root"
+            data-testid="ErrorIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m1 15h-2v-2h2zm0-4h-2V7h2z"
+            />
+          </svg>
+          <span
+            class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+          >
+            High Risk
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1nlx18k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              85
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Engagement Score
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              out of 100
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-10r2qqu-MuiTypography-root"
+            >
+              8
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Days Since Activity
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              1,500
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Total Episodes
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              3
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Profiles
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-i3pbo"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Recent Activity (Last 30 Days)
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+          >
+            45
+             episodes
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="30"
+          class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-13s5bod-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+            style="transform: translateX(-70%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Activity Recency
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+          >
+            100
+            %
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="100"
+          class="MuiLinearProgress-root MuiLinearProgress-colorSuccess MuiLinearProgress-determinate css-l59h16-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSuccess MuiLinearProgress-bar1Determinate css-1c6qn6j-MuiLinearProgress-bar1"
+            style="transform: translateX(0%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-xi2iqh-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Account Created
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+            >
+              1/15/2023
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Last Activity
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+            >
+              11/10/2024
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Email Status
+            </span>
+            <div
+              class="MuiBox-root css-1fhgjcy"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  Verified
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              At Risk Status
+            </span>
+            <div
+              class="MuiBox-root css-1fhgjcy"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorError MuiChip-filledError css-19grb1q-MuiChip-root"
+              >
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  At Risk
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SingleAccountHealthCard should match snapshot with low risk 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiBox-root css-v08z5u"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+        >
+          Account Health
+        </h6>
+        <div
+          class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSuccess MuiChip-filledSuccess css-1v3p74u-MuiChip-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSuccess css-1umw9bq-MuiSvgIcon-root"
+            data-testid="CheckCircleIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"
+            />
+          </svg>
+          <span
+            class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+          >
+            Low Risk
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1nlx18k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              85
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Engagement Score
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              out of 100
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-10r2qqu-MuiTypography-root"
+            >
+              8
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Days Since Activity
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              1,500
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Total Episodes
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              3
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Profiles
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-i3pbo"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Recent Activity (Last 30 Days)
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+          >
+            45
+             episodes
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="30"
+          class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-13s5bod-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+            style="transform: translateX(-70%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Activity Recency
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+          >
+            100
+            %
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="100"
+          class="MuiLinearProgress-root MuiLinearProgress-colorSuccess MuiLinearProgress-determinate css-l59h16-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSuccess MuiLinearProgress-bar1Determinate css-1c6qn6j-MuiLinearProgress-bar1"
+            style="transform: translateX(0%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-xi2iqh-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Account Created
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+            >
+              1/15/2023
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Last Activity
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+            >
+              11/10/2024
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Email Status
+            </span>
+            <div
+              class="MuiBox-root css-1fhgjcy"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  Verified
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              At Risk Status
+            </span>
+            <div
+              class="MuiBox-root css-1fhgjcy"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  Healthy
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SingleAccountHealthCard should match snapshot with medium risk 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiBox-root css-v08z5u"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+        >
+          Account Health
+        </h6>
+        <div
+          class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorWarning MuiChip-filledWarning css-efbx8r-MuiChip-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiChip-icon MuiChip-iconMedium MuiChip-iconColorWarning css-1umw9bq-MuiSvgIcon-root"
+            data-testid="WarningIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M1 21h22L12 2zm12-3h-2v-2h2zm0-4h-2v-4h2z"
+            />
+          </svg>
+          <span
+            class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+          >
+            Medium Risk
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1nlx18k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              85
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Engagement Score
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              out of 100
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-10r2qqu-MuiTypography-root"
+            >
+              8
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Days Since Activity
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              1,500
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Total Episodes
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              3
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Profiles
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-i3pbo"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Recent Activity (Last 30 Days)
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+          >
+            45
+             episodes
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="30"
+          class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-13s5bod-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+            style="transform: translateX(-70%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Activity Recency
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+          >
+            100
+            %
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="100"
+          class="MuiLinearProgress-root MuiLinearProgress-colorSuccess MuiLinearProgress-determinate css-l59h16-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSuccess MuiLinearProgress-bar1Determinate css-1c6qn6j-MuiLinearProgress-bar1"
+            style="transform: translateX(0%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-xi2iqh-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Account Created
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+            >
+              1/15/2023
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Last Activity
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+            >
+              11/10/2024
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Email Status
+            </span>
+            <div
+              class="MuiBox-root css-1fhgjcy"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  Verified
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              At Risk Status
+            </span>
+            <div
+              class="MuiBox-root css-1fhgjcy"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  Healthy
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SingleAccountHealthCard should match snapshot with no activity 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        class="MuiBox-root css-v08z5u"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+        >
+          Account Health
+        </h6>
+        <div
+          class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSuccess MuiChip-filledSuccess css-1v3p74u-MuiChip-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSuccess css-1umw9bq-MuiSvgIcon-root"
+            data-testid="CheckCircleIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"
+            />
+          </svg>
+          <span
+            class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+          >
+            Low Risk
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1nlx18k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              85
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Engagement Score
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              out of 100
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-j63gh9-MuiTypography-root"
+            >
+              No Activity
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Days Since Activity
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              1,500
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Total Episodes
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              3
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Profiles
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-i3pbo"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Recent Activity (Last 30 Days)
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+          >
+            0
+             episodes
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="0"
+          class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-13s5bod-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+            style="transform: translateX(-100%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiBox-root css-1qm1lh"
+      >
+        <div
+          class="MuiBox-root css-3mllz6"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Activity Recency
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1a40gj6-MuiTypography-root"
+          >
+            100
+            %
+          </p>
+        </div>
+        <span
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="100"
+          class="MuiLinearProgress-root MuiLinearProgress-colorSuccess MuiLinearProgress-determinate css-l59h16-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSuccess MuiLinearProgress-bar1Determinate css-1c6qn6j-MuiLinearProgress-bar1"
+            style="transform: translateX(0%);"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-xi2iqh-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Account Created
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+            >
+              1/15/2023
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Last Activity
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+            >
+              Never
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              Email Status
+            </span>
+            <div
+              class="MuiBox-root css-1fhgjcy"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  Verified
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              At Risk Status
+            </span>
+            <div
+              class="MuiBox-root css-1fhgjcy"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  Healthy
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

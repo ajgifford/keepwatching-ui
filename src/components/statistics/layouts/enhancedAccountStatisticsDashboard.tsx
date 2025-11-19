@@ -161,7 +161,13 @@ export function EnhancedAccountStatisticsDashboard({
             <Typography variant="body2" sx={{ alignSelf: 'center', mr: 1, fontWeight: 'medium' }}>
               Jump to:
             </Typography>
-            {SECTION_CATEGORIES.map((section) => (
+            {SECTION_CATEGORIES.filter((section) => {
+              // Hide profile comparison if only one profile
+              if (section.id === 'profiles' && statistics.profileCount <= 1) {
+                return false;
+              }
+              return true;
+            }).map((section) => (
               <Chip
                 key={section.id}
                 label={`${section.icon} ${section.label}`}

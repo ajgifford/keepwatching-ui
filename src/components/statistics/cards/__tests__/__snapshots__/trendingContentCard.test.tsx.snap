@@ -1,0 +1,800 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`TrendingContentCard should match snapshot in loading state 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Trending Content
+      </h6>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-2iyr4a-MuiTypography-root"
+      >
+        Loading...
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TrendingContentCard should match snapshot with empty content 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-mieqmr-MuiTypography-root"
+      >
+        Trending Content (
+        30
+         days)
+      </h6>
+      <div
+        class="MuiBox-root css-1fkybvm"
+      >
+        <div
+          class="MuiTabs-root css-jhczcq-MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
+            style="overflow: hidden; margin-bottom: 0px;"
+          >
+            <div
+              class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
+              role="tablist"
+            >
+              <button
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="0"
+                type="button"
+              >
+                All (0)
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Shows (0)
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Movies (0)
+              </button>
+            </div>
+            <span
+              class="MuiTabs-indicator css-1qltlow-MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
+          </div>
+        </div>
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-2iyr4a-MuiTypography-root"
+      >
+        No trending content available
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TrendingContentCard should match snapshot with full data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-mieqmr-MuiTypography-root"
+      >
+        Trending Content (
+        30
+         days)
+      </h6>
+      <div
+        class="MuiBox-root css-1fkybvm"
+      >
+        <div
+          class="MuiTabs-root css-jhczcq-MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
+            style="overflow: hidden; margin-bottom: 0px;"
+          >
+            <div
+              class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
+              role="tablist"
+            >
+              <button
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="0"
+                type="button"
+              >
+                All (3)
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Shows (2)
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Movies (1)
+              </button>
+            </div>
+            <span
+              class="MuiTabs-indicator css-1qltlow-MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
+          </div>
+        </div>
+      </div>
+      <ul
+        class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+      >
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-xiodvy-MuiListItem-root"
+        >
+          <div
+            class="MuiListItemIcon-root css-cokf1l-MuiListItemIcon-root"
+          >
+            <div
+              class="MuiBox-root css-4flrb9"
+            >
+              1
+            </div>
+            <div
+              class="MuiBox-root css-gajhq5"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-1wtp6o0-MuiSvgIcon-root"
+                data-testid="TvIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2m0 14H3V5h18z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rt9437-MuiTypography-root"
+            >
+              Breaking Bad
+            </p>
+            <div
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+            >
+              <div
+                class="MuiBox-root css-1bmpfzf"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+                >
+                  150
+                   recent watches
+                </span>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-vdpoz7-MuiTypography-root"
+                >
+                  +
+                  25
+                   new additions
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-yn447q"
+          >
+            <div
+              class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-si4ee-MuiChip-root"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorSuccess css-120dh41-MuiSvgIcon-root"
+                data-testid="TrendingUpIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+                />
+              </svg>
+              <span
+                class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+              >
+                +15%
+              </span>
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-xiodvy-MuiListItem-root"
+        >
+          <div
+            class="MuiListItemIcon-root css-cokf1l-MuiListItemIcon-root"
+          >
+            <div
+              class="MuiBox-root css-4flrb9"
+            >
+              2
+            </div>
+            <div
+              class="MuiBox-root css-gajhq5"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-colorSecondary MuiSvgIcon-fontSizeMedium css-25to7p-MuiSvgIcon-root"
+                data-testid="MovieIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m18 4 2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rt9437-MuiTypography-root"
+            >
+              Inception
+            </p>
+            <div
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+            >
+              <div
+                class="MuiBox-root css-1bmpfzf"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+                >
+                  85
+                   recent watches
+                </span>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-vdpoz7-MuiTypography-root"
+                >
+                  +
+                  10
+                   new additions
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-yn447q"
+          >
+            <div
+              class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-o5k8zp-MuiChip-root"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorDefault css-120dh41-MuiSvgIcon-root"
+                data-testid="TrendingFlatIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m22 12-4-4v3H3v2h15v3z"
+                />
+              </svg>
+              <span
+                class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+              >
+                0%
+              </span>
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-xiodvy-MuiListItem-root"
+        >
+          <div
+            class="MuiListItemIcon-root css-cokf1l-MuiListItemIcon-root"
+          >
+            <div
+              class="MuiBox-root css-4flrb9"
+            >
+              3
+            </div>
+            <div
+              class="MuiBox-root css-gajhq5"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-1wtp6o0-MuiSvgIcon-root"
+                data-testid="TvIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2m0 14H3V5h18z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rt9437-MuiTypography-root"
+            >
+              The Office
+            </p>
+            <div
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+            >
+              <div
+                class="MuiBox-root css-1bmpfzf"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+                >
+                  120
+                   recent watches
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-yn447q"
+          >
+            <div
+              class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorError MuiChip-filledError css-162q9ok-MuiChip-root"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorError css-120dh41-MuiSvgIcon-root"
+                data-testid="TrendingDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m16 18 2.29-2.29-4.88-4.88-4 4L2 7.41 3.41 6l6 6 4-4 6.3 6.29L22 12v6z"
+                />
+              </svg>
+              <span
+                class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+              >
+                -5%
+              </span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TrendingContentCard should match snapshot with movies tab selected 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-mieqmr-MuiTypography-root"
+      >
+        Trending Content (
+        30
+         days)
+      </h6>
+      <div
+        class="MuiBox-root css-1fkybvm"
+      >
+        <div
+          class="MuiTabs-root css-jhczcq-MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
+            style="overflow: hidden; margin-bottom: 0px;"
+          >
+            <div
+              class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
+              role="tablist"
+            >
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                All (3)
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Shows (2)
+              </button>
+              <button
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="0"
+                type="button"
+              >
+                Movies (1)
+              </button>
+            </div>
+            <span
+              class="MuiTabs-indicator css-1qltlow-MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
+          </div>
+        </div>
+      </div>
+      <ul
+        class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+      >
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-xiodvy-MuiListItem-root"
+        >
+          <div
+            class="MuiListItemIcon-root css-cokf1l-MuiListItemIcon-root"
+          >
+            <div
+              class="MuiBox-root css-4flrb9"
+            >
+              1
+            </div>
+            <div
+              class="MuiBox-root css-gajhq5"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-colorSecondary MuiSvgIcon-fontSizeMedium css-25to7p-MuiSvgIcon-root"
+                data-testid="MovieIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m18 4 2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rt9437-MuiTypography-root"
+            >
+              Inception
+            </p>
+            <div
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+            >
+              <div
+                class="MuiBox-root css-1bmpfzf"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+                >
+                  85
+                   recent watches
+                </span>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-vdpoz7-MuiTypography-root"
+                >
+                  +
+                  10
+                   new additions
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-yn447q"
+          >
+            <div
+              class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-o5k8zp-MuiChip-root"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorDefault css-120dh41-MuiSvgIcon-root"
+                data-testid="TrendingFlatIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m22 12-4-4v3H3v2h15v3z"
+                />
+              </svg>
+              <span
+                class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+              >
+                0%
+              </span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TrendingContentCard should match snapshot with shows tab selected 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-mieqmr-MuiTypography-root"
+      >
+        Trending Content (
+        30
+         days)
+      </h6>
+      <div
+        class="MuiBox-root css-1fkybvm"
+      >
+        <div
+          class="MuiTabs-root css-jhczcq-MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
+            style="overflow: hidden; margin-bottom: 0px;"
+          >
+            <div
+              class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
+              role="tablist"
+            >
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                All (3)
+              </button>
+              <button
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="0"
+                type="button"
+              >
+                Shows (2)
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Movies (1)
+              </button>
+            </div>
+            <span
+              class="MuiTabs-indicator css-1qltlow-MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
+          </div>
+        </div>
+      </div>
+      <ul
+        class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+      >
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-xiodvy-MuiListItem-root"
+        >
+          <div
+            class="MuiListItemIcon-root css-cokf1l-MuiListItemIcon-root"
+          >
+            <div
+              class="MuiBox-root css-4flrb9"
+            >
+              1
+            </div>
+            <div
+              class="MuiBox-root css-gajhq5"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-1wtp6o0-MuiSvgIcon-root"
+                data-testid="TvIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2m0 14H3V5h18z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rt9437-MuiTypography-root"
+            >
+              Breaking Bad
+            </p>
+            <div
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+            >
+              <div
+                class="MuiBox-root css-1bmpfzf"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+                >
+                  150
+                   recent watches
+                </span>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-vdpoz7-MuiTypography-root"
+                >
+                  +
+                  25
+                   new additions
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-yn447q"
+          >
+            <div
+              class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-si4ee-MuiChip-root"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorSuccess css-120dh41-MuiSvgIcon-root"
+                data-testid="TrendingUpIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+                />
+              </svg>
+              <span
+                class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+              >
+                +15%
+              </span>
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-xiodvy-MuiListItem-root"
+        >
+          <div
+            class="MuiListItemIcon-root css-cokf1l-MuiListItemIcon-root"
+          >
+            <div
+              class="MuiBox-root css-4flrb9"
+            >
+              2
+            </div>
+            <div
+              class="MuiBox-root css-gajhq5"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-1wtp6o0-MuiSvgIcon-root"
+                data-testid="TvIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2m0 14H3V5h18z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rt9437-MuiTypography-root"
+            >
+              The Office
+            </p>
+            <div
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+            >
+              <div
+                class="MuiBox-root css-1bmpfzf"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+                >
+                  120
+                   recent watches
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-yn447q"
+          >
+            <div
+              class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorError MuiChip-filledError css-162q9ok-MuiChip-root"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorError css-120dh41-MuiSvgIcon-root"
+                data-testid="TrendingDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m16 18 2.29-2.29-4.88-4.88-4 4L2 7.41 3.41 6l6 6 4-4 6.3 6.29L22 12v6z"
+                />
+              </svg>
+              <span
+                class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+              >
+                -5%
+              </span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

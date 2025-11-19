@@ -120,20 +120,7 @@ export function TrendingContentCard({ stats, isLoading = false }: TrendingConten
               </Box>
             </ListItemIcon>
             <ListItemText
-              primary={
-                <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, flexWrap: 'wrap' }}>
-                  <Typography variant="body1" fontWeight="medium">
-                    {item.title}
-                  </Typography>
-                  <Chip
-                    icon={getTrendIcon(item.trendDirection)}
-                    label={`${item.trendPercentage > 0 ? '+' : ''}${item.trendPercentage}%`}
-                    color={getTrendColor(item.trendDirection) as 'success' | 'error' | 'default'}
-                    size="small"
-                    sx={{ height: 24 }}
-                  />
-                </Box>
-              }
+              primary={item.title}
               secondary={
                 <Box sx={{ display: 'flex', gap: 2, mt: 0.5, flexWrap: 'wrap' }}>
                   <Typography variant="caption" color="text.secondary">
@@ -146,7 +133,20 @@ export function TrendingContentCard({ stats, isLoading = false }: TrendingConten
                   )}
                 </Box>
               }
+              slotProps={{
+                primary: { variant: 'body1', fontWeight: 'medium' },
+                secondary: { component: 'div' },
+              }}
             />
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, ml: 'auto' }}>
+              <Chip
+                icon={getTrendIcon(item.trendDirection)}
+                label={`${item.trendPercentage > 0 ? '+' : ''}${item.trendPercentage}%`}
+                color={getTrendColor(item.trendDirection) as 'success' | 'error' | 'default'}
+                size="small"
+                sx={{ height: 24 }}
+              />
+            </Box>
           </ListItem>
         ))}
       </List>

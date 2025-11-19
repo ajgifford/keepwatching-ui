@@ -1,0 +1,862 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`PlatformTrendsCard should match snapshot in loading state 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Platform Trends
+      </h6>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-2iyr4a-MuiTypography-root"
+      >
+        Loading...
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PlatformTrendsCard should match snapshot with full data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1m7rp8n-MuiTypography-root"
+      >
+        Platform Trends (
+        30
+         days)
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1nlx18k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              125
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              New Accounts
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              5,432
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Episodes Watched
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              892
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Movies Watched
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              6,324
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Total Activity
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1r1dmvh"
+      >
+        <div
+          class="MuiBox-root css-axw7ok"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Daily Active Users
+            :
+          </p>
+          <div
+            class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-7vq6yd-MuiChip-root"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorSuccess css-120dh41-MuiSvgIcon-root"
+              data-testid="TrendingUpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+              />
+            </svg>
+            <span
+              class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+            >
+              +12%
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-axw7ok"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Watch Activity
+            :
+          </p>
+          <div
+            class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorError MuiChip-filledError css-1jgadp-MuiChip-root"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorError css-120dh41-MuiSvgIcon-root"
+              data-testid="TrendingDownIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m16 18 2.29-2.29-4.88-4.88-4 4L2 7.41 3.41 6l6 6 4-4 6.3 6.29L22 12v6z"
+              />
+            </svg>
+            <span
+              class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+            >
+              -5%
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="recharts-responsive-container"
+        style="width: 100%; height: 300px; min-width: 0;"
+      >
+        <div
+          style="width: 0px; overflow-x: visible;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PlatformTrendsCard should match snapshot with negative trends 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1m7rp8n-MuiTypography-root"
+      >
+        Platform Trends (
+        30
+         days)
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1nlx18k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              125
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              New Accounts
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              5,432
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Episodes Watched
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              892
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Movies Watched
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              6,324
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Total Activity
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1r1dmvh"
+      >
+        <div
+          class="MuiBox-root css-axw7ok"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Daily Active Users
+            :
+          </p>
+          <div
+            class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorError MuiChip-filledError css-1jgadp-MuiChip-root"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorError css-120dh41-MuiSvgIcon-root"
+              data-testid="TrendingDownIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m16 18 2.29-2.29-4.88-4.88-4 4L2 7.41 3.41 6l6 6 4-4 6.3 6.29L22 12v6z"
+              />
+            </svg>
+            <span
+              class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+            >
+              -10%
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-axw7ok"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Watch Activity
+            :
+          </p>
+          <div
+            class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorError MuiChip-filledError css-1jgadp-MuiChip-root"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorError css-120dh41-MuiSvgIcon-root"
+              data-testid="TrendingDownIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m16 18 2.29-2.29-4.88-4.88-4 4L2 7.41 3.41 6l6 6 4-4 6.3 6.29L22 12v6z"
+              />
+            </svg>
+            <span
+              class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+            >
+              -15%
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="recharts-responsive-container"
+        style="width: 100%; height: 300px; min-width: 0;"
+      >
+        <div
+          style="width: 0px; overflow-x: visible;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PlatformTrendsCard should match snapshot with neutral trends 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1m7rp8n-MuiTypography-root"
+      >
+        Platform Trends (
+        30
+         days)
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1nlx18k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              125
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              New Accounts
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              5,432
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Episodes Watched
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              892
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Movies Watched
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              6,324
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Total Activity
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1r1dmvh"
+      >
+        <div
+          class="MuiBox-root css-axw7ok"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Daily Active Users
+            :
+          </p>
+          <div
+            class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-1qdwf5y-MuiChip-root"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorDefault css-120dh41-MuiSvgIcon-root"
+              data-testid="TrendingFlatIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m22 12-4-4v3H3v2h15v3z"
+              />
+            </svg>
+            <span
+              class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+            >
+              0%
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-axw7ok"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Watch Activity
+            :
+          </p>
+          <div
+            class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-1qdwf5y-MuiChip-root"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorDefault css-120dh41-MuiSvgIcon-root"
+              data-testid="TrendingFlatIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m22 12-4-4v3H3v2h15v3z"
+              />
+            </svg>
+            <span
+              class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+            >
+              0%
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="recharts-responsive-container"
+        style="width: 100%; height: 300px; min-width: 0;"
+      >
+        <div
+          style="width: 0px; overflow-x: visible;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PlatformTrendsCard should match snapshot with positive trends 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1m7rp8n-MuiTypography-root"
+      >
+        Platform Trends (
+        30
+         days)
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1nlx18k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              125
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              New Accounts
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              5,432
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Episodes Watched
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              892
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Movies Watched
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              6,324
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Total Activity
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1r1dmvh"
+      >
+        <div
+          class="MuiBox-root css-axw7ok"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Daily Active Users
+            :
+          </p>
+          <div
+            class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-7vq6yd-MuiChip-root"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorSuccess css-120dh41-MuiSvgIcon-root"
+              data-testid="TrendingUpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+              />
+            </svg>
+            <span
+              class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+            >
+              +15%
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-axw7ok"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Watch Activity
+            :
+          </p>
+          <div
+            class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-7vq6yd-MuiChip-root"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorSuccess css-120dh41-MuiSvgIcon-root"
+              data-testid="TrendingUpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+              />
+            </svg>
+            <span
+              class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+            >
+              +20%
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="recharts-responsive-container"
+        style="width: 100%; height: 300px; min-width: 0;"
+      >
+        <div
+          style="width: 0px; overflow-x: visible;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PlatformTrendsCard should match snapshot without chart data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1m7rp8n-MuiTypography-root"
+      >
+        Platform Trends (
+        30
+         days)
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1nlx18k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              125
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              New Accounts
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              5,432
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Episodes Watched
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              892
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Movies Watched
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              6,324
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Total Activity
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1r1dmvh"
+      >
+        <div
+          class="MuiBox-root css-axw7ok"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Daily Active Users
+            :
+          </p>
+          <div
+            class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-7vq6yd-MuiChip-root"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorSuccess css-120dh41-MuiSvgIcon-root"
+              data-testid="TrendingUpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+              />
+            </svg>
+            <span
+              class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+            >
+              +12%
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-axw7ok"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+          >
+            Watch Activity
+            :
+          </p>
+          <div
+            class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorError MuiChip-filledError css-1jgadp-MuiChip-root"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorError css-120dh41-MuiSvgIcon-root"
+              data-testid="TrendingDownIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m16 18 2.29-2.29-4.88-4.88-4 4L2 7.41 3.41 6l6 6 4-4 6.3 6.29L22 12v6z"
+              />
+            </svg>
+            <span
+              class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+            >
+              -5%
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

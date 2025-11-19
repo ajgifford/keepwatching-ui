@@ -167,13 +167,13 @@ export function SingleAccountHealthCard({ stats, isLoading = false }: SingleAcco
               <Typography variant="caption" color="text.secondary">
                 Email Status
               </Typography>
-              <Typography variant="body2" fontWeight="medium">
+              <Box sx={{ mt: 0.5 }}>
                 {stats.emailVerified ? (
                   <Chip label="Verified" color="success" size="small" />
                 ) : (
                   <Chip label="Not Verified" color="warning" size="small" />
                 )}
-              </Typography>
+              </Box>
             </Box>
           </Grid>
           <Grid size={{ xs: 12, md: 6 }}>
@@ -181,13 +181,13 @@ export function SingleAccountHealthCard({ stats, isLoading = false }: SingleAcco
               <Typography variant="caption" color="text.secondary">
                 At Risk Status
               </Typography>
-              <Typography variant="body2" fontWeight="medium">
+              <Box sx={{ mt: 0.5 }}>
                 {stats.isAtRisk ? (
                   <Chip label="At Risk" color="error" size="small" />
                 ) : (
                   <Chip label="Healthy" color="success" size="small" />
                 )}
-              </Typography>
+              </Box>
             </Box>
           </Grid>
         </Grid>

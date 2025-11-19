@@ -1,0 +1,2285 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ProfileComparisonCard should match snapshot in loading state 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Profile Comparison
+      </h6>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-2iyr4a-MuiTypography-root"
+      >
+        Loading...
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProfileComparisonCard should match snapshot with full data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1m7rp8n-MuiTypography-root"
+      >
+        Profile Comparison (
+        3
+         profiles)
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-6dimg-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              125
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Unique Shows
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-zwv10h-MuiTypography-root"
+            >
+              87
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Unique Movies
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom css-1bub9p-MuiTypography-root"
+            >
+              Most Watched Show
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-rt9437-MuiTypography-root"
+            >
+              Breaking Bad
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              2
+               profiles
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom css-1bub9p-MuiTypography-root"
+            >
+              Most Watched Movie
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-rt9437-MuiTypography-root"
+            >
+              Inception
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              2
+               profiles
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1fkybvm"
+      >
+        <div
+          class="MuiTabs-root css-jhczcq-MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
+            style="overflow: hidden; margin-bottom: 0px;"
+          >
+            <div
+              class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
+              role="tablist"
+            >
+              <button
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="0"
+                type="button"
+              >
+                Overview
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Watching Stats
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Preferences
+              </button>
+            </div>
+            <span
+              class="MuiTabs-indicator css-1qltlow-MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
+          </div>
+        </div>
+      </div>
+      <ul
+        class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+      >
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-oeb44u-MuiListItem-root"
+        >
+          <div
+            class="MuiBox-root css-wu3gbn"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-h6 css-h9fkkg-MuiTypography-root"
+            >
+              John
+            </h6>
+            <div
+              class="MuiBox-root css-1i27l4i"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-filledPrimary css-2mz69a-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorPrimary css-120dh41-MuiSvgIcon-root"
+                  data-testid="TvIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2m0 14H3V5h18z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  5 watching
+                </span>
+              </div>
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorSuccess css-120dh41-MuiSvgIcon-root"
+                  data-testid="TrendingUpIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  25 completed
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Episodes Watched
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1ie3cgg-MuiTypography-root"
+              >
+                1,500
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="100"
+                class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-1xszj24-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+                  style="transform: translateX(0%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Movies Watched
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-19h5713-MuiTypography-root"
+              >
+                75
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="83"
+                class="MuiLinearProgress-root MuiLinearProgress-colorSecondary MuiLinearProgress-determinate css-4w78ea-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSecondary MuiLinearProgress-bar1Determinate css-sselmm-MuiLinearProgress-bar1"
+                  style="transform: translateX(-16.666666666666657%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Total Hours
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1bgpyqw-MuiTypography-root"
+              >
+                650
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="100"
+                class="MuiLinearProgress-root MuiLinearProgress-colorInfo MuiLinearProgress-determinate css-sz260j-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorInfo MuiLinearProgress-bar1Determinate css-q2bgin-MuiLinearProgress-bar1"
+                  style="transform: translateX(0%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Episodes/Week
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-8hsqgf-MuiTypography-root"
+              >
+                12.5
+              </h6>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Most active: 
+                Saturday
+              </span>
+            </div>
+          </div>
+          <span
+            class="MuiTypography-root MuiTypography-caption css-141chlo-MuiTypography-root"
+          >
+            Last activity: 
+            11/15/2024
+          </span>
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-oeb44u-MuiListItem-root"
+        >
+          <div
+            class="MuiBox-root css-wu3gbn"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-h6 css-h9fkkg-MuiTypography-root"
+            >
+              Jane
+            </h6>
+            <div
+              class="MuiBox-root css-1i27l4i"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-filledPrimary css-2mz69a-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorPrimary css-120dh41-MuiSvgIcon-root"
+                  data-testid="TvIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2m0 14H3V5h18z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  3 watching
+                </span>
+              </div>
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorSuccess css-120dh41-MuiSvgIcon-root"
+                  data-testid="TrendingUpIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  20 completed
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Episodes Watched
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1ie3cgg-MuiTypography-root"
+              >
+                1,200
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="80"
+                class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-1xszj24-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+                  style="transform: translateX(-20%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Movies Watched
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-19h5713-MuiTypography-root"
+              >
+                90
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="100"
+                class="MuiLinearProgress-root MuiLinearProgress-colorSecondary MuiLinearProgress-determinate css-4w78ea-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSecondary MuiLinearProgress-bar1Determinate css-sselmm-MuiLinearProgress-bar1"
+                  style="transform: translateX(0%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Total Hours
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1bgpyqw-MuiTypography-root"
+              >
+                580
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="89"
+                class="MuiLinearProgress-root MuiLinearProgress-colorInfo MuiLinearProgress-determinate css-sz260j-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorInfo MuiLinearProgress-bar1Determinate css-q2bgin-MuiLinearProgress-bar1"
+                  style="transform: translateX(-10.76923076923076%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Episodes/Week
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-8hsqgf-MuiTypography-root"
+              >
+                10.0
+              </h6>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Most active: 
+                Friday
+              </span>
+            </div>
+          </div>
+          <span
+            class="MuiTypography-root MuiTypography-caption css-141chlo-MuiTypography-root"
+          >
+            Last activity: 
+            11/14/2024
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProfileComparisonCard should match snapshot with null data 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+      >
+        Profile Comparison
+      </h6>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-2iyr4a-MuiTypography-root"
+      >
+        No comparison data available
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProfileComparisonCard should match snapshot with preferences tab 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1m7rp8n-MuiTypography-root"
+      >
+        Profile Comparison (
+        3
+         profiles)
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-6dimg-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              125
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Unique Shows
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-zwv10h-MuiTypography-root"
+            >
+              87
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Unique Movies
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom css-1bub9p-MuiTypography-root"
+            >
+              Most Watched Show
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-rt9437-MuiTypography-root"
+            >
+              Breaking Bad
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              2
+               profiles
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom css-1bub9p-MuiTypography-root"
+            >
+              Most Watched Movie
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-rt9437-MuiTypography-root"
+            >
+              Inception
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              2
+               profiles
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1fkybvm"
+      >
+        <div
+          class="MuiTabs-root css-jhczcq-MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
+            style="overflow: hidden; margin-bottom: 0px;"
+          >
+            <div
+              class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
+              role="tablist"
+            >
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Overview
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Watching Stats
+              </button>
+              <button
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="0"
+                type="button"
+              >
+                Preferences
+              </button>
+            </div>
+            <span
+              class="MuiTabs-indicator css-1qltlow-MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
+          </div>
+        </div>
+      </div>
+      <ul
+        class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+      >
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-oeb44u-MuiListItem-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-gtvg4y-MuiTypography-root"
+          >
+            John
+          </h6>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-1gh5laf"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeSmall css-os5i4q-MuiSvgIcon-root"
+                  data-testid="BarChartIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"
+                  />
+                </svg>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+                >
+                  Top Genres
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-1mcghfl"
+              >
+                <div
+                  class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-outlinedPrimary css-19gasz3-MuiChip-root"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall css-19m61dl-MuiChip-label"
+                  >
+                    Drama (15)
+                  </span>
+                </div>
+                <div
+                  class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-outlinedPrimary css-19gasz3-MuiChip-root"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall css-19m61dl-MuiChip-label"
+                  >
+                    Comedy (10)
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-1gh5laf"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorSecondary MuiSvgIcon-fontSizeSmall css-x4u0f7-MuiSvgIcon-root"
+                  data-testid="TvIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2m0 14H3V5h18z"
+                  />
+                </svg>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+                >
+                  Top Services
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-1mcghfl"
+              >
+                <div
+                  class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorSecondary MuiChip-outlinedSecondary css-1klajg7-MuiChip-root"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall css-19m61dl-MuiChip-label"
+                  >
+                    Netflix (20)
+                  </span>
+                </div>
+                <div
+                  class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorSecondary MuiChip-outlinedSecondary css-1klajg7-MuiChip-root"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall css-19m61dl-MuiChip-label"
+                  >
+                    HBO (10)
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-oeb44u-MuiListItem-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-gtvg4y-MuiTypography-root"
+          >
+            Jane
+          </h6>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-1gh5laf"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeSmall css-os5i4q-MuiSvgIcon-root"
+                  data-testid="BarChartIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"
+                  />
+                </svg>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+                >
+                  Top Genres
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-1mcghfl"
+              >
+                <div
+                  class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-outlinedPrimary css-19gasz3-MuiChip-root"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall css-19m61dl-MuiChip-label"
+                  >
+                    Action (12)
+                  </span>
+                </div>
+                <div
+                  class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-outlinedPrimary css-19gasz3-MuiChip-root"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall css-19m61dl-MuiChip-label"
+                  >
+                    Sci-Fi (8)
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-204a8q-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-1gh5laf"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorSecondary MuiSvgIcon-fontSizeSmall css-x4u0f7-MuiSvgIcon-root"
+                  data-testid="TvIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2m0 14H3V5h18z"
+                  />
+                </svg>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+                >
+                  Top Services
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-1mcghfl"
+              >
+                <div
+                  class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorSecondary MuiChip-outlinedSecondary css-1klajg7-MuiChip-root"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall css-19m61dl-MuiChip-label"
+                  >
+                    Disney+ (15)
+                  </span>
+                </div>
+                <div
+                  class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorSecondary MuiChip-outlinedSecondary css-1klajg7-MuiChip-root"
+                >
+                  <span
+                    class="MuiChip-label MuiChip-labelSmall css-19m61dl-MuiChip-label"
+                  >
+                    Amazon (12)
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProfileComparisonCard should match snapshot with watching stats tab 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1m7rp8n-MuiTypography-root"
+      >
+        Profile Comparison (
+        3
+         profiles)
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-6dimg-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              125
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Unique Shows
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-zwv10h-MuiTypography-root"
+            >
+              87
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Unique Movies
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom css-1bub9p-MuiTypography-root"
+            >
+              Most Watched Show
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-rt9437-MuiTypography-root"
+            >
+              Breaking Bad
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              2
+               profiles
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom css-1bub9p-MuiTypography-root"
+            >
+              Most Watched Movie
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-rt9437-MuiTypography-root"
+            >
+              Inception
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              2
+               profiles
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1fkybvm"
+      >
+        <div
+          class="MuiTabs-root css-jhczcq-MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
+            style="overflow: hidden; margin-bottom: 0px;"
+          >
+            <div
+              class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
+              role="tablist"
+            >
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Overview
+              </button>
+              <button
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="0"
+                type="button"
+              >
+                Watching Stats
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Preferences
+              </button>
+            </div>
+            <span
+              class="MuiTabs-indicator css-1qltlow-MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
+          </div>
+        </div>
+      </div>
+      <ul
+        class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+      >
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-oeb44u-MuiListItem-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-gtvg4y-MuiTypography-root"
+          >
+            John
+          </h6>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-4 css-1ib2lii-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-1gh5laf"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeSmall css-os5i4q-MuiSvgIcon-root"
+                  data-testid="TvIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2m0 14H3V5h18z"
+                  />
+                </svg>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+                >
+                  Show Progress
+                </p>
+              </div>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="75"
+                class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-1akkxrd-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+                  style="transform: translateX(-25%);"
+                />
+              </span>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                75
+                % - 
+                30
+                 shows
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-4 css-1ib2lii-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-1gh5laf"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorSecondary MuiSvgIcon-fontSizeSmall css-x4u0f7-MuiSvgIcon-root"
+                  data-testid="MovieIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m18 4 2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4z"
+                  />
+                </svg>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+                >
+                  Movie Progress
+                </p>
+              </div>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="60"
+                class="MuiLinearProgress-root MuiLinearProgress-colorSecondary MuiLinearProgress-determinate css-eeu2e3-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSecondary MuiLinearProgress-bar1Determinate css-sselmm-MuiLinearProgress-bar1"
+                  style="transform: translateX(-40%);"
+                />
+              </span>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                60
+                % - 
+                80
+                 movies
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-xur2zb-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-1gh5laf"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorSuccess MuiSvgIcon-fontSizeSmall css-8xa9kc-MuiSvgIcon-root"
+                  data-testid="SpeedIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m20.38 8.57-1.23 1.85a8 8 0 0 1-.22 7.58H5.07A8 8 0 0 1 15.58 6.85l1.85-1.23A10 10 0 0 0 3.35 19a2 2 0 0 0 1.72 1h13.85a2 2 0 0 0 1.74-1 10 10 0 0 0-.27-10.44zm-9.79 6.84a2 2 0 0 0 2.83 0l5.66-8.49-8.49 5.66a2 2 0 0 0 0 2.83"
+                  />
+                </svg>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+                >
+                  Velocity
+                </p>
+              </div>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-8hsqgf-MuiTypography-root"
+              >
+                12.5
+                 eps/week
+              </h6>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Most active: 
+                Saturday
+              </span>
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-oeb44u-MuiListItem-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-gtvg4y-MuiTypography-root"
+          >
+            Jane
+          </h6>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-4 css-1ib2lii-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-1gh5laf"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeSmall css-os5i4q-MuiSvgIcon-root"
+                  data-testid="TvIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2m0 14H3V5h18z"
+                  />
+                </svg>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+                >
+                  Show Progress
+                </p>
+              </div>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="80"
+                class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-1akkxrd-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+                  style="transform: translateX(-20%);"
+                />
+              </span>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                80
+                % - 
+                25
+                 shows
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-4 css-1ib2lii-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-1gh5laf"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorSecondary MuiSvgIcon-fontSizeSmall css-x4u0f7-MuiSvgIcon-root"
+                  data-testid="MovieIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m18 4 2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4z"
+                  />
+                </svg>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+                >
+                  Movie Progress
+                </p>
+              </div>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="70"
+                class="MuiLinearProgress-root MuiLinearProgress-colorSecondary MuiLinearProgress-determinate css-eeu2e3-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSecondary MuiLinearProgress-bar1Determinate css-sselmm-MuiLinearProgress-bar1"
+                  style="transform: translateX(-30%);"
+                />
+              </span>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                70
+                % - 
+                95
+                 movies
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-xur2zb-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-1gh5laf"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorSuccess MuiSvgIcon-fontSizeSmall css-8xa9kc-MuiSvgIcon-root"
+                  data-testid="SpeedIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m20.38 8.57-1.23 1.85a8 8 0 0 1-.22 7.58H5.07A8 8 0 0 1 15.58 6.85l1.85-1.23A10 10 0 0 0 3.35 19a2 2 0 0 0 1.72 1h13.85a2 2 0 0 0 1.74-1 10 10 0 0 0-.27-10.44zm-9.79 6.84a2 2 0 0 0 2.83 0l5.66-8.49-8.49 5.66a2 2 0 0 0 0 2.83"
+                  />
+                </svg>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
+                >
+                  Velocity
+                </p>
+              </div>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-8hsqgf-MuiTypography-root"
+              >
+                10.0
+                 eps/week
+              </h6>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Most active: 
+                Friday
+              </span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProfileComparisonCard should match snapshot without most watched movie 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1m7rp8n-MuiTypography-root"
+      >
+        Profile Comparison (
+        3
+         profiles)
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-6dimg-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              125
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Unique Shows
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-zwv10h-MuiTypography-root"
+            >
+              87
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Unique Movies
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom css-1bub9p-MuiTypography-root"
+            >
+              Most Watched Show
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-rt9437-MuiTypography-root"
+            >
+              Breaking Bad
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              2
+               profiles
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1fkybvm"
+      >
+        <div
+          class="MuiTabs-root css-jhczcq-MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
+            style="overflow: hidden; margin-bottom: 0px;"
+          >
+            <div
+              class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
+              role="tablist"
+            >
+              <button
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="0"
+                type="button"
+              >
+                Overview
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Watching Stats
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Preferences
+              </button>
+            </div>
+            <span
+              class="MuiTabs-indicator css-1qltlow-MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
+          </div>
+        </div>
+      </div>
+      <ul
+        class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+      >
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-oeb44u-MuiListItem-root"
+        >
+          <div
+            class="MuiBox-root css-wu3gbn"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-h6 css-h9fkkg-MuiTypography-root"
+            >
+              John
+            </h6>
+            <div
+              class="MuiBox-root css-1i27l4i"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-filledPrimary css-2mz69a-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorPrimary css-120dh41-MuiSvgIcon-root"
+                  data-testid="TvIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2m0 14H3V5h18z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  5 watching
+                </span>
+              </div>
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorSuccess css-120dh41-MuiSvgIcon-root"
+                  data-testid="TrendingUpIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  25 completed
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Episodes Watched
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1ie3cgg-MuiTypography-root"
+              >
+                1,500
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="100"
+                class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-1xszj24-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+                  style="transform: translateX(0%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Movies Watched
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-19h5713-MuiTypography-root"
+              >
+                75
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="83"
+                class="MuiLinearProgress-root MuiLinearProgress-colorSecondary MuiLinearProgress-determinate css-4w78ea-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSecondary MuiLinearProgress-bar1Determinate css-sselmm-MuiLinearProgress-bar1"
+                  style="transform: translateX(-16.666666666666657%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Total Hours
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1bgpyqw-MuiTypography-root"
+              >
+                650
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="100"
+                class="MuiLinearProgress-root MuiLinearProgress-colorInfo MuiLinearProgress-determinate css-sz260j-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorInfo MuiLinearProgress-bar1Determinate css-q2bgin-MuiLinearProgress-bar1"
+                  style="transform: translateX(0%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Episodes/Week
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-8hsqgf-MuiTypography-root"
+              >
+                12.5
+              </h6>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Most active: 
+                Saturday
+              </span>
+            </div>
+          </div>
+          <span
+            class="MuiTypography-root MuiTypography-caption css-141chlo-MuiTypography-root"
+          >
+            Last activity: 
+            11/15/2024
+          </span>
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-oeb44u-MuiListItem-root"
+        >
+          <div
+            class="MuiBox-root css-wu3gbn"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-h6 css-h9fkkg-MuiTypography-root"
+            >
+              Jane
+            </h6>
+            <div
+              class="MuiBox-root css-1i27l4i"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-filledPrimary css-2mz69a-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorPrimary css-120dh41-MuiSvgIcon-root"
+                  data-testid="TvIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2m0 14H3V5h18z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  3 watching
+                </span>
+              </div>
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorSuccess css-120dh41-MuiSvgIcon-root"
+                  data-testid="TrendingUpIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  20 completed
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Episodes Watched
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1ie3cgg-MuiTypography-root"
+              >
+                1,200
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="80"
+                class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-1xszj24-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+                  style="transform: translateX(-20%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Movies Watched
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-19h5713-MuiTypography-root"
+              >
+                90
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="100"
+                class="MuiLinearProgress-root MuiLinearProgress-colorSecondary MuiLinearProgress-determinate css-4w78ea-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSecondary MuiLinearProgress-bar1Determinate css-sselmm-MuiLinearProgress-bar1"
+                  style="transform: translateX(0%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Total Hours
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1bgpyqw-MuiTypography-root"
+              >
+                580
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="89"
+                class="MuiLinearProgress-root MuiLinearProgress-colorInfo MuiLinearProgress-determinate css-sz260j-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorInfo MuiLinearProgress-bar1Determinate css-q2bgin-MuiLinearProgress-bar1"
+                  style="transform: translateX(-10.76923076923076%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Episodes/Week
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-8hsqgf-MuiTypography-root"
+              >
+                10.0
+              </h6>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Most active: 
+                Friday
+              </span>
+            </div>
+          </div>
+          <span
+            class="MuiTypography-root MuiTypography-caption css-141chlo-MuiTypography-root"
+          >
+            Last activity: 
+            11/14/2024
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProfileComparisonCard should match snapshot without most watched show 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1m7rp8n-MuiTypography-root"
+      >
+        Profile Comparison (
+        3
+         profiles)
+      </h6>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-6dimg-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-i3raj5-MuiTypography-root"
+            >
+              125
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Unique Shows
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-zwv10h-MuiTypography-root"
+            >
+              87
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+            >
+              Unique Movies
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-xi606m"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom css-1bub9p-MuiTypography-root"
+            >
+              Most Watched Movie
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-rt9437-MuiTypography-root"
+            >
+              Inception
+            </p>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+            >
+              2
+               profiles
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1fkybvm"
+      >
+        <div
+          class="MuiTabs-root css-jhczcq-MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
+            style="overflow: hidden; margin-bottom: 0px;"
+          >
+            <div
+              class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
+              role="tablist"
+            >
+              <button
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="0"
+                type="button"
+              >
+                Overview
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Watching Stats
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Preferences
+              </button>
+            </div>
+            <span
+              class="MuiTabs-indicator css-1qltlow-MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
+          </div>
+        </div>
+      </div>
+      <ul
+        class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+      >
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-oeb44u-MuiListItem-root"
+        >
+          <div
+            class="MuiBox-root css-wu3gbn"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-h6 css-h9fkkg-MuiTypography-root"
+            >
+              John
+            </h6>
+            <div
+              class="MuiBox-root css-1i27l4i"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-filledPrimary css-2mz69a-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorPrimary css-120dh41-MuiSvgIcon-root"
+                  data-testid="TvIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2m0 14H3V5h18z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  5 watching
+                </span>
+              </div>
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorSuccess css-120dh41-MuiSvgIcon-root"
+                  data-testid="TrendingUpIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  25 completed
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Episodes Watched
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1ie3cgg-MuiTypography-root"
+              >
+                1,500
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="100"
+                class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-1xszj24-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+                  style="transform: translateX(0%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Movies Watched
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-19h5713-MuiTypography-root"
+              >
+                75
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="83"
+                class="MuiLinearProgress-root MuiLinearProgress-colorSecondary MuiLinearProgress-determinate css-4w78ea-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSecondary MuiLinearProgress-bar1Determinate css-sselmm-MuiLinearProgress-bar1"
+                  style="transform: translateX(-16.666666666666657%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Total Hours
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1bgpyqw-MuiTypography-root"
+              >
+                650
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="100"
+                class="MuiLinearProgress-root MuiLinearProgress-colorInfo MuiLinearProgress-determinate css-sz260j-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorInfo MuiLinearProgress-bar1Determinate css-q2bgin-MuiLinearProgress-bar1"
+                  style="transform: translateX(0%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Episodes/Week
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-8hsqgf-MuiTypography-root"
+              >
+                12.5
+              </h6>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Most active: 
+                Saturday
+              </span>
+            </div>
+          </div>
+          <span
+            class="MuiTypography-root MuiTypography-caption css-141chlo-MuiTypography-root"
+          >
+            Last activity: 
+            11/15/2024
+          </span>
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-oeb44u-MuiListItem-root"
+        >
+          <div
+            class="MuiBox-root css-wu3gbn"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-h6 css-h9fkkg-MuiTypography-root"
+            >
+              Jane
+            </h6>
+            <div
+              class="MuiBox-root css-1i27l4i"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-filledPrimary css-2mz69a-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorPrimary css-120dh41-MuiSvgIcon-root"
+                  data-testid="TvIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2m0 14H3V5h18z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  3 watching
+                </span>
+              </div>
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorSuccess MuiChip-filledSuccess css-10iq40h-MuiChip-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiChip-icon MuiChip-iconSmall MuiChip-iconColorSuccess css-120dh41-MuiSvgIcon-root"
+                  data-testid="TrendingUpIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+                  />
+                </svg>
+                <span
+                  class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                >
+                  20 completed
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Episodes Watched
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1ie3cgg-MuiTypography-root"
+              >
+                1,200
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="80"
+                class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate css-1xszj24-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-l16vtb-MuiLinearProgress-bar1"
+                  style="transform: translateX(-20%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Movies Watched
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-19h5713-MuiTypography-root"
+              >
+                90
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="100"
+                class="MuiLinearProgress-root MuiLinearProgress-colorSecondary MuiLinearProgress-determinate css-4w78ea-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorSecondary MuiLinearProgress-bar1Determinate css-sselmm-MuiLinearProgress-bar1"
+                  style="transform: translateX(0%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Total Hours
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1bgpyqw-MuiTypography-root"
+              >
+                580
+              </h6>
+              <span
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="89"
+                class="MuiLinearProgress-root MuiLinearProgress-colorInfo MuiLinearProgress-determinate css-sz260j-MuiLinearProgress-root"
+                role="progressbar"
+              >
+                <span
+                  class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorInfo MuiLinearProgress-bar1Determinate css-q2bgin-MuiLinearProgress-bar1"
+                  style="transform: translateX(-10.76923076923076%);"
+                />
+              </span>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-19vcg0t-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Episodes/Week
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-8hsqgf-MuiTypography-root"
+              >
+                10.0
+              </h6>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
+              >
+                Most active: 
+                Friday
+              </span>
+            </div>
+          </div>
+          <span
+            class="MuiTypography-root MuiTypography-caption css-141chlo-MuiTypography-root"
+          >
+            Last activity: 
+            11/14/2024
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
