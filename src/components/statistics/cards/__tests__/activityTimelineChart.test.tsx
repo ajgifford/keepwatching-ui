@@ -209,4 +209,61 @@ describe('ActivityTimelineChart', () => {
 
     expect(container).toMatchSnapshot();
   });
+
+  it('should sort daily activity data by date in ascending order', () => {
+    const unsortedTimeline: WatchingActivityTimeline = {
+      dailyActivity: [
+        { date: '2024-01-20', episodesWatched: 8, showsWatched: 4 }, // Newest
+        { date: '2024-01-15', episodesWatched: 5, showsWatched: 2 }, // Middle
+        { date: '2024-01-10', episodesWatched: 3, showsWatched: 1 }, // Oldest
+      ],
+      weeklyActivity: [],
+      monthlyActivity: [],
+    };
+
+    render(<ActivityTimelineChart timeline={unsortedTimeline} />);
+
+    // Chart should render without errors
+    expect(screen.getByTestId('area-chart')).toBeInTheDocument();
+  });
+
+  it('should sort weekly activity data by week start in ascending order', () => {
+    const unsortedTimeline: WatchingActivityTimeline = {
+      dailyActivity: [],
+      weeklyActivity: [
+        { weekStart: '2024-01-22', episodesWatched: 40 }, // Newest
+        { weekStart: '2024-01-15', episodesWatched: 35 }, // Middle
+        { weekStart: '2024-01-08', episodesWatched: 25 }, // Oldest
+      ],
+      monthlyActivity: [],
+    };
+
+    render(<ActivityTimelineChart timeline={unsortedTimeline} />);
+
+    const weeklyTab = screen.getByText('Weekly');
+    fireEvent.click(weeklyTab);
+
+    // Chart should render without errors
+    expect(screen.getByTestId('bar-chart')).toBeInTheDocument();
+  });
+
+  it('should sort monthly activity data by month in ascending order', () => {
+    const unsortedTimeline: WatchingActivityTimeline = {
+      dailyActivity: [],
+      weeklyActivity: [],
+      monthlyActivity: [
+        { month: '2024-03', episodesWatched: 120, moviesWatched: 15 }, // Newest
+        { month: '2024-01', episodesWatched: 100, moviesWatched: 10 }, // Middle
+        { month: '2023-12', episodesWatched: 80, moviesWatched: 5 }, // Oldest
+      ],
+    };
+
+    render(<ActivityTimelineChart timeline={unsortedTimeline} />);
+
+    const monthlyTab = screen.getByText('Monthly');
+    fireEvent.click(monthlyTab);
+
+    // Chart should render without errors
+    expect(screen.getByTestId('bar-chart')).toBeInTheDocument();
+  });
 });

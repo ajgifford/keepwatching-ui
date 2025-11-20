@@ -257,4 +257,76 @@ describe('AccountRankingCard', () => {
 
     expect(container).toMatchSnapshot();
   });
+
+  it('should reorder accounts when metric changes', () => {
+    const statsWithDifferentRankings: AccountRankingStats = {
+      rankingMetric: 'engagement',
+      rankings: [
+        {
+          accountId: 1,
+          accountName: 'High Engagement',
+          accountEmail: 'high@example.com',
+          totalEpisodesWatched: 100, // Low episodes
+          totalMoviesWatched: 50, // Low movies
+          totalHoursWatched: 500, // Low hours
+          engagementScore: 95, // Highest engagement
+          profileCount: 2,
+          lastActivityDate: '2024-01-15',
+        },
+        {
+          accountId: 2,
+          accountName: 'High Episodes',
+          accountEmail: 'episodes@example.com',
+          totalEpisodesWatched: 1000, // Highest episodes
+          totalMoviesWatched: 100,
+          totalHoursWatched: 2000,
+          engagementScore: 75, // Medium engagement
+          profileCount: 3,
+          lastActivityDate: '2024-01-10',
+        },
+        {
+          accountId: 3,
+          accountName: 'High Movies',
+          accountEmail: 'movies@example.com',
+          totalEpisodesWatched: 200,
+          totalMoviesWatched: 500, // Highest movies
+          totalHoursWatched: 1500,
+          engagementScore: 60, // Low engagement
+          profileCount: 1,
+          lastActivityDate: '2024-01-05',
+        },
+      ],
+    } as unknown as AccountRankingStats;
+
+    const { container } = render(<AccountRankingCard stats={statsWithDifferentRankings} />);
+
+    // Initially sorted by engagement (High Engagement should be first)
+    let accountNames = screen.getAllByText(/High (Engagement|Episodes|Movies)/);
+    expect(accountNames[0]).toHaveTextContent('High Engagement');
+    expect(accountNames[1]).toHaveTextContent('High Episodes');
+    expect(accountNames[2]).toHaveTextContent('High Movies');
+
+    // Change to Episodes Watched
+    const select = screen.getByRole('combobox');
+    fireEvent.mouseDown(select);
+    const episodesOption = screen.getByText('Episodes Watched');
+    fireEvent.click(episodesOption);
+
+    // Should now be sorted by episodes (High Episodes should be first)
+    accountNames = screen.getAllByText(/High (Engagement|Episodes|Movies)/);
+    expect(accountNames[0]).toHaveTextContent('High Episodes');
+    expect(accountNames[1]).toHaveTextContent('High Movies');
+    expect(accountNames[2]).toHaveTextContent('High Engagement');
+
+    // Change to Movies Watched
+    fireEvent.mouseDown(select);
+    const moviesOption = screen.getByText('Movies Watched');
+    fireEvent.click(moviesOption);
+
+    // Should now be sorted by movies (High Movies should be first)
+    accountNames = screen.getAllByText(/High (Engagement|Episodes|Movies)/);
+    expect(accountNames[0]).toHaveTextContent('High Movies');
+    expect(accountNames[1]).toHaveTextContent('High Episodes');
+    expect(accountNames[2]).toHaveTextContent('High Engagement');
+  });
 });

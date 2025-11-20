@@ -28,32 +28,45 @@ export function ActivityTimelineChart({ timeline, isLoading = false }: ActivityT
 
   const dailyChartData = useMemo(() => {
     if (!timeline?.dailyActivity) return [];
-    return timeline.dailyActivity.map((day) => ({
-      date: new Date(day.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
-      episodes: day.episodesWatched,
-      shows: day.showsWatched,
-    }));
+    // Sort by date in ascending order (oldest to newest) to display correctly on x-axis
+    return [...timeline.dailyActivity]
+      .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+      .map((day) => ({
+        date: new Date(day.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
+        episodes: day.episodesWatched,
+        shows: day.showsWatched,
+      }));
   }, [timeline?.dailyActivity]);
 
   const weeklyChartData = useMemo(() => {
     if (!timeline?.weeklyActivity) return [];
-    return timeline.weeklyActivity.map((week) => ({
-      week: new Date(week.weekStart).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
-      episodes: week.episodesWatched,
-    }));
+    // Sort by week start date in ascending order (oldest to newest)
+    return [...timeline.weeklyActivity]
+      .sort((a, b) => new Date(a.weekStart).getTime() - new Date(b.weekStart).getTime())
+      .map((week) => ({
+        week: new Date(week.weekStart).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
+        episodes: week.episodesWatched,
+      }));
   }, [timeline?.weeklyActivity]);
 
   const monthlyChartData = useMemo(() => {
     if (!timeline?.monthlyActivity) return [];
-    return timeline.monthlyActivity.map((month) => {
-      const [year, monthNum] = month.month.split('-');
-      const date = new Date(parseInt(year), parseInt(monthNum) - 1);
-      return {
-        month: date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' }),
-        episodes: month.episodesWatched,
-        movies: month.moviesWatched,
-      };
-    });
+    // Sort by month in ascending order (oldest to newest)
+    return [...timeline.monthlyActivity]
+      .sort((a, b) => {
+        const [yearA, monthA] = a.month.split('-').map(Number);
+        const [yearB, monthB] = b.month.split('-').map(Number);
+        return yearA - yearB || monthA - monthB;
+      })
+      .map((month) => {
+        const [year, monthNum] = month.month.split('-');
+        const date = new Date(parseInt(year), parseInt(monthNum) - 1);
+        return {
+          month: date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' }),
+          episodes: month.episodesWatched,
+          movies: month.moviesWatched,
+        };
+      });
   }, [timeline?.monthlyActivity]);
 
   const handleTabChange = (_event: React.SyntheticEvent, newValue: number) => {
@@ -118,7 +131,7 @@ export function ActivityTimelineChart({ timeline, isLoading = false }: ActivityT
                     </linearGradient>
                   </defs>
                   <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="date" tick={{ fontSize: 12 }} reversed />
+                  <XAxis dataKey="date" tick={{ fontSize: 12 }} />
                   <YAxis />
                   <Tooltip
                     contentStyle={{
@@ -152,7 +165,7 @@ export function ActivityTimelineChart({ timeline, isLoading = false }: ActivityT
               <ResponsiveContainer width="100%" minHeight={300} height={400}>
                 <BarChart data={weeklyChartData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                   <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="week" tick={{ fontSize: 12 }} reversed />
+                  <XAxis dataKey="week" tick={{ fontSize: 12 }} />
                   <YAxis />
                   <Tooltip
                     contentStyle={{
@@ -179,7 +192,7 @@ export function ActivityTimelineChart({ timeline, isLoading = false }: ActivityT
               <ResponsiveContainer width="100%" minHeight={300} height={400}>
                 <BarChart data={monthlyChartData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                   <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="month" tick={{ fontSize: 12 }} reversed />
+                  <XAxis dataKey="month" tick={{ fontSize: 12 }} />
                   <YAxis />
                   <Tooltip
                     contentStyle={{

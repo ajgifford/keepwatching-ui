@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 
 import {
   EmojiEvents as EmojiEventsIcon,
@@ -53,6 +53,35 @@ export function AccountRankingCard({ stats, onMetricChange, isLoading = false }:
     setMetric(newMetric);
     onMetricChange?.(newMetric);
   };
+
+  const sortedRankings = useMemo(() => {
+    return [...stats.rankings].sort((a, b) => {
+      let aValue: number;
+      let bValue: number;
+
+      switch (metric) {
+        case 'episodesWatched':
+          aValue = a.totalEpisodesWatched;
+          bValue = b.totalEpisodesWatched;
+          break;
+        case 'moviesWatched':
+          aValue = a.totalMoviesWatched;
+          bValue = b.totalMoviesWatched;
+          break;
+        case 'hoursWatched':
+          aValue = a.totalHoursWatched;
+          bValue = b.totalHoursWatched;
+          break;
+        case 'engagement':
+        default:
+          aValue = a.engagementScore;
+          bValue = b.engagementScore;
+          break;
+      }
+
+      return bValue - aValue; // Sort descending (highest first)
+    });
+  }, [stats.rankings, metric]);
 
   const getMetricLabel = (metric: typeof stats.rankingMetric) => {
     switch (metric) {
@@ -156,7 +185,7 @@ export function AccountRankingCard({ stats, onMetricChange, isLoading = false }:
           </Typography>
         ) : (
           <List sx={{ maxHeight: 600, overflow: 'auto' }}>
-            {stats.rankings.map((account, index) => (
+            {sortedRankings.map((account, index) => (
               <ListItem
                 key={account.accountId}
                 sx={{

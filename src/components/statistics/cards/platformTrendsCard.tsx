@@ -55,12 +55,15 @@ export function PlatformTrendsCard({ stats, isLoading = false }: PlatformTrendsC
 
   const chartData = useMemo(() => {
     if (!stats?.dailyActivity) return [];
-    return stats.dailyActivity.map((day) => ({
-      date: new Date(day.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
-      accounts: day.activeAccounts,
-      episodes: day.episodesWatched,
-      movies: day.moviesWatched,
-    }));
+    // Sort by date in ascending order (oldest to newest) to display correctly on x-axis
+    return [...stats.dailyActivity]
+      .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+      .map((day) => ({
+        date: new Date(day.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
+        accounts: day.activeAccounts,
+        episodes: day.episodesWatched,
+        movies: day.moviesWatched,
+      }));
   }, [stats?.dailyActivity]);
 
   if (isLoading) {

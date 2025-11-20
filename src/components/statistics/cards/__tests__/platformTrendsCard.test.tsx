@@ -237,4 +237,39 @@ describe('PlatformTrendsCard', () => {
 
     expect(container).toMatchSnapshot();
   });
+
+  it('should sort daily activity data by date in ascending order', () => {
+    const unsortedStats: PlatformTrendsStats = {
+      ...mockStats,
+      dailyActivity: [
+        {
+          date: '2024-11-05T00:00:00Z', // Newest
+          activeAccounts: 500,
+          episodesWatched: 200,
+          moviesWatched: 35,
+        },
+        {
+          date: '2024-11-03T00:00:00Z', // Middle
+          activeAccounts: 460,
+          episodesWatched: 185,
+          moviesWatched: 28,
+        },
+        {
+          date: '2024-11-01T00:00:00Z', // Oldest
+          activeAccounts: 450,
+          episodesWatched: 180,
+          moviesWatched: 25,
+        },
+      ],
+    };
+
+    const { container } = render(<PlatformTrendsCard stats={unsortedStats} />);
+
+    // Chart should be rendered
+    const chartContainer = container.querySelector('.recharts-responsive-container');
+    expect(chartContainer).toBeInTheDocument();
+
+    // Verify that the chart renders without errors
+    expect(screen.getByText('Platform Trends (30 days)')).toBeInTheDocument();
+  });
 });

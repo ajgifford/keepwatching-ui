@@ -426,7 +426,7 @@ exports[`MilestonesAndAnniversaryCard should match snapshot with full data 1`] =
               <p
                 class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
               >
-                2 years, 10 months, 18 days
+                2 years, 10 months, 20 days
                  ago
               </p>
             </div>
@@ -469,7 +469,7 @@ exports[`MilestonesAndAnniversaryCard should match snapshot with full data 1`] =
                 Jan 20, 2023
                  
                 • 
-                2 years, 10 months, 13 days
+                2 years, 10 months, 15 days
                  ago
               </span>
             </div>
@@ -512,7 +512,7 @@ exports[`MilestonesAndAnniversaryCard should match snapshot with full data 1`] =
                 Feb 1, 2023
                  
                 • 
-                2 years, 9 months, 1 day
+                2 years, 9 months, 3 days
                  ago
               </span>
             </div>
@@ -780,7 +780,7 @@ exports[`MilestonesAndAnniversaryCard should match snapshot with large numbers 1
               <p
                 class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
               >
-                2 years, 10 months, 18 days
+                2 years, 10 months, 20 days
                  ago
               </p>
             </div>
@@ -823,7 +823,7 @@ exports[`MilestonesAndAnniversaryCard should match snapshot with large numbers 1
                 Jan 20, 2023
                  
                 • 
-                2 years, 10 months, 13 days
+                2 years, 10 months, 15 days
                  ago
               </span>
             </div>
@@ -866,7 +866,7 @@ exports[`MilestonesAndAnniversaryCard should match snapshot with large numbers 1
                 Feb 1, 2023
                  
                 • 
-                2 years, 9 months, 1 day
+                2 years, 9 months, 3 days
                  ago
               </span>
             </div>
@@ -901,7 +901,7 @@ exports[`MilestonesAndAnniversaryCard should match snapshot with large numbers 1
                   <h6
                     class="MuiTypography-root MuiTypography-h6 css-1c09itd-MuiTypography-root"
                   >
-                    28.9
+                    28.8
                   </h6>
                   <span
                     class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
@@ -1336,7 +1336,7 @@ exports[`MilestonesAndAnniversaryCard should match snapshot with zero watching d
               <p
                 class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
               >
-                2 years, 10 months, 18 days
+                2 years, 10 months, 20 days
                  ago
               </p>
             </div>
@@ -1379,7 +1379,7 @@ exports[`MilestonesAndAnniversaryCard should match snapshot with zero watching d
                 Jan 20, 2023
                  
                 • 
-                2 years, 10 months, 13 days
+                2 years, 10 months, 15 days
                  ago
               </span>
             </div>
@@ -1422,7 +1422,7 @@ exports[`MilestonesAndAnniversaryCard should match snapshot with zero watching d
                 Feb 1, 2023
                  
                 • 
-                2 years, 9 months, 1 day
+                2 years, 9 months, 3 days
                  ago
               </span>
             </div>
@@ -1826,7 +1826,7 @@ exports[`MilestonesAndAnniversaryCard should match snapshot without first episod
               <p
                 class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
               >
-                2 years, 10 months, 18 days
+                2 years, 10 months, 20 days
                  ago
               </p>
             </div>
@@ -2198,7 +2198,7 @@ exports[`MilestonesAndAnniversaryCard should match snapshot without recent achie
               <p
                 class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
               >
-                2 years, 10 months, 18 days
+                2 years, 10 months, 20 days
                  ago
               </p>
             </div>
@@ -2241,7 +2241,7 @@ exports[`MilestonesAndAnniversaryCard should match snapshot without recent achie
                 Jan 20, 2023
                  
                 • 
-                2 years, 10 months, 13 days
+                2 years, 10 months, 15 days
                  ago
               </span>
             </div>
@@ -2284,7 +2284,7 @@ exports[`MilestonesAndAnniversaryCard should match snapshot without recent achie
                 Feb 1, 2023
                  
                 • 
-                2 years, 9 months, 1 day
+                2 years, 9 months, 3 days
                  ago
               </span>
             </div>
