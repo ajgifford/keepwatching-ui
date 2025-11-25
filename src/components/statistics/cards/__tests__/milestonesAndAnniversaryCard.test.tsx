@@ -4,6 +4,19 @@ import { MilestonesAndAnniversaryCard } from '../milestonesAndAnniversaryCard';
 import { MilestoneStats } from '@ajgifford/keepwatching-types';
 
 describe('MilestonesAndAnniversaryCard', () => {
+  // Mock a consistent date for all tests
+  const MOCK_NOW = new Date('2024-12-01T12:00:00Z');
+
+  beforeEach(() => {
+    // Mock Date.now() and new Date() to return consistent values
+    jest.useFakeTimers();
+    jest.setSystemTime(MOCK_NOW);
+  });
+
+  afterEach(() => {
+    jest.useRealTimers();
+  });
+
   const mockStats: MilestoneStats = {
     totalEpisodesWatched: 750,
     totalMoviesWatched: 65,
