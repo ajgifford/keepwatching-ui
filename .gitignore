@@ -137,4 +137,5 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-.clineignore
+# Test Output
+test-report.html
