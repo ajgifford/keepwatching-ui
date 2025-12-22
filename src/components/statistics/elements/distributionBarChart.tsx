@@ -25,7 +25,7 @@ export function DistributionBarChart({ data, height = 300, color }: Distribution
         <XAxis type="number" />
         <YAxis type="category" dataKey="name" />
         <Tooltip
-          formatter={(value: number) => [`${value} shows/movies`]}
+          formatter={(value: number | undefined) => [`${value ?? 0} shows/movies`]}
           contentStyle={{ backgroundColor: '#fff', border: '1px solid #ccc' }}
         />
         <Bar
