@@ -1,4 +1,18 @@
 /**
+ * Parses a date-only string (YYYY-MM-DD) as a local date to avoid timezone shifts.
+ * For other date formats, falls back to standard Date constructor.
+ * @param dateString - Date string to parse
+ * @returns Date object parsed as local date
+ */
+export function parseLocalDate(dateString: string): Date {
+  if (/^\d{4}-\d{2}-\d{2}$/.test(dateString)) {
+    const [year, month, day] = dateString.split('-').map(Number);
+    return new Date(year, month - 1, day);
+  }
+  return new Date(dateString);
+}
+
+/**
  * Formats runtime in minutes to "Xh Ym" format
  * @param minutes - Runtime in minutes
  * @returns Formatted string like "2h 30m"
