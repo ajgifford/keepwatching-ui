@@ -6,9 +6,9 @@ interface MilestoneWithType extends Milestone {
 
 // Fallback thresholds in case import fails
 const FALLBACK_THRESHOLDS = {
-  episodes: [100, 500, 1000, 5000],
-  movies: [25, 50, 100, 500],
-  hours: [100, 500, 1000, 5000],
+  episodes: [10, 25, 50, 100, 250, 500, 750, 1000, 2000, 3000, 4000, 5000],
+  movies: [5, 10, 25, 50, 75, 100, 200, 300, 400, 500],
+  hours: [10, 25, 50, 100, 250, 500, 750, 1000, 2000, 3000, 4000, 5000],
 };
 
 // Use imported thresholds or fallback
