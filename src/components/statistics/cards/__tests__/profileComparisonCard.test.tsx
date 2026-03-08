@@ -1,7 +1,10 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 
+import { createDateFormatters } from '../../../../utils';
 import { ProfileComparisonCard } from '../profileComparisonCard';
 import { ProfileComparisonStats } from '@ajgifford/keepwatching-types';
+
+const defaultFormatters = createDateFormatters();
 
 describe('ProfileComparisonCard', () => {
   const mockStats: ProfileComparisonStats = {
@@ -72,40 +75,40 @@ describe('ProfileComparisonCard', () => {
   } as ProfileComparisonStats;
 
   it('should render with title', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     expect(screen.getByText('Profile Comparison (3 profiles)')).toBeInTheDocument();
   });
 
   it('should show loading state', () => {
-    render(<ProfileComparisonCard stats={mockStats} isLoading={true} />);
+    render(<ProfileComparisonCard stats={mockStats} isLoading={true} formatters={defaultFormatters} />);
 
     expect(screen.getByText('Profile Comparison')).toBeInTheDocument();
     expect(screen.getByText('Loading...')).toBeInTheDocument();
   });
 
   it('should display no data message when stats are null', () => {
-    render(<ProfileComparisonCard stats={null} />);
+    render(<ProfileComparisonCard stats={null} formatters={defaultFormatters} />);
 
     expect(screen.getByText('No comparison data available')).toBeInTheDocument();
   });
 
   it('should display total unique shows', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     expect(screen.getByText('125')).toBeInTheDocument();
     expect(screen.getByText('Unique Shows')).toBeInTheDocument();
   });
 
   it('should display total unique movies', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     expect(screen.getByText('87')).toBeInTheDocument();
     expect(screen.getByText('Unique Movies')).toBeInTheDocument();
   });
 
   it('should display most watched show', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     expect(screen.getByText('Most Watched Show')).toBeInTheDocument();
     expect(screen.getByText('Breaking Bad')).toBeInTheDocument();
@@ -114,14 +117,14 @@ describe('ProfileComparisonCard', () => {
   });
 
   it('should display most watched movie', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     expect(screen.getByText('Most Watched Movie')).toBeInTheDocument();
     expect(screen.getByText('Inception')).toBeInTheDocument();
   });
 
   it('should render all three tabs', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     expect(screen.getByText('Overview')).toBeInTheDocument();
     expect(screen.getByText('Watching Stats')).toBeInTheDocument();
@@ -129,42 +132,42 @@ describe('ProfileComparisonCard', () => {
   });
 
   it('should display profile names on overview tab', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     expect(screen.getByText('John')).toBeInTheDocument();
     expect(screen.getByText('Jane')).toBeInTheDocument();
   });
 
   it('should display episodes watched for each profile', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     expect(screen.getByText('1,500')).toBeInTheDocument();
     expect(screen.getByText('1,200')).toBeInTheDocument();
   });
 
   it('should display movies watched for each profile', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     expect(screen.getByText('75')).toBeInTheDocument();
     expect(screen.getByText('90')).toBeInTheDocument();
   });
 
   it('should display currently watching count', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     expect(screen.getByText('5 watching')).toBeInTheDocument();
     expect(screen.getByText('3 watching')).toBeInTheDocument();
   });
 
   it('should display completed shows count', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     expect(screen.getByText('25 completed')).toBeInTheDocument();
     expect(screen.getByText('20 completed')).toBeInTheDocument();
   });
 
   it('should switch to watching stats tab when clicked', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     const watchingStatsTab = screen.getByText('Watching Stats');
     fireEvent.click(watchingStatsTab);
@@ -176,7 +179,7 @@ describe('ProfileComparisonCard', () => {
   });
 
   it('should display show progress on watching stats tab', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     const watchingStatsTab = screen.getByText('Watching Stats');
     fireEvent.click(watchingStatsTab);
@@ -186,7 +189,7 @@ describe('ProfileComparisonCard', () => {
   });
 
   it('should display movie progress on watching stats tab', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     const watchingStatsTab = screen.getByText('Watching Stats');
     fireEvent.click(watchingStatsTab);
@@ -196,7 +199,7 @@ describe('ProfileComparisonCard', () => {
   });
 
   it('should display episodes per week on watching stats tab', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     const watchingStatsTab = screen.getByText('Watching Stats');
     fireEvent.click(watchingStatsTab);
@@ -206,7 +209,7 @@ describe('ProfileComparisonCard', () => {
   });
 
   it('should display most active day on watching stats tab', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     const watchingStatsTab = screen.getByText('Watching Stats');
     fireEvent.click(watchingStatsTab);
@@ -216,7 +219,7 @@ describe('ProfileComparisonCard', () => {
   });
 
   it('should switch to preferences tab when clicked', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     const preferencesTab = screen.getByText('Preferences');
     fireEvent.click(preferencesTab);
@@ -227,7 +230,7 @@ describe('ProfileComparisonCard', () => {
   });
 
   it('should display top genres on preferences tab', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     const preferencesTab = screen.getByText('Preferences');
     fireEvent.click(preferencesTab);
@@ -239,7 +242,7 @@ describe('ProfileComparisonCard', () => {
   });
 
   it('should display top services on preferences tab', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     const preferencesTab = screen.getByText('Preferences');
     fireEvent.click(preferencesTab);
@@ -261,7 +264,7 @@ describe('ProfileComparisonCard', () => {
       ],
     };
 
-    render(<ProfileComparisonCard stats={noGenresStats} />);
+    render(<ProfileComparisonCard stats={noGenresStats} formatters={defaultFormatters} />);
 
     const preferencesTab = screen.getByText('Preferences');
     fireEvent.click(preferencesTab);
@@ -280,7 +283,7 @@ describe('ProfileComparisonCard', () => {
       ],
     };
 
-    render(<ProfileComparisonCard stats={noServicesStats} />);
+    render(<ProfileComparisonCard stats={noServicesStats} formatters={defaultFormatters} />);
 
     const preferencesTab = screen.getByText('Preferences');
     fireEvent.click(preferencesTab);
@@ -289,7 +292,7 @@ describe('ProfileComparisonCard', () => {
   });
 
   it('should display last activity date', () => {
-    render(<ProfileComparisonCard stats={mockStats} />);
+    render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     // formatDate displays the date in locale format
     expect(screen.getByText(/Last activity: (Nov 15, 2024|11\/15\/2024)/)).toBeInTheDocument();
@@ -297,14 +300,14 @@ describe('ProfileComparisonCard', () => {
   });
 
   it('should render progress bars', () => {
-    const { container } = render(<ProfileComparisonCard stats={mockStats} />);
+    const { container } = render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     const progressBars = container.querySelectorAll('.MuiLinearProgress-root');
     expect(progressBars.length).toBeGreaterThan(0);
   });
 
   it('should render icons', () => {
-    const { container } = render(<ProfileComparisonCard stats={mockStats} />);
+    const { container } = render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     const icons = container.querySelectorAll('svg');
     expect(icons.length).toBeGreaterThan(0);
@@ -320,32 +323,34 @@ describe('ProfileComparisonCard', () => {
       },
     };
 
-    render(<ProfileComparisonCard stats={largeStats} />);
+    render(<ProfileComparisonCard stats={largeStats} formatters={defaultFormatters} />);
 
     expect(screen.getByText('5,000')).toBeInTheDocument();
     expect(screen.getByText('3,000')).toBeInTheDocument();
   });
 
   it('should match snapshot with full data', () => {
-    const { container } = render(<ProfileComparisonCard stats={mockStats} />);
+    const { container } = render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     expect(container).toMatchSnapshot();
   });
 
   it('should match snapshot in loading state', () => {
-    const { container } = render(<ProfileComparisonCard stats={mockStats} isLoading={true} />);
+    const { container } = render(
+      <ProfileComparisonCard stats={mockStats} isLoading={true} formatters={defaultFormatters} />
+    );
 
     expect(container).toMatchSnapshot();
   });
 
   it('should match snapshot with null data', () => {
-    const { container } = render(<ProfileComparisonCard stats={null} />);
+    const { container } = render(<ProfileComparisonCard stats={null} formatters={defaultFormatters} />);
 
     expect(container).toMatchSnapshot();
   });
 
   it('should match snapshot with watching stats tab', () => {
-    const { container } = render(<ProfileComparisonCard stats={mockStats} />);
+    const { container } = render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     const watchingStatsTab = screen.getByText('Watching Stats');
     fireEvent.click(watchingStatsTab);
@@ -354,7 +359,7 @@ describe('ProfileComparisonCard', () => {
   });
 
   it('should match snapshot with preferences tab', () => {
-    const { container } = render(<ProfileComparisonCard stats={mockStats} />);
+    const { container } = render(<ProfileComparisonCard stats={mockStats} formatters={defaultFormatters} />);
 
     const preferencesTab = screen.getByText('Preferences');
     fireEvent.click(preferencesTab);
@@ -371,7 +376,7 @@ describe('ProfileComparisonCard', () => {
       },
     };
 
-    const { container } = render(<ProfileComparisonCard stats={noMostWatchedStats} />);
+    const { container } = render(<ProfileComparisonCard stats={noMostWatchedStats} formatters={defaultFormatters} />);
 
     expect(container).toMatchSnapshot();
   });
@@ -385,7 +390,9 @@ describe('ProfileComparisonCard', () => {
       },
     };
 
-    const { container } = render(<ProfileComparisonCard stats={noMostWatchedMovieStats} />);
+    const { container } = render(
+      <ProfileComparisonCard stats={noMostWatchedMovieStats} formatters={defaultFormatters} />
+    );
 
     expect(container).toMatchSnapshot();
   });

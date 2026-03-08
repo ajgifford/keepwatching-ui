@@ -1,4 +1,5 @@
 import {
+  createDateFormatters,
   formatBytes,
   formatCurrency,
   formatDate,
@@ -211,5 +212,224 @@ describe('getGenderColor', () => {
     expect(getGenderColor(0)).toBe('default');
     expect(getGenderColor(99)).toBe('default');
     expect(getGenderColor(-1)).toBe('default');
+  });
+});
+
+describe('createDateFormatters', () => {
+  const ISO_DATE = '2024-03-15';
+  const DATE_OBJ = new Date(2024, 2, 15); // March 15, 2024
+
+  describe('contentDate', () => {
+    it('should format with MM/DD/YYYY locale (en-US)', () => {
+      const f = createDateFormatters({ dateFormat: 'MM/DD/YYYY' });
+      expect(f.contentDate(ISO_DATE)).toBe('03/15/2024');
+    });
+
+    it('should format with DD/MM/YYYY locale (en-GB)', () => {
+      const f = createDateFormatters({ dateFormat: 'DD/MM/YYYY' });
+      expect(f.contentDate(ISO_DATE)).toBe('15/03/2024');
+    });
+
+    it('should format with YYYY-MM-DD locale (en-CA)', () => {
+      const f = createDateFormatters({ dateFormat: 'YYYY-MM-DD' });
+      expect(f.contentDate(ISO_DATE)).toBe('2024-03-15');
+    });
+
+    it('should accept a Date object', () => {
+      const f = createDateFormatters({ dateFormat: 'MM/DD/YYYY' });
+      expect(f.contentDate(DATE_OBJ)).toBe('03/15/2024');
+    });
+
+    it('should return "Unknown" for null', () => {
+      const f = createDateFormatters({});
+      expect(f.contentDate(null)).toBe('Unknown');
+    });
+
+    it('should return "Unknown" for undefined', () => {
+      const f = createDateFormatters({});
+      expect(f.contentDate(undefined)).toBe('Unknown');
+    });
+  });
+
+  describe('activityDate', () => {
+    it('should produce the same output as contentDate', () => {
+      const f = createDateFormatters({ dateFormat: 'DD/MM/YYYY' });
+      expect(f.activityDate(ISO_DATE)).toBe(f.contentDate(ISO_DATE));
+    });
+  });
+
+  describe('milestoneDate', () => {
+    it('should include the full month name for MM/DD/YYYY', () => {
+      const f = createDateFormatters({ dateFormat: 'MM/DD/YYYY' });
+      const result = f.milestoneDate(ISO_DATE);
+      expect(result).toContain('March');
+      expect(result).toContain('15');
+      expect(result).toContain('2024');
+    });
+
+    it('should include the full month name for DD/MM/YYYY', () => {
+      const f = createDateFormatters({ dateFormat: 'DD/MM/YYYY' });
+      const result = f.milestoneDate(ISO_DATE);
+      expect(result).toContain('March');
+      expect(result).toContain('2024');
+    });
+
+    it('should return "Unknown" for null', () => {
+      const f = createDateFormatters({});
+      expect(f.milestoneDate(null)).toBe('Unknown');
+    });
+  });
+
+  describe('relativeDate', () => {
+    it('should return "Today" for today with relative-recent', () => {
+      const f = createDateFormatters({ relativeDate: 'relative-recent' });
+      expect(f.relativeDate(new Date())).toBe('Today');
+    });
+
+    it('should return "Today" for today with always-relative', () => {
+      const f = createDateFormatters({ relativeDate: 'always-relative' });
+      expect(f.relativeDate(new Date())).toBe('Today');
+    });
+
+    it('should return formatted date for old date with always-absolute', () => {
+      const f = createDateFormatters({ dateFormat: 'MM/DD/YYYY', relativeDate: 'always-absolute' });
+      expect(f.relativeDate(ISO_DATE)).toBe('03/15/2024');
+    });
+
+    it('should return formatted date for 30-day-old date with relative-recent', () => {
+      const f = createDateFormatters({ dateFormat: 'MM/DD/YYYY', relativeDate: 'relative-recent' });
+      const old = new Date();
+      old.setDate(old.getDate() - 30);
+      const result = f.relativeDate(old);
+      // Beyond 7-day threshold → absolute date
+      expect(result).not.toContain('ago');
+    });
+
+    it('should return relative string for 30-day-old date with always-relative', () => {
+      const f = createDateFormatters({ relativeDate: 'always-relative' });
+      const old = new Date();
+      old.setDate(old.getDate() - 30);
+      expect(f.relativeDate(old)).toContain('days ago');
+    });
+
+    it('should return "Unknown" for null', () => {
+      const f = createDateFormatters({});
+      expect(f.relativeDate(null)).toBe('Unknown');
+    });
+  });
+
+  describe('notificationTimestamp', () => {
+    it('should return minutes-ago for a very recent date', () => {
+      const f = createDateFormatters({ relativeDate: 'relative-recent' });
+      const recent = new Date(Date.now() - 5 * 60 * 1000); // 5 minutes ago
+      expect(f.notificationTimestamp(recent)).toBe('5m ago');
+    });
+
+    it('should return hours-ago for a date a few hours old', () => {
+      const f = createDateFormatters({ relativeDate: 'relative-recent' });
+      const hoursAgo = new Date(Date.now() - 3 * 60 * 60 * 1000);
+      expect(f.notificationTimestamp(hoursAgo)).toBe('3h ago');
+    });
+
+    it('should return days-ago for a date within the threshold', () => {
+      const f = createDateFormatters({ relativeDate: 'relative-recent' });
+      const daysAgo = new Date(Date.now() - 3 * 24 * 60 * 60 * 1000);
+      expect(f.notificationTimestamp(daysAgo)).toBe('3d ago');
+    });
+
+    it('should fall back to absolute date beyond 7 days with relative-recent', () => {
+      const f = createDateFormatters({ dateFormat: 'MM/DD/YYYY', relativeDate: 'relative-recent' });
+      const old = new Date(Date.now() - 10 * 24 * 60 * 60 * 1000);
+      const result = f.notificationTimestamp(old);
+      expect(result).not.toContain('ago');
+    });
+
+    it('should always show relative with always-relative', () => {
+      const f = createDateFormatters({ relativeDate: 'always-relative' });
+      const old = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000);
+      expect(f.notificationTimestamp(old)).toContain('d ago');
+    });
+
+    it('should always show absolute with always-absolute', () => {
+      const f = createDateFormatters({ dateFormat: 'MM/DD/YYYY', relativeDate: 'always-absolute' });
+      const recent = new Date(Date.now() - 5 * 60 * 1000);
+      const result = f.notificationTimestamp(recent);
+      expect(result).not.toContain('m ago');
+    });
+
+    it('should return "Unknown" for null', () => {
+      const f = createDateFormatters({});
+      expect(f.notificationTimestamp(null)).toBe('Unknown');
+    });
+  });
+
+  describe('dateTime', () => {
+    it('should include AM/PM with 12h format', () => {
+      const f = createDateFormatters({ dateFormat: 'MM/DD/YYYY', timeFormat: '12h' });
+      const result = f.dateTime(new Date(2024, 2, 15, 14, 30));
+      expect(result).toMatch(/AM|PM/);
+    });
+
+    it('should not include AM/PM with 24h format', () => {
+      const f = createDateFormatters({ dateFormat: 'MM/DD/YYYY', timeFormat: '24h' });
+      const result = f.dateTime(new Date(2024, 2, 15, 14, 30));
+      expect(result).not.toMatch(/AM|PM/);
+    });
+
+    it('should return "Unknown" for null', () => {
+      const f = createDateFormatters({});
+      expect(f.dateTime(null)).toBe('Unknown');
+    });
+  });
+
+  describe('chartAxisShort', () => {
+    it('should produce a compact month+day label', () => {
+      const f = createDateFormatters({ dateFormat: 'DD/MM/YYYY' });
+      expect(f.chartAxisShort(ISO_DATE)).toBe('Mar 15');
+    });
+
+    it('should return empty string for null', () => {
+      const f = createDateFormatters({});
+      expect(f.chartAxisShort(null)).toBe('');
+    });
+  });
+
+  describe('chartAxisMonth', () => {
+    it('should produce a compact month+year label', () => {
+      const f = createDateFormatters({ dateFormat: 'DD/MM/YYYY' });
+      expect(f.chartAxisMonth(ISO_DATE)).toBe('Mar 2024');
+    });
+
+    it('should return empty string for null', () => {
+      const f = createDateFormatters({});
+      expect(f.chartAxisMonth(null)).toBe('');
+    });
+  });
+
+  describe('yearOnly', () => {
+    it('should return only the four-digit year', () => {
+      const f = createDateFormatters({});
+      expect(f.yearOnly(ISO_DATE)).toBe('2024');
+      expect(f.yearOnly(DATE_OBJ)).toBe('2024');
+    });
+
+    it('should return "Unknown" for null', () => {
+      const f = createDateFormatters({});
+      expect(f.yearOnly(null)).toBe('Unknown');
+    });
+  });
+
+  describe('defaults', () => {
+    it('should work with an empty preferences object', () => {
+      const f = createDateFormatters({});
+      expect(f.contentDate(ISO_DATE)).toBeTruthy();
+      expect(f.relativeDate(new Date())).toBe('Today');
+      expect(f.yearOnly(ISO_DATE)).toBe('2024');
+    });
+
+    it('should work with no argument at all', () => {
+      const f = createDateFormatters();
+      expect(f.contentDate(ISO_DATE)).toBeTruthy();
+    });
   });
 });

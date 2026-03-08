@@ -124,7 +124,7 @@ describe('SingleAccountHealthCard', () => {
     render(<SingleAccountHealthCard stats={mockStats} />);
 
     expect(screen.getByText('Account Created')).toBeInTheDocument();
-    expect(screen.getByText('1/15/2023')).toBeInTheDocument();
+    expect(screen.getByText('January 15, 2023')).toBeInTheDocument();
   });
 
   it('should display last activity date', () => {

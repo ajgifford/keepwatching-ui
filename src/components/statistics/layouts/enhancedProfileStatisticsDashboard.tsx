@@ -31,13 +31,15 @@ import {
 } from '../cards';
 import { getProfileSummaryProps } from '../utils';
 import { BaseStatisticsDashboard } from './baseStatisticsDashboard';
-import { ProfileEnhancedStatistics, ProfileStatisticsResponse, WatchStatus } from '@ajgifford/keepwatching-types';
+import { DisplayPreferences, ProfileEnhancedStatistics, ProfileStatisticsResponse, WatchStatus } from '@ajgifford/keepwatching-types';
+import { createDateFormatters } from '../../../utils';
 
 export interface EnhancedProfileStatisticsDashboardProps {
   statistics?: ProfileStatisticsResponse | null;
   isLoading?: boolean;
   enhancedStatistics?: ProfileEnhancedStatistics;
   isLoadingEnhancedStats?: boolean;
+  dateFormatPreferences?: DisplayPreferences;
 }
 
 // Define section categories
@@ -54,7 +56,9 @@ export function EnhancedProfileStatisticsDashboard({
   isLoading = false,
   enhancedStatistics,
   isLoadingEnhancedStats = false,
+  dateFormatPreferences,
 }: EnhancedProfileStatisticsDashboardProps) {
+  const formatters = useMemo(() => createDateFormatters(dateFormatPreferences), [dateFormatPreferences]);
   // Destructure enhanced statistics for easy access
   const {
     velocity: velocityData,
@@ -135,7 +139,7 @@ export function EnhancedProfileStatisticsDashboard({
             <AccordionDetails>
               <Grid container spacing={2}>
                 <Grid size={{ xs: 12 }}>
-                  <MilestonesAndAnniversaryCard stats={milestoneData ?? null} isLoading={isLoadingEnhancedStats} />
+                  <MilestonesAndAnniversaryCard stats={milestoneData ?? null} isLoading={isLoadingEnhancedStats} formatters={formatters} />
                 </Grid>
               </Grid>
             </AccordionDetails>
@@ -169,7 +173,7 @@ export function EnhancedProfileStatisticsDashboard({
                   <WatchVelocityCard velocityData={velocityData ?? null} isLoading={isLoadingEnhancedStats} />
                 </Grid>
                 <Grid size={{ xs: 12 }}>
-                  <ActivityTimelineChart timeline={timelineData ?? null} isLoading={isLoadingEnhancedStats} />
+                  <ActivityTimelineChart timeline={timelineData ?? null} isLoading={isLoadingEnhancedStats} formatters={formatters} />
                 </Grid>
               </Grid>
             </AccordionDetails>
@@ -190,10 +194,10 @@ export function EnhancedProfileStatisticsDashboard({
             <AccordionDetails>
               <Grid container spacing={2}>
                 <Grid size={{ xs: 12, lg: 6 }}>
-                  <BingeWatchingCard bingeData={bingeData ?? null} isLoading={isLoadingEnhancedStats} />
+                  <BingeWatchingCard bingeData={bingeData ?? null} isLoading={isLoadingEnhancedStats} formatters={formatters} />
                 </Grid>
                 <Grid size={{ xs: 12, lg: 6 }}>
-                  <WatchStreakCard streakData={streakData ?? null} isLoading={isLoadingEnhancedStats} />
+                  <WatchStreakCard streakData={streakData ?? null} isLoading={isLoadingEnhancedStats} formatters={formatters} />
                 </Grid>
                 <Grid size={{ xs: 12, lg: 6 }}>
                   {isLoadingEnhancedStats ? (
@@ -308,6 +312,7 @@ export function EnhancedProfileStatisticsDashboard({
     abandonmentRiskData,
     unairedContentData,
     isLoadingEnhancedStats,
+    formatters,
   ]);
 
   if (isLoading) {

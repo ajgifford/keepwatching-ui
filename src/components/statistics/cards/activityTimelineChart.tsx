@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Box, Card, CardContent, Tab, Tabs, Typography, useTheme } from '@mui/material';
 
 import { WatchingActivityTimeline } from '@ajgifford/keepwatching-types';
+import { DateFormatters, createDateFormatters } from '../../../utils';
 import {
   Area,
   AreaChart,
@@ -20,11 +21,13 @@ import {
 interface ActivityTimelineChartProps {
   timeline?: WatchingActivityTimeline | null;
   isLoading?: boolean;
+  formatters?: DateFormatters;
 }
 
-export function ActivityTimelineChart({ timeline, isLoading = false }: ActivityTimelineChartProps) {
+export function ActivityTimelineChart({ timeline, isLoading = false, formatters: propFormatters }: ActivityTimelineChartProps) {
   const theme = useTheme();
   const [activeTab, setActiveTab] = useState(0);
+  const formatters = propFormatters ?? createDateFormatters();
 
   const dailyChartData = useMemo(() => {
     if (!timeline?.dailyActivity) return [];
@@ -32,11 +35,11 @@ export function ActivityTimelineChart({ timeline, isLoading = false }: ActivityT
     return [...timeline.dailyActivity]
       .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
       .map((day) => ({
-        date: new Date(day.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
+        date: formatters.chartAxisShort(day.date),
         episodes: day.episodesWatched,
         shows: day.showsWatched,
       }));
-  }, [timeline?.dailyActivity]);
+  }, [timeline?.dailyActivity, formatters]);
 
   const weeklyChartData = useMemo(() => {
     if (!timeline?.weeklyActivity) return [];
@@ -44,10 +47,10 @@ export function ActivityTimelineChart({ timeline, isLoading = false }: ActivityT
     return [...timeline.weeklyActivity]
       .sort((a, b) => new Date(a.weekStart).getTime() - new Date(b.weekStart).getTime())
       .map((week) => ({
-        week: new Date(week.weekStart).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
+        week: formatters.chartAxisShort(week.weekStart),
         episodes: week.episodesWatched,
       }));
-  }, [timeline?.weeklyActivity]);
+  }, [timeline?.weeklyActivity, formatters]);
 
   const monthlyChartData = useMemo(() => {
     if (!timeline?.monthlyActivity) return [];
@@ -62,12 +65,12 @@ export function ActivityTimelineChart({ timeline, isLoading = false }: ActivityT
         const [year, monthNum] = month.month.split('-');
         const date = new Date(parseInt(year), parseInt(monthNum) - 1);
         return {
-          month: date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' }),
+          month: formatters.chartAxisMonth(date),
           episodes: month.episodesWatched,
           movies: month.moviesWatched,
         };
       });
-  }, [timeline?.monthlyActivity]);
+  }, [timeline?.monthlyActivity, formatters]);
 
   const handleTabChange = (_event: React.SyntheticEvent, newValue: number) => {
     setActiveTab(newValue);

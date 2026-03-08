@@ -13,15 +13,17 @@ import {
   useTheme,
 } from '@mui/material';
 
-import { formatDate } from '../../../utils';
+import { DateFormatters, createDateFormatters } from '../../../utils';
 import { BingeWatchingStats } from '@ajgifford/keepwatching-types';
 
 interface BingeWatchingCardProps {
   bingeData?: BingeWatchingStats | null;
   isLoading?: boolean;
+  formatters?: DateFormatters;
 }
 
-export function BingeWatchingCard({ bingeData, isLoading = false }: BingeWatchingCardProps) {
+export function BingeWatchingCard({ bingeData, isLoading = false, formatters: propFormatters }: BingeWatchingCardProps) {
+  const formatters = propFormatters ?? createDateFormatters();
   const theme = useTheme();
 
   if (isLoading) {
@@ -108,7 +110,7 @@ export function BingeWatchingCard({ bingeData, isLoading = false }: BingeWatchin
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
                     {bingeData.longestBingeSession.episodeCount} episodes on{' '}
-                    {formatDate(bingeData.longestBingeSession.date)}
+                    {formatters.activityDate(bingeData.longestBingeSession.date)}
                   </Typography>
                 </Box>
               </Grid>

@@ -20,16 +20,18 @@ import {
   Typography,
 } from '@mui/material';
 
-import { formatDate } from '../../../utils';
+import { DateFormatters, createDateFormatters } from '../../../utils';
 import { AccountRankingStats } from '@ajgifford/keepwatching-types';
 
 interface AccountRankingCardProps {
   stats: AccountRankingStats;
   onMetricChange?: (metric: 'episodesWatched' | 'moviesWatched' | 'hoursWatched' | 'engagement') => void;
   isLoading?: boolean;
+  formatters?: DateFormatters;
 }
 
-export function AccountRankingCard({ stats, onMetricChange, isLoading = false }: AccountRankingCardProps) {
+export function AccountRankingCard({ stats, onMetricChange, isLoading = false, formatters: propFormatters }: AccountRankingCardProps) {
+  const formatters = propFormatters ?? createDateFormatters();
   const [metric, setMetric] = useState<'episodesWatched' | 'moviesWatched' | 'hoursWatched' | 'engagement'>(
     stats.rankingMetric
   );
@@ -241,7 +243,7 @@ export function AccountRankingCard({ stats, onMetricChange, isLoading = false }:
                       </Box>
                       {account.lastActivityDate && (
                         <Typography component="span" variant="caption" color="text.secondary">
-                          Last active: {formatDate(account.lastActivityDate)}
+                          Last active: {formatters.activityDate(account.lastActivityDate)}
                         </Typography>
                       )}
                     </>

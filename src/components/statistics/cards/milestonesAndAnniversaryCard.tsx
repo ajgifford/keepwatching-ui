@@ -22,12 +22,13 @@ import {
   useTheme,
 } from '@mui/material';
 
-import { formatDate } from '../../../utils';
+import { DateFormatters, createDateFormatters } from '../../../utils';
 import { MILESTONE_THRESHOLDS, Milestone, MilestoneStats } from '@ajgifford/keepwatching-types';
 
 interface MilestonesAndAnniversaryCardProps {
   stats: MilestoneStats | null;
   isLoading?: boolean;
+  formatters?: DateFormatters;
 }
 
 // Fallback thresholds in case import fails
@@ -150,8 +151,9 @@ function MilestoneProgressBar({ milestone }: { milestone: Milestone }) {
   );
 }
 
-export function MilestonesAndAnniversaryCard({ stats, isLoading = false }: MilestonesAndAnniversaryCardProps) {
+export function MilestonesAndAnniversaryCard({ stats, isLoading = false, formatters: propFormatters }: MilestonesAndAnniversaryCardProps) {
   const theme = useTheme();
+  const formatters = propFormatters ?? createDateFormatters();
 
   const milestoneData = useMemo(() => {
     if (!stats) return null;
@@ -389,7 +391,7 @@ export function MilestonesAndAnniversaryCard({ stats, isLoading = false }: Miles
                               {achievement.description}
                             </Typography>
                             <Typography variant="caption" color="text.secondary">
-                              {formatDate(achievement.achievedDate)}
+                              {formatters.milestoneDate(achievement.achievedDate)}
                             </Typography>
                           </Box>
                         </Box>
@@ -421,11 +423,7 @@ export function MilestonesAndAnniversaryCard({ stats, isLoading = false }: Miles
                     </Typography>
                   </Box>
                   <Typography variant="h6" color="primary" gutterBottom>
-                    {memberSince.date.toLocaleDateString('en-US', {
-                      month: 'long',
-                      day: 'numeric',
-                      year: 'numeric',
-                    })}
+                    {formatters.milestoneDate(memberSince.date)}
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
                     {memberSince.formatted} ago
@@ -456,11 +454,7 @@ export function MilestonesAndAnniversaryCard({ stats, isLoading = false }: Miles
                   </Typography>
                   {buildProfileNameLine(stats.firstEpisodeMetadata)}
                   <Typography variant="caption" color="text.secondary">
-                    {new Date(stats.firstEpisodeWatchedAt).toLocaleDateString('en-US', {
-                      month: 'short',
-                      day: 'numeric',
-                      year: 'numeric',
-                    })}{' '}
+                    {formatters.milestoneDate(stats.firstEpisodeWatchedAt)}{' '}
                     • {formatDuration(calculateDaysAgo(new Date(stats.firstEpisodeWatchedAt)))} ago
                   </Typography>
                 </Box>
@@ -487,11 +481,7 @@ export function MilestonesAndAnniversaryCard({ stats, isLoading = false }: Miles
                   </Typography>
                   {buildProfileNameLine(stats.firstEpisodeMetadata)}
                   <Typography variant="caption" color="text.secondary">
-                    {new Date(stats.firstMovieWatchedAt).toLocaleDateString('en-US', {
-                      month: 'short',
-                      day: 'numeric',
-                      year: 'numeric',
-                    })}{' '}
+                    {formatters.milestoneDate(stats.firstMovieWatchedAt)}{' '}
                     • {formatDuration(calculateDaysAgo(new Date(stats.firstMovieWatchedAt)))} ago
                   </Typography>
                 </Box>

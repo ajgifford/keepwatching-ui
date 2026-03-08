@@ -61,7 +61,7 @@ describe('WatchStreakCard', () => {
     render(<WatchStreakCard streakData={mockStreakData} />);
 
     expect(screen.getByText('Longest Streak Period')).toBeInTheDocument();
-    expect(screen.getByText(/6\/1\/2023/)).toBeInTheDocument();
+    expect(screen.getByText(/06\/01\/2023/)).toBeInTheDocument();
     expect(screen.getByText(/6\/30\/2023/)).toBeInTheDocument();
   });
 

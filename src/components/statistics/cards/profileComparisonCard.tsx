@@ -22,15 +22,16 @@ import {
   Typography,
 } from '@mui/material';
 
-import { formatDate } from '../../../utils';
+import { DateFormatters } from '../../../utils';
 import { ProfileComparisonStats } from '@ajgifford/keepwatching-types';
 
 interface ProfileComparisonCardProps {
   stats: ProfileComparisonStats | null;
   isLoading?: boolean;
+  formatters: DateFormatters;
 }
 
-export function ProfileComparisonCard({ stats, isLoading = false }: ProfileComparisonCardProps) {
+export function ProfileComparisonCard({ stats, isLoading = false, formatters }: ProfileComparisonCardProps) {
   const [activeTab, setActiveTab] = useState(0);
 
   if (isLoading) {
@@ -234,7 +235,7 @@ export function ProfileComparisonCard({ stats, isLoading = false }: ProfileCompa
 
                 {profile.lastActivityDate && (
                   <Typography variant="caption" color="text.secondary" sx={{ mt: 1 }}>
-                    Last activity: {formatDate(profile.lastActivityDate)}
+                    Last activity: {formatters.activityDate(profile.lastActivityDate)}
                   </Typography>
                 )}
               </ListItem>

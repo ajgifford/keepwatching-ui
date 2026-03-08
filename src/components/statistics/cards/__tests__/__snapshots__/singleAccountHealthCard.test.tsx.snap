@@ -222,7 +222,7 @@ exports[`SingleAccountHealthCard should match snapshot with full data 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
             >
-              1/15/2023
+              January 15, 2023
             </p>
           </div>
         </div>
@@ -500,7 +500,7 @@ exports[`SingleAccountHealthCard should match snapshot with high risk 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
             >
-              1/15/2023
+              January 15, 2023
             </p>
           </div>
         </div>
@@ -778,7 +778,7 @@ exports[`SingleAccountHealthCard should match snapshot with low risk 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
             >
-              1/15/2023
+              January 15, 2023
             </p>
           </div>
         </div>
@@ -1056,7 +1056,7 @@ exports[`SingleAccountHealthCard should match snapshot with medium risk 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
             >
-              1/15/2023
+              January 15, 2023
             </p>
           </div>
         </div>
@@ -1334,7 +1334,7 @@ exports[`SingleAccountHealthCard should match snapshot with no activity 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body2 css-1n8v0zg-MuiTypography-root"
             >
-              1/15/2023
+              January 15, 2023
             </p>
           </div>
         </div>

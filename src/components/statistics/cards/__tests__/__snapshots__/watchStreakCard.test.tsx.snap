@@ -109,7 +109,7 @@ exports[`WatchStreakCard should match snapshot with active streak 1`] = `
               class="MuiTypography-root MuiTypography-caption css-18yjrcp-MuiTypography-root"
             >
               Since 
-              1/1/2024
+              01/01/2024
             </span>
           </div>
         </div>
@@ -167,10 +167,10 @@ exports[`WatchStreakCard should match snapshot with active streak 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body2 css-1yrr6qh-MuiTypography-root"
             >
-              6/1/2023
+              06/01/2023
                -
                
-              6/30/2023
+              06/30/2023
             </p>
             <span
               class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
@@ -307,10 +307,10 @@ exports[`WatchStreakCard should match snapshot with no current streak 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body2 css-1yrr6qh-MuiTypography-root"
             >
-              6/1/2023
+              06/01/2023
                -
                
-              6/30/2023
+              06/30/2023
             </p>
             <span
               class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"

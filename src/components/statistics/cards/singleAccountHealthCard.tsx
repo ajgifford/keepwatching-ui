@@ -1,12 +1,13 @@
 import { CheckCircle as CheckCircleIcon, Error as ErrorIcon, Warning as WarningIcon } from '@mui/icons-material';
 import { Box, Card, CardContent, Chip, Grid, LinearProgress, Typography } from '@mui/material';
 
-import { formatDate } from '../../../utils';
+import { DateFormatters, createDateFormatters } from '../../../utils';
 import { AccountHealthMetrics } from '@ajgifford/keepwatching-types';
 
 interface SingleAccountHealthCardProps {
   stats: AccountHealthMetrics;
   isLoading?: boolean;
+  formatters?: DateFormatters;
 }
 
 function RiskLevelBadge({ riskLevel }: { riskLevel: 'low' | 'medium' | 'high' }) {
@@ -26,7 +27,8 @@ function RiskLevelBadge({ riskLevel }: { riskLevel: 'low' | 'medium' | 'high' })
   );
 }
 
-export function SingleAccountHealthCard({ stats, isLoading = false }: SingleAccountHealthCardProps) {
+export function SingleAccountHealthCard({ stats, isLoading = false, formatters: propFormatters }: SingleAccountHealthCardProps) {
+  const formatters = propFormatters ?? createDateFormatters();
   if (isLoading) {
     return (
       <Card>
@@ -42,10 +44,8 @@ export function SingleAccountHealthCard({ stats, isLoading = false }: SingleAcco
     );
   }
 
-  const createdDate = new Date(stats.accountCreatedAt);
-  const lastActivityDate = stats.lastActivityDate ? new Date(stats.lastActivityDate) : null;
   const activityPercentage = stats.daysSinceLastActivity <= 30 ? 100 : Math.max(0, 100 - stats.daysSinceLastActivity);
-  const lastActivityDisplay = lastActivityDate ? formatDate(lastActivityDate) : 'Never';
+  const lastActivityDisplay = stats.lastActivityDate ? formatters.activityDate(stats.lastActivityDate) : 'Never';
 
   return (
     <Card>
@@ -148,7 +148,7 @@ export function SingleAccountHealthCard({ stats, isLoading = false }: SingleAcco
                 Account Created
               </Typography>
               <Typography variant="body2" fontWeight="medium">
-                {createdDate.toLocaleDateString()}
+                {formatters.milestoneDate(stats.accountCreatedAt)}
               </Typography>
             </Box>
           </Grid>

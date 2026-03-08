@@ -2,15 +2,17 @@ import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import WhatshotIcon from '@mui/icons-material/Whatshot';
 import { Box, Card, CardContent, Chip, Divider, Grid, Typography, useTheme } from '@mui/material';
 
-import { formatDate } from '../../../utils';
+import { DateFormatters, createDateFormatters } from '../../../utils';
 import { WatchStreakStats } from '@ajgifford/keepwatching-types';
 
 interface WatchStreakCardProps {
   streakData?: WatchStreakStats | null;
   isLoading?: boolean;
+  formatters?: DateFormatters;
 }
 
-export function WatchStreakCard({ streakData, isLoading = false }: WatchStreakCardProps) {
+export function WatchStreakCard({ streakData, isLoading = false, formatters: propFormatters }: WatchStreakCardProps) {
+  const formatters = propFormatters ?? createDateFormatters();
   const theme = useTheme();
 
   if (isLoading) {
@@ -80,7 +82,7 @@ export function WatchStreakCard({ streakData, isLoading = false }: WatchStreakCa
               </Typography>
               {hasCurrentStreak && streakData.currentStreakStartDate && (
                 <Typography variant="caption" sx={{ display: 'block', mt: 0.5, opacity: 0.9 }}>
-                  Since {formatDate(streakData.currentStreakStartDate)}
+                  Since {formatters.activityDate(streakData.currentStreakStartDate)}
                 </Typography>
               )}
             </Box>
@@ -112,8 +114,8 @@ export function WatchStreakCard({ streakData, isLoading = false }: WatchStreakCa
                 Longest Streak Period
               </Typography>
               <Typography variant="body2" color="text.primary">
-                {formatDate(streakData.longestStreakPeriod.startDate)} -{' '}
-                {formatDate(streakData.longestStreakPeriod.endDate)}
+                {formatters.activityDate(streakData.longestStreakPeriod.startDate)} -{' '}
+                {formatters.activityDate(streakData.longestStreakPeriod.endDate)}
               </Typography>
               <Typography variant="caption" color="text.secondary">
                 ({streakData.longestStreakPeriod.days} consecutive days)

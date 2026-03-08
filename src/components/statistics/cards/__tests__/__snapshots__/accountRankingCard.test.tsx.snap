@@ -271,7 +271,7 @@ exports[`AccountRankingCard should match snapshot with full data 1`] = `
                 class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
               >
                 Last active: 
-                1/15/2024
+                01/15/2024
               </span>
             </p>
           </div>
@@ -352,7 +352,7 @@ exports[`AccountRankingCard should match snapshot with full data 1`] = `
                 class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
               >
                 Last active: 
-                1/10/2024
+                01/10/2024
               </span>
             </p>
           </div>
@@ -433,7 +433,7 @@ exports[`AccountRankingCard should match snapshot with full data 1`] = `
                 class="MuiTypography-root MuiTypography-caption css-1374baf-MuiTypography-root"
               >
                 Last active: 
-                1/5/2024
+                01/05/2024
               </span>
             </p>
           </div>

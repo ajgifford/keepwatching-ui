@@ -97,9 +97,9 @@ describe('AccountRankingCard', () => {
   it('should display last activity dates', () => {
     render(<AccountRankingCard stats={mockStats} />);
 
-    expect(screen.getByText(/Last active: 1\/15\/2024/)).toBeInTheDocument();
-    expect(screen.getByText(/Last active: 1\/10\/2024/)).toBeInTheDocument();
-    expect(screen.getByText(/Last active: 1\/5\/2024/)).toBeInTheDocument();
+    expect(screen.getByText(/Last active: 01\/15\/2024/)).toBeInTheDocument();
+    expect(screen.getByText(/Last active: 01\/10\/2024/)).toBeInTheDocument();
+    expect(screen.getByText(/Last active: 01\/05\/2024/)).toBeInTheDocument();
   });
 
   it('should display ranking numbers', () => {
