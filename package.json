@@ -42,7 +42,7 @@
   "author": "Andy Gifford <ajgifford@users.noreply.github.com>",
   "license": "ISC",
   "peerDependencies": {
-    "@ajgifford/keepwatching-types": "^0.7.11",
+    "@ajgifford/keepwatching-types": "^0.8.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.6",
@@ -53,7 +53,7 @@
     "recharts": "^3.6.0"
   },
   "devDependencies": {
-    "@ajgifford/keepwatching-types": "^0.7.16",
+    "@ajgifford/keepwatching-types": "^0.8.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.6",
