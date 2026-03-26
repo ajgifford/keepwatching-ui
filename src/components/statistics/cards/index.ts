@@ -14,6 +14,7 @@ export * from './milestonesAndAnniversaryCard';
 export * from './platformOverviewCard';
 export * from './platformTrendsCard';
 export * from './profileComparisonCard';
+export * from './rewatchStatsCard';
 export * from './seasonalViewingCard';
 export * from './showProgressCard';
 export * from './singleAccountHealthCard';

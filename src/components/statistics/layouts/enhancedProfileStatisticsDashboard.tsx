@@ -22,6 +22,7 @@ import {
   ContentDepthCard,
   ContentDiscoveryCard,
   MilestonesAndAnniversaryCard,
+  RewatchStatsCard,
   SeasonalViewingCard,
   ShowProgressCard,
   TimeToWatchCard,
@@ -47,6 +48,7 @@ const SECTION_CATEGORIES = [
   { id: 'milestones', label: 'Milestones & Achievements', icon: '🏆' },
   { id: 'progress', label: 'Progress & Activity', icon: '📊' },
   { id: 'patterns', label: 'Viewing Patterns', icon: '📺' },
+  { id: 'rewatches', label: 'Rewatches', icon: '🔁' },
   { id: 'insights', label: 'Content Insights', icon: '💡' },
   { id: 'management', label: 'Content Management', icon: '📋' },
 ] as const;
@@ -72,6 +74,7 @@ export function EnhancedProfileStatisticsDashboard({
     contentDiscovery: contentDiscoveryData,
     abandonmentRisk: abandonmentRiskData,
     unairedContent: unairedContentData,
+    rewatchStats: rewatchData,
   } = enhancedStatistics || {};
 
   // Refs for scrolling to sections
@@ -213,6 +216,27 @@ export function EnhancedProfileStatisticsDashboard({
           </Accordion>
         </Grid>
 
+        {/* Rewatches Section */}
+        <Grid size={12}>
+          <Accordion
+            ref={(el) => {
+              sectionRefs.current['rewatches'] = el;
+            }}
+            sx={{ mb: 2 }}
+          >
+            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+              <Typography variant="h6">🔁 Rewatches</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Grid container spacing={2}>
+                <Grid size={{ xs: 12, lg: 6 }}>
+                  <RewatchStatsCard stats={rewatchData ?? null} isLoading={isLoadingEnhancedStats} />
+                </Grid>
+              </Grid>
+            </AccordionDetails>
+          </Accordion>
+        </Grid>
+
         {/* Content Insights Section */}
         <Grid size={12}>
           <Accordion
@@ -311,6 +335,7 @@ export function EnhancedProfileStatisticsDashboard({
     contentDiscoveryData,
     abandonmentRiskData,
     unairedContentData,
+    rewatchData,
     isLoadingEnhancedStats,
     formatters,
   ]);
