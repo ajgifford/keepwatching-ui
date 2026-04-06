@@ -8,15 +8,15 @@ import { BaseStatisticsDashboard, BaseStatisticsDashboardProps } from '../baseSt
 const mockUseStatisticsData = jest.fn();
 
 jest.mock('../../../index', () => ({
-  DistributionBarChart: ({ data }: { data: any[] }) => <div data-testid="bar-chart">{data.length} bars</div>,
-  DistributionPieChart: ({ data }: { data: any[] }) => <div data-testid="pie-chart">{data.length} slices</div>,
-  StatisticsSummaryCard: (props: any) => (
+  DistributionBarChart: ({ data }: { data: Array<{ name: string; value: number }> }) => <div data-testid="bar-chart">{data.length} bars</div>,
+  DistributionPieChart: ({ data }: { data: Array<{ name: string; value: number }> }) => <div data-testid="pie-chart">{data.length} slices</div>,
+  StatisticsSummaryCard: (props: { progressLabel: string; progressValue: number }) => (
     <div data-testid="summary-card">
       {props.progressLabel}: {props.progressValue}%
     </div>
   ),
-  WatchStatusChart: ({ data }: { data: any[] }) => <div data-testid="watch-status-chart">{data.length} items</div>,
-  useStatisticsData: (stats: any) => mockUseStatisticsData(stats),
+  WatchStatusChart: ({ data }: { data: Array<{ name: string; value: number }> }) => <div data-testid="watch-status-chart">{data.length} items</div>,
+  useStatisticsData: (stats: unknown) => mockUseStatisticsData(stats),
 }));
 
 describe('BaseStatisticsDashboard', () => {

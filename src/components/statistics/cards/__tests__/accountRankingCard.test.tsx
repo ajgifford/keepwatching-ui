@@ -298,7 +298,7 @@ describe('AccountRankingCard', () => {
       ],
     } as unknown as AccountRankingStats;
 
-    const { container } = render(<AccountRankingCard stats={statsWithDifferentRankings} />);
+    render(<AccountRankingCard stats={statsWithDifferentRankings} />);
 
     // Initially sorted by engagement (High Engagement should be first)
     let accountNames = screen.getAllByText(/High (Engagement|Episodes|Movies)/);

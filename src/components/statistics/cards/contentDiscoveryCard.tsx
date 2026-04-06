@@ -1,3 +1,5 @@
+import React from 'react';
+
 import TrendingDownIcon from '@mui/icons-material/TrendingDown';
 import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
@@ -25,7 +27,9 @@ export function ContentDiscoveryCard({ stats }: ContentDiscoveryCardProps) {
     );
   }
 
-  const getRatioStatus = (ratio: number) => {
+  type ChipColor = 'default' | 'primary' | 'secondary' | 'error' | 'info' | 'success' | 'warning';
+
+  const getRatioStatus = (ratio: number): { label: string; color: ChipColor; icon: React.ReactElement } => {
     if (ratio > 1) return { label: 'Backlog Shrinking', color: 'success', icon: <TrendingDownIcon /> };
     if (ratio < 0.8) return { label: 'Backlog Growing', color: 'warning', icon: <TrendingUpIcon /> };
     return { label: 'Balanced', color: 'info', icon: <TrendingFlatIcon /> };
@@ -98,7 +102,7 @@ export function ContentDiscoveryCard({ stats }: ContentDiscoveryCardProps) {
                 <Typography variant="body2">Shows</Typography>
                 <Chip
                   label={showRatioStatus.label}
-                  color={showRatioStatus.color as any}
+                  color={showRatioStatus.color}
                   size="small"
                   icon={showRatioStatus.icon}
                 />
@@ -113,7 +117,7 @@ export function ContentDiscoveryCard({ stats }: ContentDiscoveryCardProps) {
                 <Typography variant="body2">Movies</Typography>
                 <Chip
                   label={movieRatioStatus.label}
-                  color={movieRatioStatus.color as any}
+                  color={movieRatioStatus.color}
                   size="small"
                   icon={movieRatioStatus.icon}
                 />

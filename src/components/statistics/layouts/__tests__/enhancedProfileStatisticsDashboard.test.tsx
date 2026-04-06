@@ -1,3 +1,5 @@
+import { ReactNode } from 'react';
+
 import { fireEvent, render, screen } from '@testing-library/react';
 
 import { EnhancedProfileStatisticsDashboard } from '../enhancedProfileStatisticsDashboard';
@@ -5,52 +7,52 @@ import { ProfileEnhancedStatistics, ProfileStatisticsResponse, WatchStatus } fro
 
 // Mock the child components
 jest.mock('../../cards', () => ({
-  AbandonmentRiskCard: ({ stats, isLoading }: any) =>
+  AbandonmentRiskCard: ({ stats, isLoading }: { stats?: unknown; isLoading?: boolean }) =>
     isLoading ? (
       <div>Loading...</div>
     ) : (
       <div data-testid="abandonment-card">Abandonment: {stats ? 'Data' : 'No data'}</div>
     ),
-  ActivityTimelineChart: ({ timeline, isLoading }: any) =>
+  ActivityTimelineChart: ({ timeline, isLoading }: { timeline?: unknown; isLoading?: boolean }) =>
     isLoading ? (
       <div>Loading...</div>
     ) : (
       <div data-testid="timeline-chart">Timeline: {timeline ? 'Data' : 'No data'}</div>
     ),
-  BacklogAgingCard: ({ stats }: any) => <div data-testid="backlog-card">Backlog: {stats ? 'Data' : 'No data'}</div>,
-  BingeWatchingCard: ({ bingeData, isLoading }: any) =>
+  BacklogAgingCard: ({ stats }: { stats?: unknown }) => <div data-testid="backlog-card">Backlog: {stats ? 'Data' : 'No data'}</div>,
+  BingeWatchingCard: ({ bingeData, isLoading }: { bingeData?: unknown; isLoading?: boolean }) =>
     isLoading ? <div>Loading...</div> : <div data-testid="binge-card">Binge: {bingeData ? 'Data' : 'No data'}</div>,
-  ContentDepthCard: ({ stats }: any) => <div data-testid="content-depth">Depth: {stats ? 'Data' : 'No data'}</div>,
-  ContentDiscoveryCard: ({ stats }: any) => (
+  ContentDepthCard: ({ stats }: { stats?: unknown }) => <div data-testid="content-depth">Depth: {stats ? 'Data' : 'No data'}</div>,
+  ContentDiscoveryCard: ({ stats }: { stats?: unknown }) => (
     <div data-testid="content-discovery">Discovery: {stats ? 'Data' : 'No data'}</div>
   ),
-  MilestonesAndAnniversaryCard: ({ stats, isLoading }: any) =>
+  MilestonesAndAnniversaryCard: ({ stats, isLoading }: { stats?: unknown; isLoading?: boolean }) =>
     isLoading ? (
       <div>Loading...</div>
     ) : (
       <div data-testid="milestones-card">Milestones: {stats ? 'Data' : 'No data'}</div>
     ),
-  SeasonalViewingCard: ({ stats }: any) => (
+  SeasonalViewingCard: ({ stats }: { stats?: unknown }) => (
     <div data-testid="seasonal-card">Seasonal: {stats ? 'Data' : 'No data'}</div>
   ),
-  ShowProgressCard: ({ title, shows, filters }: any) => (
+  ShowProgressCard: ({ title, shows, filters }: { title: string; shows?: unknown[]; filters?: string[] }) => (
     <div data-testid="show-progress">
       {title}: {shows?.length || 0} shows, Filters: {filters?.join(',')}
     </div>
   ),
-  TimeToWatchCard: ({ stats }: any) => <div data-testid="time-to-watch">TimeToWatch: {stats ? 'Data' : 'No data'}</div>,
-  UnairedContentCard: ({ stats }: any) => (
+  TimeToWatchCard: ({ stats }: { stats?: unknown }) => <div data-testid="time-to-watch">TimeToWatch: {stats ? 'Data' : 'No data'}</div>,
+  UnairedContentCard: ({ stats }: { stats?: unknown }) => (
     <div data-testid="unaired-content">Unaired: {stats ? 'Data' : 'No data'}</div>
   ),
-  WatchStreakCard: ({ streakData, isLoading }: any) =>
+  WatchStreakCard: ({ streakData, isLoading }: { streakData?: unknown; isLoading?: boolean }) =>
     isLoading ? <div>Loading...</div> : <div data-testid="streak-card">Streak: {streakData ? 'Data' : 'No data'}</div>,
-  WatchVelocityCard: ({ velocityData, isLoading }: any) =>
+  WatchVelocityCard: ({ velocityData, isLoading }: { velocityData?: unknown; isLoading?: boolean }) =>
     isLoading ? (
       <div>Loading...</div>
     ) : (
       <div data-testid="velocity-card">Velocity: {velocityData ? 'Data' : 'No data'}</div>
     ),
-  RewatchStatsCard: ({ stats }: any) => <div data-testid="rewatch-card">Rewatch: {stats ? 'Data' : 'No data'}</div>,
+  RewatchStatsCard: ({ stats }: { stats?: unknown }) => <div data-testid="rewatch-card">Rewatch: {stats ? 'Data' : 'No data'}</div>,
 }));
 
 jest.mock('../../utils', () => ({
@@ -64,10 +66,10 @@ jest.mock('../../utils', () => ({
 }));
 
 jest.mock('../baseStatisticsDashboard', () => ({
-  BaseStatisticsDashboard: ({ dashboardTitle, summaryCardProps, contentSections, statistics }: any) => (
+  BaseStatisticsDashboard: ({ dashboardTitle, summaryCardProps, contentSections }: { dashboardTitle: string; summaryCardProps?: object | null; contentSections?: ReactNode }) => (
     <div data-testid="base-dashboard">
       <h1>{dashboardTitle}</h1>
-      {summaryCardProps && <div>Summary</div>}
+      {summaryCardProps != null && <div>Summary</div>}
       {contentSections}
     </div>
   ),
@@ -104,7 +106,7 @@ describe('EnhancedProfileStatisticsDashboard', () => {
         { showId: 2, showName: 'Show 2', watchProgress: 100, watchStatus: WatchStatus.WATCHED },
       ],
     },
-  } as any;
+  } as unknown as ProfileStatisticsResponse;
 
   const mockEnhancedStats: ProfileEnhancedStatistics = {
     velocity: { current: 10 },
@@ -118,7 +120,7 @@ describe('EnhancedProfileStatisticsDashboard', () => {
     contentDiscovery: { newShowsPerMonth: 5 },
     abandonmentRisk: { atRisk: [] },
     unairedContent: { unairedShowCount: 5 },
-  } as any;
+  } as unknown as ProfileEnhancedStatistics;
 
   it('should render loading state', () => {
     render(<EnhancedProfileStatisticsDashboard isLoading={true} />);

@@ -171,8 +171,8 @@ describe('PlatformTrendsCard', () => {
   it('should handle null daily activity gracefully', () => {
     const nullActivityStats = {
       ...mockStats,
-      dailyActivity: null as any,
-    };
+      dailyActivity: null,
+    } as unknown as PlatformTrendsStats;
 
     const { container } = render(<PlatformTrendsCard stats={nullActivityStats} />);
 

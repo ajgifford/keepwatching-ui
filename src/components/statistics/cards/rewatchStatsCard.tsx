@@ -19,12 +19,6 @@ interface RewatchStatsCardProps {
   isLoading?: boolean;
 }
 
-function isAccountStats(stats: ProfileRewatchStats | AccountRewatchStats): stats is AccountRewatchStats {
-  return (
-    stats.mostRewatchedShows.length > 0 && 'profileName' in (stats.mostRewatchedShows[0] ?? {})
-  );
-}
-
 export function RewatchStatsCard({ stats, isLoading = false }: RewatchStatsCardProps) {
   if (isLoading) {
     return (
