@@ -118,7 +118,7 @@ exports[`ContentPopularityCard should match snapshot on Movies tab 1`] = `
             </div>
           </div>
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-11r84w7-MuiListItemText-root"
           >
             <span
               class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
@@ -272,7 +272,7 @@ exports[`ContentPopularityCard should match snapshot on Shows tab 1`] = `
             </div>
           </div>
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-11r84w7-MuiListItemText-root"
           >
             <span
               class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
@@ -354,7 +354,7 @@ exports[`ContentPopularityCard should match snapshot on Shows tab 1`] = `
             </div>
           </div>
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-11r84w7-MuiListItemText-root"
           >
             <span
               class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
@@ -508,7 +508,7 @@ exports[`ContentPopularityCard should match snapshot with full data 1`] = `
             </div>
           </div>
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-11r84w7-MuiListItemText-root"
           >
             <span
               class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
@@ -590,7 +590,7 @@ exports[`ContentPopularityCard should match snapshot with full data 1`] = `
             </div>
           </div>
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-11r84w7-MuiListItemText-root"
           >
             <span
               class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
@@ -672,7 +672,7 @@ exports[`ContentPopularityCard should match snapshot with full data 1`] = `
             </div>
           </div>
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-11r84w7-MuiListItemText-root"
           >
             <span
               class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"

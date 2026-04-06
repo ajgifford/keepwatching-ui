@@ -172,6 +172,17 @@ exports[`EnhancedAccountStatisticsDashboard should match snapshot with enhanced 
           <span
             class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
           >
+            🔁 Rewatches
+          </span>
+        </div>
+        <div
+          class="MuiButtonBase-root MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-clickable MuiChip-clickableColorDefault MuiChip-filledDefault css-60cosn-MuiButtonBase-root-MuiChip-root"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+          >
             💡 Content Insights
           </span>
         </div>
@@ -527,6 +538,86 @@ exports[`EnhancedAccountStatisticsDashboard should match snapshot with enhanced 
                             />
                           </svg>
                         </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1s17i05-MuiPaper-root-MuiAccordion-root"
+        style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+      >
+        <h3
+          class="MuiAccordion-heading css-cy7rkm-MuiAccordion-heading"
+        >
+          <button
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-1f1pi2l-MuiButtonBase-root-MuiAccordionSummary-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-yfrx4k-MuiAccordionSummary-content"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+              >
+                🔁 Rewatches
+              </h6>
+            </span>
+            <span
+              class="MuiAccordionSummary-expandIconWrapper css-1wqf3nl-MuiAccordionSummary-expandIconWrapper"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                data-testid="ExpandMoreIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                />
+              </svg>
+            </span>
+          </button>
+        </h3>
+        <div
+          class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-cwrbtg-MuiCollapse-root"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper MuiCollapse-vertical css-1x6hinx-MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner MuiCollapse-vertical css-1i4ywhz-MuiCollapse-wrapperInner"
+            >
+              <div
+                class="MuiAccordion-region css-at4ued-MuiAccordion-region"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root css-1lj39kh-MuiAccordionDetails-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-lg-6 css-gdzu2g-MuiGrid-root"
+                    >
+                      <div
+                        data-testid="rewatch-card"
+                      >
+                        Rewatch: 
+                        No data
                       </div>
                     </div>
                   </div>
@@ -970,6 +1061,17 @@ exports[`EnhancedAccountStatisticsDashboard should match snapshot with full enha
           <span
             class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
           >
+            🔁 Rewatches
+          </span>
+        </div>
+        <div
+          class="MuiButtonBase-root MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-clickable MuiChip-clickableColorDefault MuiChip-filledDefault css-60cosn-MuiButtonBase-root-MuiChip-root"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+          >
             💡 Content Insights
           </span>
         </div>
@@ -1358,6 +1460,86 @@ exports[`EnhancedAccountStatisticsDashboard should match snapshot with full enha
               <h6
                 class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
               >
+                🔁 Rewatches
+              </h6>
+            </span>
+            <span
+              class="MuiAccordionSummary-expandIconWrapper css-1wqf3nl-MuiAccordionSummary-expandIconWrapper"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                data-testid="ExpandMoreIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                />
+              </svg>
+            </span>
+          </button>
+        </h3>
+        <div
+          class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-cwrbtg-MuiCollapse-root"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper MuiCollapse-vertical css-1x6hinx-MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner MuiCollapse-vertical css-1i4ywhz-MuiCollapse-wrapperInner"
+            >
+              <div
+                class="MuiAccordion-region css-at4ued-MuiAccordion-region"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root css-1lj39kh-MuiAccordionDetails-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-lg-6 css-gdzu2g-MuiGrid-root"
+                    >
+                      <div
+                        data-testid="rewatch-card"
+                      >
+                        Rewatch: 
+                        No data
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1s17i05-MuiPaper-root-MuiAccordion-root"
+        style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+      >
+        <h3
+          class="MuiAccordion-heading css-cy7rkm-MuiAccordion-heading"
+        >
+          <button
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-1f1pi2l-MuiButtonBase-root-MuiAccordionSummary-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-yfrx4k-MuiAccordionSummary-content"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+              >
                 💡 Content Insights
               </h6>
             </span>
@@ -1673,6 +1855,17 @@ exports[`EnhancedAccountStatisticsDashboard should match snapshot with single pr
           <span
             class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
           >
+            🔁 Rewatches
+          </span>
+        </div>
+        <div
+          class="MuiButtonBase-root MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-clickable MuiChip-clickableColorDefault MuiChip-filledDefault css-60cosn-MuiButtonBase-root-MuiChip-root"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+          >
             💡 Content Insights
           </span>
         </div>
@@ -1949,6 +2142,86 @@ exports[`EnhancedAccountStatisticsDashboard should match snapshot with single pr
                       >
                         Seasonal: 
                         Data
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1s17i05-MuiPaper-root-MuiAccordion-root"
+        style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+      >
+        <h3
+          class="MuiAccordion-heading css-cy7rkm-MuiAccordion-heading"
+        >
+          <button
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-1f1pi2l-MuiButtonBase-root-MuiAccordionSummary-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-yfrx4k-MuiAccordionSummary-content"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+              >
+                🔁 Rewatches
+              </h6>
+            </span>
+            <span
+              class="MuiAccordionSummary-expandIconWrapper css-1wqf3nl-MuiAccordionSummary-expandIconWrapper"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                data-testid="ExpandMoreIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                />
+              </svg>
+            </span>
+          </button>
+        </h3>
+        <div
+          class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-cwrbtg-MuiCollapse-root"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper MuiCollapse-vertical css-1x6hinx-MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner MuiCollapse-vertical css-1i4ywhz-MuiCollapse-wrapperInner"
+            >
+              <div
+                class="MuiAccordion-region css-at4ued-MuiAccordion-region"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root css-1lj39kh-MuiAccordionDetails-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-lg-6 css-gdzu2g-MuiGrid-root"
+                    >
+                      <div
+                        data-testid="rewatch-card"
+                      >
+                        Rewatch: 
+                        No data
                       </div>
                     </div>
                   </div>
@@ -2307,6 +2580,17 @@ exports[`EnhancedAccountStatisticsDashboard should match snapshot without enhanc
           <span
             class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
           >
+            🔁 Rewatches
+          </span>
+        </div>
+        <div
+          class="MuiButtonBase-root MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-clickable MuiChip-clickableColorDefault MuiChip-filledDefault css-60cosn-MuiButtonBase-root-MuiChip-root"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+          >
             💡 Content Insights
           </span>
         </div>
@@ -2662,6 +2946,86 @@ exports[`EnhancedAccountStatisticsDashboard should match snapshot without enhanc
                         data-testid="seasonal-card"
                       >
                         Seasonal: 
+                        No data
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1s17i05-MuiPaper-root-MuiAccordion-root"
+        style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+      >
+        <h3
+          class="MuiAccordion-heading css-cy7rkm-MuiAccordion-heading"
+        >
+          <button
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-1f1pi2l-MuiButtonBase-root-MuiAccordionSummary-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-yfrx4k-MuiAccordionSummary-content"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+              >
+                🔁 Rewatches
+              </h6>
+            </span>
+            <span
+              class="MuiAccordionSummary-expandIconWrapper css-1wqf3nl-MuiAccordionSummary-expandIconWrapper"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                data-testid="ExpandMoreIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                />
+              </svg>
+            </span>
+          </button>
+        </h3>
+        <div
+          class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-cwrbtg-MuiCollapse-root"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper MuiCollapse-vertical css-1x6hinx-MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner MuiCollapse-vertical css-1i4ywhz-MuiCollapse-wrapperInner"
+            >
+              <div
+                class="MuiAccordion-region css-at4ued-MuiAccordion-region"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root css-1lj39kh-MuiAccordionDetails-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-zjhuaj-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-lg-6 css-gdzu2g-MuiGrid-root"
+                    >
+                      <div
+                        data-testid="rewatch-card"
+                      >
+                        Rewatch: 
                         No data
                       </div>
                     </div>

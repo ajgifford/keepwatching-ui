@@ -97,7 +97,7 @@ exports[`TimeToWatchCard should match snapshot with full data 1`] = `
               class="MuiListItem-root MuiListItem-dense MuiListItem-gutters css-11xi0be-MuiListItem-root"
             >
               <div
-                class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+                class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-11r84w7-MuiListItemText-root"
               >
                 <p
                   class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
@@ -115,7 +115,7 @@ exports[`TimeToWatchCard should match snapshot with full data 1`] = `
               class="MuiListItem-root MuiListItem-dense MuiListItem-gutters css-11xi0be-MuiListItem-root"
             >
               <div
-                class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+                class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-11r84w7-MuiListItemText-root"
               >
                 <p
                   class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
@@ -133,7 +133,7 @@ exports[`TimeToWatchCard should match snapshot with full data 1`] = `
               class="MuiListItem-root MuiListItem-dense MuiListItem-gutters css-11xi0be-MuiListItem-root"
             >
               <div
-                class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+                class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-11r84w7-MuiListItemText-root"
               >
                 <p
                   class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"

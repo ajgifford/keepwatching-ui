@@ -36,26 +36,6 @@ export function AccountRankingCard({ stats, onMetricChange, isLoading = false, f
     stats.rankingMetric
   );
 
-  if (isLoading) {
-    return (
-      <Card>
-        <CardContent>
-          <Typography variant="h6" gutterBottom>
-            Account Rankings
-          </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center', py: 3 }}>
-            Loading...
-          </Typography>
-        </CardContent>
-      </Card>
-    );
-  }
-
-  const handleMetricChange = (newMetric: typeof metric) => {
-    setMetric(newMetric);
-    onMetricChange?.(newMetric);
-  };
-
   const sortedRankings = useMemo(() => {
     return [...stats.rankings].sort((a, b) => {
       let aValue: number;
@@ -84,6 +64,26 @@ export function AccountRankingCard({ stats, onMetricChange, isLoading = false, f
       return bValue - aValue; // Sort descending (highest first)
     });
   }, [stats.rankings, metric]);
+
+  if (isLoading) {
+    return (
+      <Card>
+        <CardContent>
+          <Typography variant="h6" gutterBottom>
+            Account Rankings
+          </Typography>
+          <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center', py: 3 }}>
+            Loading...
+          </Typography>
+        </CardContent>
+      </Card>
+    );
+  }
+
+  const handleMetricChange = (newMetric: typeof metric) => {
+    setMetric(newMetric);
+    onMetricChange?.(newMetric);
+  };
 
   const getMetricLabel = (metric: typeof stats.rankingMetric) => {
     switch (metric) {

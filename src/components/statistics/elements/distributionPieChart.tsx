@@ -32,7 +32,7 @@ export function DistributionPieChart({ data, height = 300, colors = DEFAULT_COLO
           ))}
         </Pie>
         <Tooltip
-          formatter={(value: number | undefined) => [`${value} shows/movies`]}
+          formatter={(value) => [`${value} shows/movies`]}
           contentStyle={{ backgroundColor: '#fff', border: '1px solid #ccc' }}
         />
       </PieChart>

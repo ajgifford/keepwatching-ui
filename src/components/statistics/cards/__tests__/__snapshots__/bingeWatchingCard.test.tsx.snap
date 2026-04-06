@@ -183,7 +183,7 @@ exports[`BingeWatchingCard should match snapshot with full data 1`] = `
               class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-1fkc252-MuiListItem-root"
             >
               <div
-                class="MuiListItemText-root MuiListItemText-dense css-cfq8qh-MuiListItemText-root"
+                class="MuiListItemText-root MuiListItemText-dense css-1suf81v-MuiListItemText-root"
               >
                 <span
                   class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
@@ -213,7 +213,7 @@ exports[`BingeWatchingCard should match snapshot with full data 1`] = `
               class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-1fkc252-MuiListItem-root"
             >
               <div
-                class="MuiListItemText-root MuiListItemText-dense css-cfq8qh-MuiListItemText-root"
+                class="MuiListItemText-root MuiListItemText-dense css-1suf81v-MuiListItemText-root"
               >
                 <span
                   class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
@@ -243,7 +243,7 @@ exports[`BingeWatchingCard should match snapshot with full data 1`] = `
               class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-1fkc252-MuiListItem-root"
             >
               <div
-                class="MuiListItemText-root MuiListItemText-dense css-cfq8qh-MuiListItemText-root"
+                class="MuiListItemText-root MuiListItemText-dense css-1suf81v-MuiListItemText-root"
               >
                 <span
                   class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"

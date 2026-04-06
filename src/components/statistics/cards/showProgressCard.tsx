@@ -40,7 +40,7 @@ export function ShowProgressCard({
 
     // Sort shows based on sortBy prop
     const sorted = [...filtered].sort((a, b) => {
-      let comparison = 0;
+      let comparison: number;
 
       switch (sortBy) {
         case 'completion':

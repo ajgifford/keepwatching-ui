@@ -195,7 +195,7 @@ exports[`TrendingContentCard should match snapshot with full data 1`] = `
             </div>
           </div>
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-11r84w7-MuiListItemText-root"
           >
             <p
               class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rt9437-MuiTypography-root"
@@ -277,7 +277,7 @@ exports[`TrendingContentCard should match snapshot with full data 1`] = `
             </div>
           </div>
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-11r84w7-MuiListItemText-root"
           >
             <p
               class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rt9437-MuiTypography-root"
@@ -359,7 +359,7 @@ exports[`TrendingContentCard should match snapshot with full data 1`] = `
             </div>
           </div>
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-11r84w7-MuiListItemText-root"
           >
             <p
               class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rt9437-MuiTypography-root"
@@ -508,7 +508,7 @@ exports[`TrendingContentCard should match snapshot with movies tab selected 1`] 
             </div>
           </div>
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-11r84w7-MuiListItemText-root"
           >
             <p
               class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rt9437-MuiTypography-root"
@@ -664,7 +664,7 @@ exports[`TrendingContentCard should match snapshot with shows tab selected 1`] =
             </div>
           </div>
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-11r84w7-MuiListItemText-root"
           >
             <p
               class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rt9437-MuiTypography-root"
@@ -746,7 +746,7 @@ exports[`TrendingContentCard should match snapshot with shows tab selected 1`] =
             </div>
           </div>
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-11r84w7-MuiListItemText-root"
           >
             <p
               class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rt9437-MuiTypography-root"

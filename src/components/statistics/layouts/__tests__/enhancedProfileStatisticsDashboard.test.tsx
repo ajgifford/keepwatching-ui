@@ -50,6 +50,7 @@ jest.mock('../../cards', () => ({
     ) : (
       <div data-testid="velocity-card">Velocity: {velocityData ? 'Data' : 'No data'}</div>
     ),
+  RewatchStatsCard: ({ stats }: any) => <div data-testid="rewatch-card">Rewatch: {stats ? 'Data' : 'No data'}</div>,
 }));
 
 jest.mock('../../utils', () => ({

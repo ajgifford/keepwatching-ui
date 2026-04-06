@@ -10,7 +10,7 @@ describe('MilestonesAndAnniversaryCard', () => {
   beforeEach(() => {
     // Mock Date.now() and new Date() to return consistent values
     jest.useFakeTimers();
-    jest.setSystemTime(MOCK_NOW);
+    jest.setSystemTime(MOCK_NOW.getTime());
   });
 
   afterEach(() => {
