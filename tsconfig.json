@@ -5,6 +5,7 @@
     "jsx": "react-jsx",
     "declaration": true,
     "declarationDir": "dist",
+    "rootDir": "src",
     "outDir": "dist",
     "esModuleInterop": true,
     "skipLibCheck": true,
