@@ -1,21 +1,43 @@
 import { WATCH_STATUS_COLORS } from '../../../utils/watchStatusColors';
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
+/**
+ * A single data row for the {@link WatchStatusChart}, typically representing one
+ * content type (e.g., "Shows" or "Movies").
+ */
 export interface WatchStatusDataItem {
+  /** Display name for this data row shown on the x-axis (e.g., `"Shows"`, `"Movies"`). */
   name: string;
+  /** Count of content items with `WATCHED` status. */
   watched: number;
+  /** Count of content items with `WATCHING` status. Not applicable to movies. */
   watching?: number;
+  /** Count of content items with `NOT_WATCHED` status. */
   notWatched: number;
+  /** Count of content items with `UP_TO_DATE` status. Not applicable to movies. */
   upToDate?: number;
+  /** Count of content items with `UNAIRED` status. */
   unaired: number;
   [key: string]: string | number | undefined;
 }
 
+/**
+ * Props for the {@link WatchStatusChart}.
+ */
 interface WatchStatusChartProps {
+  /** Array of data rows to render, one per content type. */
   data: WatchStatusDataItem[];
+  /** Height of the chart in pixels. Defaults to `300`. */
   height?: number;
 }
 
+/**
+ * Stacked bar chart that visualizes watch status counts for one or more content types.
+ *
+ * Renders a Recharts `BarChart` with stacked bars for each watch status category
+ * (Watched, Up To Date, Watching, Not Watched, Unaired), using the colors defined
+ * in `WATCH_STATUS_COLORS`. Includes a legend and tooltip.
+ */
 export function WatchStatusChart({ data, height = 300 }: WatchStatusChartProps) {
   return (
     <ResponsiveContainer width="100%" height={height}>

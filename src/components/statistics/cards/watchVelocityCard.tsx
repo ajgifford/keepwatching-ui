@@ -7,11 +7,24 @@ import { Box, Card, CardContent, Chip, Divider, Grid, Typography, useTheme } fro
 
 import { WatchingVelocityStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link WatchVelocityCard}.
+ */
 interface WatchVelocityCardProps {
+  /** Watching velocity statistics. Pass `null` or omit to show an empty-state card. */
   velocityData?: WatchingVelocityStats | null;
+  /** When `true`, renders a loading placeholder. Defaults to `false`. */
   isLoading?: boolean;
 }
 
+/**
+ * Card that visualizes how quickly a user watches episodes over time.
+ *
+ * Displays episodes per day, per week, and per month in metric tiles, a velocity
+ * trend chip (Increasing / Stable / Decreasing) with a corresponding icon, the
+ * most active day of the week, and the most active hour of the day. Renders
+ * empty-state cards when loading or when `velocityData` is `null`.
+ */
 export function WatchVelocityCard({ velocityData, isLoading = false }: WatchVelocityCardProps) {
   const theme = useTheme();
 

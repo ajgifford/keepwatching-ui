@@ -6,13 +6,29 @@ import { Alert, Box, Button, Divider, Paper, Typography } from '@mui/material';
 
 import { ApiErrorResponse } from '../../types/errors';
 
+/**
+ * Props for the {@link ErrorComponent}.
+ */
 export interface ErrorComponentProps {
+  /** Error to display — either a plain message string or a structured API error response. */
   error: string | ApiErrorResponse;
+  /** When `true`, the navigation button is not rendered. Defaults to `false`. */
   hideHomeButton?: boolean;
+  /** Route the home button navigates to. Defaults to `"/home"`. */
   homeRoute?: string;
+  /** Label text for the home navigation button. Defaults to `"Home"`. */
   homeButtonLabel?: string;
 }
 
+/**
+ * Full-page error display component.
+ *
+ * Renders a centered card containing an error icon, a "Something went wrong"
+ * heading, the error message extracted from `error`, and optional diagnostic
+ * details (HTTP status, error code, request ID) when available on an
+ * {@link ApiErrorResponse}. An optional home navigation button is included
+ * by default.
+ */
 export function ErrorComponent({
   error,
   hideHomeButton = false,

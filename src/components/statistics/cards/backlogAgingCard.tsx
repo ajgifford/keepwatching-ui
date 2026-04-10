@@ -3,18 +3,39 @@ import { Box, Card, CardContent, Stack, Typography, alpha, useTheme } from '@mui
 
 import { TimeToWatchStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link BacklogAgingCard}.
+ */
 interface BacklogAgingCardProps {
+  /** Time-to-watch statistics containing backlog aging data. Pass `null` for an empty-state card. */
   stats: TimeToWatchStats | null;
+  /** Reserved for future use; currently unused by the component. */
   isLoading?: boolean;
 }
 
+/**
+ * Internal data point representing a single backlog aging bucket.
+ */
 interface BacklogAgingDataPoint {
+  /** Human-readable age label (e.g., `"30+ Days"`). */
   label: string;
+  /** Number of unwatched shows in this age bucket. */
   count: number;
+  /** Hex color used for the bucket's indicator dot and fill bar. */
   color: string;
+  /** Severity tier used for visual styling. */
   severity: 'low' | 'medium' | 'high';
 }
 
+/**
+ * Card that visualizes how long unwatched shows have been sitting in the backlog.
+ *
+ * Groups unwatched shows into three aging buckets (30+, 90+, and 365+ days) and
+ * renders proportional fill bars for each. Also displays average days-to-start and
+ * days-to-complete, plus a list of up to three fastest completions. Renders a
+ * "No Aging Backlog" success state when all buckets are zero, and an empty-state
+ * card when `stats` or `stats.backlogAging` is `null`.
+ */
 export function BacklogAgingCard({ stats }: BacklogAgingCardProps) {
   const theme = useTheme();
 

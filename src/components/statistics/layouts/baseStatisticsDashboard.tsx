@@ -11,10 +11,20 @@ import {
 } from '../../../index';
 import { AccountStatisticsResponse, ProfileStatisticsResponse } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link BaseStatisticsDashboard}.
+ */
 export interface BaseStatisticsDashboardProps {
+  /** Account or profile statistics used to populate the charts. */
   statistics?: AccountStatisticsResponse | ProfileStatisticsResponse | null;
+  /** When `true`, renders a centered spinner instead of the dashboard. Defaults to `false`. */
   isLoading?: boolean;
+  /** Heading displayed at the top of the dashboard. */
   dashboardTitle: string;
+  /**
+   * Props forwarded to the `StatisticsSummaryCard` shown below the title.
+   * Pass `null` to omit the summary card.
+   */
   summaryCardProps: {
     progressLabel: string;
     progressValue: number;
@@ -26,9 +36,23 @@ export interface BaseStatisticsDashboardProps {
       color?: 'primary' | 'secondary' | 'success' | 'warning' | 'error' | 'info';
     }>;
   } | null;
+  /**
+   * Additional grid sections rendered after the built-in Watch Status,
+   * Top Genres, and Streaming Services charts. Used by the enhanced
+   * dashboard variants to inject their extra card sections.
+   */
   contentSections?: ReactNode;
 }
 
+/**
+ * Shared layout shell for the statistics dashboards.
+ *
+ * Renders a page title, an optional summary card, and a responsive grid
+ * containing three built-in charts (Watch Status, Top Genres, Streaming
+ * Services) followed by any `contentSections` provided by the caller.
+ * Displays a spinner while loading and an empty-state message when `statistics`
+ * is `null` or `undefined`.
+ */
 export function BaseStatisticsDashboard({
   statistics,
   isLoading = false,

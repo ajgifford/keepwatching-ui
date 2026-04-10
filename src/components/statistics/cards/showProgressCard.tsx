@@ -6,18 +6,48 @@ import { getProgressBarColor } from '../../../utils/watchStatusColors';
 import { getWatchStatusDisplay } from '../../../utils/watchStatusUtility';
 import { ShowProgress, WatchStatus } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link ShowProgressCard}.
+ */
 export interface ShowProgressCardProps {
+  /** Card heading. */
   title: string;
+  /** Full array of show progress records to filter and sort. */
   shows: ShowProgress[];
+  /**
+   * One or more watch statuses to filter by. Pass `null` to show all shows.
+   * Defaults to `null`.
+   */
   filters?: WatchStatus[] | WatchStatus | null;
+  /** Maximum height of the scrollable show list. Defaults to `300`. */
   maxHeight?: number | string;
+  /** Custom empty-state message. When omitted a default is derived from `filters`. */
   emptyMessage?: string;
+  /** Optional content rendered below the show list (e.g., a "View All" link). */
   footer?: ReactNode;
+  /**
+   * Field used to sort the filtered shows.
+   * - `"completion"` — by `percentComplete` (default).
+   * - `"title"` — alphabetically by `title`.
+   * - `"episodes"` — by `totalEpisodes`.
+   * - `"none"` — no sorting applied.
+   */
   sortBy?: 'completion' | 'title' | 'episodes' | 'none';
+  /** Sort direction applied to the `sortBy` field. Defaults to `"desc"`. */
   sortOrder?: 'asc' | 'desc';
+  /** Maximum number of shows to display after filtering and sorting. */
   maxItems?: number;
 }
 
+/**
+ * Card that renders a filterable, sortable list of shows with episode progress bars.
+ *
+ * Filters the `shows` array by the `filters` prop, sorts by `sortBy` / `sortOrder`,
+ * and optionally caps the results at `maxItems`. Each row shows the show title,
+ * watched/total episode count, watch status label, completion percentage, and a
+ * color-coded `LinearProgress` bar. Displays an empty-state message when no shows
+ * match the criteria.
+ */
 export function ShowProgressCard({
   title,
   shows,

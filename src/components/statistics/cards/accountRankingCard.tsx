@@ -23,13 +23,31 @@ import {
 import { DateFormatters, createDateFormatters } from '../../../utils';
 import { AccountRankingStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link AccountRankingCard}.
+ */
 interface AccountRankingCardProps {
+  /** Account ranking statistics to display. */
   stats: AccountRankingStats;
+  /** Optional callback fired when the user changes the ranking metric via the dropdown. */
   onMetricChange?: (metric: 'episodesWatched' | 'moviesWatched' | 'hoursWatched' | 'engagement') => void;
+  /** When `true`, renders a loading placeholder. Defaults to `false`. */
   isLoading?: boolean;
+  /**
+   * Pre-configured date formatters. When omitted, formatters are created with
+   * default display preferences.
+   */
   formatters?: DateFormatters;
 }
 
+/**
+ * Admin-facing card that ranks accounts by a user-selected metric.
+ *
+ * Renders a sortable list of accounts with rank badges (gold / silver / bronze for
+ * the top three), a metric dropdown to switch between Episodes Watched, Movies
+ * Watched, Hours Watched, and Engagement Score, and the last activity date for
+ * each account. Renders a loading placeholder when `isLoading` is `true`.
+ */
 export function AccountRankingCard({ stats, onMetricChange, isLoading = false, formatters: propFormatters }: AccountRankingCardProps) {
   const formatters = propFormatters ?? createDateFormatters();
   const [metric, setMetric] = useState<'episodesWatched' | 'moviesWatched' | 'hoursWatched' | 'engagement'>(

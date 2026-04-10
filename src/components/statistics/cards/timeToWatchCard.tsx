@@ -5,10 +5,21 @@ import { Box, Card, CardContent, Chip, List, ListItem, ListItemText, Stack, Typo
 
 import { TimeToWatchStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link TimeToWatchCard}.
+ */
 interface TimeToWatchCardProps {
+  /** Time-to-watch statistics, or `null` to render nothing (the component returns `null`). */
   stats: TimeToWatchStats | null;
 }
 
+/**
+ * Card that surfaces time-to-watch analytics.
+ *
+ * Displays the average number of days to start and complete a show, a list of the
+ * fastest completed shows, and a summary of backlog aging (shows unwatched for 30+,
+ * 90+, and 365+ days). Returns `null` when `stats` is `null`.
+ */
 export function TimeToWatchCard({ stats }: TimeToWatchCardProps) {
   if (!stats) {
     return null;

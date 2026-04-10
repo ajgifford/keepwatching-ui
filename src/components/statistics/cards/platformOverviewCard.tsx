@@ -10,15 +10,27 @@ import { Box, Card, CardContent, Divider, Grid, Typography } from '@mui/material
 
 import { PlatformOverviewStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link PlatformOverviewCard}.
+ */
 interface PlatformOverviewCardProps {
+  /** Platform-level overview statistics to display. */
   stats: PlatformOverviewStats;
+  /** When `true`, renders a loading placeholder. Defaults to `false`. */
   isLoading?: boolean;
 }
 
+/**
+ * Props for the internal `StatItem` sub-component.
+ */
 interface StatItemProps {
+  /** Icon displayed above the stat value. */
   icon: React.ReactNode;
+  /** Human-readable label shown below the stat value. */
   label: string;
+  /** Numeric or pre-formatted string value for the stat. */
   value: number | string;
+  /** Optional secondary caption displayed below the label. */
   subtitle?: string;
 }
 
@@ -41,6 +53,14 @@ function StatItem({ icon, label, value, subtitle }: StatItemProps) {
   );
 }
 
+/**
+ * Admin-facing card that presents a high-level platform overview.
+ *
+ * Displays total and active accounts, total profiles, content catalogue counts
+ * (shows, movies), consumption totals (episodes and movies watched, total hours),
+ * and derived averages (profiles per account, episodes per account).
+ * Renders a loading placeholder when `isLoading` is `true`.
+ */
 export function PlatformOverviewCard({ stats, isLoading = false }: PlatformOverviewCardProps) {
   if (isLoading) {
     return (

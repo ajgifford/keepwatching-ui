@@ -3,14 +3,25 @@ import { Box, Card, CardContent, Chip, Grid, LinearProgress, Typography } from '
 
 import { AccountHealthStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link AccountHealthCard}.
+ */
 interface AccountHealthCardProps {
+  /** Platform-level account health statistics. */
   stats: AccountHealthStats;
+  /** When `true`, renders a loading placeholder. Defaults to `false`. */
   isLoading?: boolean;
 }
 
+/**
+ * Props for the internal `RiskLevelIndicator` sub-component.
+ */
 interface RiskLevelIndicatorProps {
+  /** Risk level tier to render. */
   level: 'low' | 'medium' | 'high';
+  /** Number of accounts at this risk level. */
   count: number;
+  /** Total account count used to calculate the percentage. */
   total: number;
 }
 
@@ -46,6 +57,13 @@ function RiskLevelIndicator({ level, count, total }: RiskLevelIndicatorProps) {
   );
 }
 
+/**
+ * Admin-facing card that summarises platform-level account health.
+ *
+ * Displays total, active, inactive, and at-risk account counts alongside the
+ * average engagement score and a risk distribution breakdown (low / medium / high)
+ * with progress bars. Renders a loading placeholder when `isLoading` is `true`.
+ */
 export function AccountHealthCard({ stats, isLoading = false }: AccountHealthCardProps) {
   if (isLoading) {
     return (

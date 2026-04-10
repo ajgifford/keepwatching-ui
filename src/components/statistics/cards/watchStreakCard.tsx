@@ -5,12 +5,29 @@ import { Box, Card, CardContent, Chip, Divider, Grid, Typography, useTheme } fro
 import { DateFormatters, createDateFormatters } from '../../../utils';
 import { WatchStreakStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link WatchStreakCard}.
+ */
 interface WatchStreakCardProps {
+  /** Watch streak statistics. Pass `null` or omit to show an empty-state card. */
   streakData?: WatchStreakStats | null;
+  /** When `true`, renders a loading placeholder. Defaults to `false`. */
   isLoading?: boolean;
+  /**
+   * Pre-configured date formatters used for streak start and period dates.
+   * When omitted, formatters are created with default display preferences.
+   */
   formatters?: DateFormatters;
 }
 
+/**
+ * Card that displays watching streak information.
+ *
+ * Shows the current streak length (highlighted in red when active), longest
+ * streak, the date range of the longest streak period, count of week-long streaks,
+ * and the average streak length. Renders an encouraging empty-state message when
+ * no streaks have been recorded yet.
+ */
 export function WatchStreakCard({ streakData, isLoading = false, formatters: propFormatters }: WatchStreakCardProps) {
   const formatters = propFormatters ?? createDateFormatters();
   const theme = useTheme();

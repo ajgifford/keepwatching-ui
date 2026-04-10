@@ -234,7 +234,7 @@ export interface DateFormatters {
   /**
    * A notification or activity timestamp with minute/hour granularity for very
    * recent events, transitioning to `contentDate` format for older ones.
-   * Behaviour is driven by the user's `relativeDate` preference.
+   * Behavior is driven by the user's `relativeDate` preference.
    * @example "5m ago" | "2h ago" | "3d ago" | "03/15/2024"
    */
   notificationTimestamp(date: string | Date | null | undefined): string;

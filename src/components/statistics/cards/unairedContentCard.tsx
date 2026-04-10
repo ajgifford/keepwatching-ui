@@ -5,10 +5,22 @@ import { Box, Card, CardContent, Grid, Typography } from '@mui/material';
 
 import { UnairedContentStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link UnairedContentCard}.
+ */
 interface UnairedContentCardProps {
+  /** Unaired content statistics, or `null` to render an empty-state card. */
   stats: UnairedContentStats | null;
 }
 
+/**
+ * Card that shows how many tracked shows, seasons, episodes, and movies have not
+ * yet aired.
+ *
+ * Displays counts for each unaired category (shows, seasons, episodes, movies)
+ * with icon tiles and a summary line. Renders a "nothing to wait for" message when
+ * all counts are zero, and an empty-state card when `stats` is `null`.
+ */
 export function UnairedContentCard({ stats }: UnairedContentCardProps) {
   if (!stats) {
     return (

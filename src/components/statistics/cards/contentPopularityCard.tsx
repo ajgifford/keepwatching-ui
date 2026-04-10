@@ -17,11 +17,24 @@ import {
 
 import { ContentPopularityStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link ContentPopularityCard}.
+ */
 interface ContentPopularityCardProps {
+  /** Content popularity statistics to display. */
   stats: ContentPopularityStats;
+  /** When `true`, renders a loading placeholder. Defaults to `false`. */
   isLoading?: boolean;
 }
 
+/**
+ * Admin-facing card that lists the most popular content across the platform.
+ *
+ * Renders a tabbed list with All, Shows, and Movies views. Each item shows a rank
+ * badge, content type icon, title, release year, profile count, account count,
+ * total watch count, and completion rate. Renders a loading placeholder when
+ * `isLoading` is `true`.
+ */
 export function ContentPopularityCard({ stats, isLoading = false }: ContentPopularityCardProps) {
   const [activeTab, setActiveTab] = useState(0);
 

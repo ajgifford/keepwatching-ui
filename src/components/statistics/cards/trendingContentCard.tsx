@@ -23,11 +23,24 @@ import {
 
 import { TrendingContentStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link TrendingContentCard}.
+ */
 interface TrendingContentCardProps {
+  /** Trending content statistics covering a configurable number of recent days. */
   stats: TrendingContentStats;
+  /** When `true`, renders a loading placeholder. Defaults to `false`. */
   isLoading?: boolean;
 }
 
+/**
+ * Admin-facing card that lists content trending across the platform.
+ *
+ * Renders a tabbed list with All, Shows, and Movies views. Each item shows a rank
+ * badge, content type icon, title, recent watch count, new additions, and a trend
+ * direction chip (rising / stable / falling) with a percentage change label.
+ * Renders a loading placeholder when `isLoading` is `true`.
+ */
 export function TrendingContentCard({ stats, isLoading = false }: TrendingContentCardProps) {
   const [activeTab, setActiveTab] = useState(0);
 

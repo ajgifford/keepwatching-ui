@@ -3,10 +3,22 @@ import { Box, Card, CardContent, Chip, Grid, List, ListItem, ListItemText, Typog
 
 import { AbandonmentRiskStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link AbandonmentRiskCard}.
+ */
 interface AbandonmentRiskCardProps {
+  /** Abandonment risk statistics, or `null` to render an empty-state card. */
   stats: AbandonmentRiskStats | null;
 }
 
+/**
+ * Card that surfaces show abandonment risk analysis.
+ *
+ * Displays the overall show abandonment rate with a Low / Medium / High risk label,
+ * the number of shows with no progress in 30+ days, and a scrollable list of up to
+ * ten shows needing attention, color-coded by how long they have been inactive.
+ * Renders an empty-state card when `stats` is `null`.
+ */
 export function AbandonmentRiskCard({ stats }: AbandonmentRiskCardProps) {
   if (!stats) {
     return (

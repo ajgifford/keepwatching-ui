@@ -1,5 +1,9 @@
 import { MILESTONE_THRESHOLDS, Milestone, MilestoneStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * A {@link Milestone} extended with an explicit content `type` discriminator,
+ * used internally to distinguish episode, movie, and hour milestones.
+ */
 interface MilestoneWithType extends Milestone {
   type: 'episodes' | 'movies' | 'hours';
 }
@@ -27,6 +31,14 @@ function calculateMilestones(
   }));
 }
 
+/**
+ * Returns the single most significant milestone the user has already achieved,
+ * determined by the highest threshold value across all content types
+ * (episodes, movies, and hours).
+ * @param stats - Milestone statistics for the account or profile.
+ * @returns The achieved milestone with the highest threshold, or `null` if none
+ *   have been achieved or `stats` is `null`.
+ */
 export function getLastAchievedMilestone(stats: MilestoneStats | null): MilestoneWithType | null {
   if (!stats) return null;
 
@@ -43,6 +55,14 @@ export function getLastAchievedMilestone(stats: MilestoneStats | null): Mileston
   return achieved.reduce((highest, current) => (current.threshold > highest.threshold ? current : highest));
 }
 
+/**
+ * Returns the next unachieved milestone the user is closest to completing,
+ * determined by the highest progress percentage across all content types
+ * (episodes, movies, and hours).
+ * @param stats - Milestone statistics for the account or profile.
+ * @returns The unachieved milestone with the greatest progress, or `null` if all
+ *   milestones have been achieved or `stats` is `null`.
+ */
 export function getNextMilestone(stats: MilestoneStats | null): MilestoneWithType | null {
   if (!stats) return null;
 

@@ -25,9 +25,18 @@ import {
 import { DateFormatters, createDateFormatters } from '../../../utils';
 import { MILESTONE_THRESHOLDS, Milestone, MilestoneStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link MilestonesAndAnniversaryCard}.
+ */
 interface MilestonesAndAnniversaryCardProps {
+  /** Milestone and anniversary statistics, or `null` to render an empty-state card. */
   stats: MilestoneStats | null;
+  /** When `true`, renders a loading placeholder. Defaults to `false`. */
   isLoading?: boolean;
+  /**
+   * Pre-configured date formatters used for milestone and anniversary dates.
+   * When omitted, formatters are created with default display preferences.
+   */
   formatters?: DateFormatters;
 }
 
@@ -151,6 +160,16 @@ function MilestoneProgressBar({ milestone }: { milestone: Milestone }) {
   );
 }
 
+/**
+ * Card that celebrates milestone achievements and account anniversaries.
+ *
+ * Left column: total progress summary (episodes, movies, hours), next milestone
+ * progress bars for each content type, and a list of recent achievements with
+ * tooltip details. Right column: member-since date and duration, first episode
+ * and first movie watched (with show/movie metadata), and a computed average
+ * viewing rate. A trophy chip badge shows the total number of unlocked milestones.
+ * Renders a loading placeholder when `isLoading` is `true`.
+ */
 export function MilestonesAndAnniversaryCard({ stats, isLoading = false, formatters: propFormatters }: MilestonesAndAnniversaryCardProps) {
   const theme = useTheme();
   const formatters = propFormatters ?? createDateFormatters();

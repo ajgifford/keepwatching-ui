@@ -3,15 +3,27 @@ import { Box, Card, CardContent, Divider, Grid, LinearProgress, Typography } fro
 
 import { ContentEngagementStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link ContentEngagementCard}.
+ */
 interface ContentEngagementCardProps {
+  /** Engagement statistics for a specific show or movie. */
   stats: ContentEngagementStats;
+  /** When `true`, renders a loading placeholder. Defaults to `false`. */
   isLoading?: boolean;
 }
 
+/**
+ * Props for the internal `ProgressMetric` sub-component.
+ */
 interface ProgressMetricProps {
+  /** Human-readable label for the metric row. */
   label: string;
+  /** Count of profiles in this category (numerator). */
   value: number;
+  /** Total profile count (denominator). */
   total: number;
+  /** MUI color variant for the progress bar. */
   color: 'primary' | 'secondary' | 'success' | 'warning' | 'error' | 'info';
 }
 
@@ -33,6 +45,16 @@ function ProgressMetric({ label, value, total, color }: ProgressMetricProps) {
   );
 }
 
+/**
+ * Admin-facing card that shows cross-account engagement metrics for a single piece
+ * of content (a show or movie).
+ *
+ * Displays total profiles, completion rate, abandonment rate, and average days to
+ * complete at the top, followed by a profile status distribution breakdown
+ * (Completed, Currently Watching, Not Started, Abandoned) with progress bars, and
+ * an overall average progress percentage. Renders a loading placeholder when
+ * `isLoading` is `true`.
+ */
 export function ContentEngagementCard({ stats, isLoading = false }: ContentEngagementCardProps) {
   if (isLoading) {
     return (

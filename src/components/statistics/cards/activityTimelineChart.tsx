@@ -18,12 +18,32 @@ import {
   YAxis,
 } from 'recharts';
 
+/**
+ * Props for the {@link ActivityTimelineChart}.
+ */
 interface ActivityTimelineChartProps {
+  /** Watching activity timeline data to visualize. */
   timeline?: WatchingActivityTimeline | null;
+  /** When `true`, renders a loading placeholder. Defaults to `false`. */
   isLoading?: boolean;
+  /**
+   * Pre-configured date formatters used to format axis labels.
+   * When omitted, formatters are created with default display preferences.
+   */
   formatters?: DateFormatters;
 }
 
+/**
+ * Tabbed chart card that visualizes watching activity over time.
+ *
+ * Provides three views selectable via tabs:
+ * - **Daily** — area chart of episodes watched per day.
+ * - **Weekly** — bar chart of episodes watched per week.
+ * - **Monthly** — grouped bar chart of episodes and movies watched per month.
+ *
+ * All datasets are sorted oldest-to-newest before rendering. Renders an
+ * empty-state message when a particular time range has no data.
+ */
 export function ActivityTimelineChart({ timeline, isLoading = false, formatters: propFormatters }: ActivityTimelineChartProps) {
   const theme = useTheme();
   const [activeTab, setActiveTab] = useState(0);

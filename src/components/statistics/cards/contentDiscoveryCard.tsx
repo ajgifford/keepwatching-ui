@@ -7,10 +7,22 @@ import { Box, Card, CardContent, Chip, Grid, Typography } from '@mui/material';
 
 import { ContentDiscoveryStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link ContentDiscoveryCard}.
+ */
 interface ContentDiscoveryCardProps {
+  /** Content discovery statistics, or `null` to render an empty-state card. */
   stats: ContentDiscoveryStats | null;
 }
 
+/**
+ * Card that surfaces content discovery and consumption patterns.
+ *
+ * Shows how many days have passed since content was last added, the monthly
+ * addition rate for shows and movies, and the watch-to-add ratio for each content
+ * type with a Backlog Shrinking / Balanced / Backlog Growing status chip.
+ * Renders an empty-state card when `stats` is `null`.
+ */
 export function ContentDiscoveryCard({ stats }: ContentDiscoveryCardProps) {
   if (!stats) {
     return (

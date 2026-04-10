@@ -3,10 +3,22 @@ import { Box, Card, CardContent, Grid, Stack, Tooltip, Typography, useTheme } fr
 
 import { SeasonalViewingStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link SeasonalViewingCard}.
+ */
 interface SeasonalViewingCardProps {
+  /** Seasonal viewing statistics, or `null` to render nothing (the component returns `null`). */
   stats: SeasonalViewingStats | null;
 }
 
+/**
+ * Card that visualizes viewing patterns broken down by season and month.
+ *
+ * Displays peak and slowest viewing months, a four-column seasonal heat map
+ * (Spring, Summer, Fall, Winter) with proportional fill bars, and a twelve-cell
+ * monthly heat map. Each heat map cell shows a tooltip with the exact episode count
+ * and percentage. Returns `null` when `stats` is `null`.
+ */
 export function SeasonalViewingCard({ stats }: SeasonalViewingCardProps) {
   const theme = useTheme();
 

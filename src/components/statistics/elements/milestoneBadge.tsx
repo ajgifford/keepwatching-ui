@@ -8,11 +8,19 @@ import {
 } from '@mui/icons-material';
 import { Chip, Tooltip, alpha, useTheme } from '@mui/material';
 
+/**
+ * Props for the {@link MilestoneBadge}.
+ */
 interface MilestoneBadgeProps {
+  /** The category of content the milestone tracks. */
   type: 'episodes' | 'movies' | 'hours';
+  /** The numeric threshold for this milestone (e.g., `100` for "100 Episodes"). */
   threshold: number;
+  /** Whether the user has already reached this milestone. */
   achieved: boolean;
+  /** Optional click handler; adds pointer cursor when provided. */
   onClick?: () => void;
+  /** Current progress value used to display remaining count in the tooltip. */
   currentProgress?: number;
 }
 
@@ -70,6 +78,14 @@ function getTooltipContent(
   return `Next Goal: ${formattedThreshold} ${typeLabel}`;
 }
 
+/**
+ * Compact badge chip that represents a single milestone achievement.
+ *
+ * Renders a MUI `Chip` with an icon and label derived from `type` and `threshold`.
+ * Achieved milestones display a trophy icon and a gold-toned style; unachieved
+ * milestones use a subdued grey style. A tooltip shows the unlock message or
+ * remaining progress toward the goal.
+ */
 export function MilestoneBadge({ type, threshold, achieved, onClick, currentProgress }: MilestoneBadgeProps) {
   const theme = useTheme();
   const backgroundColor = achieved ? alpha(theme.palette.warning.main, 0.2) : alpha(theme.palette.grey[500], 0.15);

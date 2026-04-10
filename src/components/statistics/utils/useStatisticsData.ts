@@ -4,6 +4,22 @@ import { WatchStatusDataItem } from '../elements';
 import { ChartDataItem, convertToChartData } from './distributionTypes';
 import { AccountStatisticsResponse, ProfileStatisticsResponse } from '@ajgifford/keepwatching-types';
 
+/**
+ * React hook that derives chart-ready data from account or profile statistics.
+ *
+ * Returns three memoised arrays:
+ * - `watchStatusData` — per-content-type watch status counts for the
+ *   {@link WatchStatusChart} component.
+ * - `genreData` — combined show and movie genre distribution for pie/bar charts,
+ *   capped at the top 6 genres.
+ * - `serviceData` — combined show and movie streaming service distribution for
+ *   pie/bar charts, capped at the top 8 services.
+ *
+ * All arrays are recalculated only when `statistics` changes.
+ *
+ * @param statistics - Account or profile statistics, or `null`/`undefined` while loading.
+ * @returns Object with `watchStatusData`, `genreData`, and `serviceData` arrays.
+ */
 export function useStatisticsData(
   statistics: AccountStatisticsResponse | ProfileStatisticsResponse | null | undefined
 ) {
@@ -66,7 +82,14 @@ export function useStatisticsData(
   return { watchStatusData, genreData, serviceData };
 }
 
-// Helper functions for statistics processing
+/**
+ * Returns the human-readable display name for the watch-status category with the
+ * highest count in the provided status counts record.
+ * Known keys (`"watched"`, `"watching"`, `"notWatched"`) are mapped to their
+ * display names; all other keys are returned as-is.
+ * @param statusCounts - Record of status key to count, e.g. `{ watched: 10, notWatched: 5 }`.
+ * @returns Display name of the top category, or `"not categorized"` if the record is empty.
+ */
 export function getTopCategory(statusCounts: Record<string, number | undefined>): string {
   const entries = Object.entries(statusCounts).filter(([_, count]) => count !== undefined) as [string, number][];
   if (entries.length === 0) return 'not categorized';
@@ -83,6 +106,13 @@ export function getTopCategory(statusCounts: Record<string, number | undefined>)
         : topEntry[0];
 }
 
+/**
+ * Returns the rounded percentage share (0–100) of the highest-count status
+ * category relative to the provided total.
+ * @param statusCounts - Record of status key to count.
+ * @param total - Total count used as the denominator.
+ * @returns Rounded percentage, or `0` if `total` is zero or the record is empty.
+ */
 export function getTopCategoryPercentage(statusCounts: Record<string, number | undefined>, total: number): number {
   if (total === 0) return 0;
 

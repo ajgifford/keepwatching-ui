@@ -16,12 +16,29 @@ import {
 import { DateFormatters, createDateFormatters } from '../../../utils';
 import { BingeWatchingStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link BingeWatchingCard}.
+ */
 interface BingeWatchingCardProps {
+  /** Binge-watching statistics to display. Pass `null` or omit to show an empty-state card. */
   bingeData?: BingeWatchingStats | null;
+  /** When `true`, renders a loading placeholder. Defaults to `false`. */
   isLoading?: boolean;
+  /**
+   * Pre-configured date formatters used to format session dates.
+   * When omitted, formatters are created with default display preferences.
+   */
   formatters?: DateFormatters;
 }
 
+/**
+ * Card that summarizes binge-watching behavior.
+ *
+ * A binge session is defined as watching 3 or more episodes of a show within 24 hours.
+ * Displays the total session count, average episodes per binge, longest binge session
+ * (with show title and date), and a list of the most frequently binged shows. Shows
+ * an encouraging empty-state message when no binge sessions have been recorded.
+ */
 export function BingeWatchingCard({ bingeData, isLoading = false, formatters: propFormatters }: BingeWatchingCardProps) {
   const formatters = propFormatters ?? createDateFormatters();
   const theme = useTheme();

@@ -24,12 +24,30 @@ import {
 import { DateFormatters } from '../../../utils';
 import { ProfileComparisonStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link ProfileComparisonCard}.
+ */
 interface ProfileComparisonCardProps {
+  /** Profile comparison statistics, or `null` to render an empty-state card. */
   stats: ProfileComparisonStats | null;
+  /** When `true`, renders a loading placeholder. Defaults to `false`. */
   isLoading?: boolean;
+  /** Pre-configured date formatters used to format last activity dates. */
   formatters: DateFormatters;
 }
 
+/**
+ * Card that compares watching statistics across all profiles on an account.
+ *
+ * Provides three tabbed views:
+ * - **Overview** — episodes, movies, and hours watched with relative progress bars,
+ *   plus episodes-per-week and most active day for each profile.
+ * - **Watching Stats** — show and movie watch progress percentages and velocity.
+ * - **Preferences** — top genres and streaming services per profile.
+ *
+ * Also shows account-level summary counts (unique shows, unique movies, most watched
+ * show/movie across profiles). Renders an empty-state card when `stats` is `null`.
+ */
 export function ProfileComparisonCard({ stats, isLoading = false, formatters }: ProfileComparisonCardProps) {
   const [activeTab, setActiveTab] = useState(0);
 

@@ -5,10 +5,22 @@ import { DistributionPieChart } from '../elements/distributionPieChart';
 import { convertToChartData } from '../utils/distributionTypes';
 import { ContentDepthStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link ContentDepthCard}.
+ */
 interface ContentDepthCardProps {
+  /** Content depth statistics, or `null` to render an empty-state card. */
   stats: ContentDepthStats | null;
 }
 
+/**
+ * Card that analyzes the depth and characteristics of a user's content library.
+ *
+ * Displays average episode count per show (with a series-length preference label),
+ * average movie runtime (with a film-length preference label), a horizontal bar
+ * chart for release year distribution, and a pie chart for content maturity ratings.
+ * Renders an empty-state card when `stats` is `null`.
+ */
 export function ContentDepthCard({ stats }: ContentDepthCardProps) {
   if (!stats) {
     return (

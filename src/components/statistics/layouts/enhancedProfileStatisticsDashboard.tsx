@@ -35,11 +35,22 @@ import { BaseStatisticsDashboard } from './baseStatisticsDashboard';
 import { DisplayPreferences, ProfileEnhancedStatistics, ProfileStatisticsResponse, WatchStatus } from '@ajgifford/keepwatching-types';
 import { createDateFormatters } from '../../../utils';
 
+/**
+ * Props for the {@link EnhancedProfileStatisticsDashboard}.
+ */
 export interface EnhancedProfileStatisticsDashboardProps {
+  /** Base profile statistics used for summary and distribution charts. */
   statistics?: ProfileStatisticsResponse | null;
+  /** When `true`, renders a spinner instead of the dashboard. Defaults to `false`. */
   isLoading?: boolean;
+  /** Enhanced analytics data fetched in parallel with the base statistics. */
   enhancedStatistics?: ProfileEnhancedStatistics;
+  /**
+   * When `true`, individual enhanced-stat card sections show loading indicators
+   * while `enhancedStatistics` is still being fetched. Defaults to `false`.
+   */
   isLoadingEnhancedStats?: boolean;
+  /** User display preferences used to configure date formatter functions. */
   dateFormatPreferences?: DisplayPreferences;
 }
 
@@ -53,6 +64,16 @@ const SECTION_CATEGORIES = [
   { id: 'management', label: 'Content Management', icon: '📋' },
 ] as const;
 
+/**
+ * Full profile-level statistics dashboard with enhanced analytics sections.
+ *
+ * Builds on {@link BaseStatisticsDashboard} and adds collapsible accordion sections for:
+ * Milestones & Achievements, Progress & Activity (including active show progress),
+ * Viewing Patterns, Rewatches, Content Insights, and Content Management. A sticky
+ * quick-navigation bar allows users to jump directly to any section.
+ *
+ * Renders an empty-state message when `statistics` is `null` after loading.
+ */
 export function EnhancedProfileStatisticsDashboard({
   statistics,
   isLoading = false,

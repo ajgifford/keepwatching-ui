@@ -10,13 +10,23 @@ import { Box, Card, CardContent, Chip, Grid, Typography, useTheme } from '@mui/m
 import { PlatformTrendsStats } from '@ajgifford/keepwatching-types';
 import { Area, AreaChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
+/**
+ * Props for the {@link PlatformTrendsCard}.
+ */
 interface PlatformTrendsCardProps {
+  /** Platform trend statistics covering a configurable number of recent days. */
   stats: PlatformTrendsStats;
+  /** When `true`, renders a loading placeholder. Defaults to `false`. */
   isLoading?: boolean;
 }
 
+/**
+ * Props for the internal `TrendIndicator` sub-component.
+ */
 interface TrendIndicatorProps {
+  /** Percentage change value; positive values indicate upward trend. */
   value: number;
+  /** Human-readable label for the metric being trended. */
   label: string;
 }
 
@@ -50,6 +60,14 @@ function TrendIndicator({ value, label }: TrendIndicatorProps) {
   );
 }
 
+/**
+ * Admin-facing card that visualizes platform activity trends over a recent period.
+ *
+ * Displays period totals for new accounts, episodes watched, movies watched, and
+ * combined activity, along with daily-active-user and watch-activity trend chips.
+ * An area chart plots active accounts, episodes, and movies per day over the period.
+ * Renders a loading placeholder when `isLoading` is `true`.
+ */
 export function PlatformTrendsCard({ stats, isLoading = false }: PlatformTrendsCardProps) {
   const theme = useTheme();
 

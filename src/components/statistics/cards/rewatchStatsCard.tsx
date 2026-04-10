@@ -14,11 +14,27 @@ import {
 
 import { AccountRewatchStats, ProfileRewatchStats } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link RewatchStatsCard}.
+ */
 interface RewatchStatsCardProps {
+  /**
+   * Rewatch statistics for either a profile or the whole account.
+   * Pass `null` or omit to render an empty-state card.
+   */
   stats?: ProfileRewatchStats | AccountRewatchStats | null;
+  /** When `true`, renders a loading placeholder. Defaults to `false`. */
   isLoading?: boolean;
 }
 
+/**
+ * Card that summarises rewatch activity for shows and movies.
+ *
+ * Displays total show and movie rewatch counts, a list of up to five most rewatched
+ * shows, and a list of up to five most rewatched movies, each with a rewatch count
+ * chip. Accepts both profile-level and account-level rewatch statistics. Shows an
+ * encouraging empty-state message when no rewatches have been recorded.
+ */
 export function RewatchStatsCard({ stats, isLoading = false }: RewatchStatsCardProps) {
   if (isLoading) {
     return (

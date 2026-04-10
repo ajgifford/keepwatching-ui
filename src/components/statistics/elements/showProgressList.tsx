@@ -5,12 +5,29 @@ import { Box, Divider, LinearProgress, Typography } from '@mui/material';
 import { getProgressBarColor } from '../../../utils/watchStatusColors';
 import { ShowProgress, WatchStatus } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link ShowProgressList}.
+ */
 interface ShowProgressListProps {
+  /** Array of show progress records to display. */
   shows: ShowProgress[];
+  /** Maximum height of the scrollable list container. Defaults to `300`. */
   maxHeight?: number | string;
+  /**
+   * Watch status used to filter the list. Pass `null` to show all shows.
+   * Defaults to `WatchStatus.WATCHING`.
+   */
   filter?: WatchStatus | null;
 }
 
+/**
+ * Scrollable list of shows with linear progress bars indicating episode completion.
+ *
+ * Filters shows by the `filter` watch status (default: `WATCHING`), then sorts them
+ * by completion percentage descending. Renders an empty-state message when no shows
+ * match the filter. Progress bar color is determined by
+ * {@link getProgressBarColor}.
+ */
 export function ShowProgressList({ shows, maxHeight = 300, filter = WatchStatus.WATCHING }: ShowProgressListProps) {
   const filteredShows = filter ? shows.filter((show) => show.status === filter) : shows;
   const sortedShows = [...filteredShows].sort((a, b) => b.percentComplete - a.percentComplete);

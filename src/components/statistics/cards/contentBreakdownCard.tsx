@@ -1,17 +1,35 @@
 import { Box, Card, CardContent, Grid, LinearProgress, Typography } from '@mui/material';
 
+/**
+ * A single content category row rendered inside a {@link ContentBreakdownCard}.
+ */
 interface ContentBreakdownItem {
+  /** Display label for the content category (e.g., `"Shows"`, `"Movies"`, `"Episodes"`). */
   label: string;
+  /** Total count of items in this category. */
   total: number;
+  /** Watch progress percentage (0–100) used as the linear progress value. */
   progress: number;
+  /** MUI color variant for the progress bar. */
   color: 'primary' | 'secondary' | 'success' | 'warning' | 'error' | 'info';
 }
 
+/**
+ * Props for the {@link ContentBreakdownCard}.
+ */
 interface ContentBreakdownCardProps {
+  /** Card heading. */
   title: string;
+  /** Ordered list of content categories to display. */
   items: ContentBreakdownItem[];
 }
 
+/**
+ * Card that shows a labelled progress breakdown for multiple content categories.
+ *
+ * Renders each `item` as a row containing a label, the total count, and a colored
+ * `LinearProgress` bar representing the watch progress percentage.
+ */
 export function ContentBreakdownCard({ title, items }: ContentBreakdownCardProps) {
   return (
     <Card>

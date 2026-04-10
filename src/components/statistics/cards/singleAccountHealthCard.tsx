@@ -4,9 +4,18 @@ import { Box, Card, CardContent, Chip, Grid, LinearProgress, Typography } from '
 import { DateFormatters, createDateFormatters } from '../../../utils';
 import { AccountHealthMetrics } from '@ajgifford/keepwatching-types';
 
+/**
+ * Props for the {@link SingleAccountHealthCard}.
+ */
 interface SingleAccountHealthCardProps {
+  /** Health metrics for a single account. */
   stats: AccountHealthMetrics;
+  /** When `true`, renders a loading placeholder. Defaults to `false`. */
   isLoading?: boolean;
+  /**
+   * Pre-configured date formatters used for account creation and last activity dates.
+   * When omitted, formatters are created with default display preferences.
+   */
   formatters?: DateFormatters;
 }
 
@@ -27,6 +36,15 @@ function RiskLevelBadge({ riskLevel }: { riskLevel: 'low' | 'medium' | 'high' })
   );
 }
 
+/**
+ * Card that displays health metrics for a single user account.
+ *
+ * Shows the engagement score, days since last activity, total episodes watched,
+ * and profile count, plus two progress bars for recent activity (last 30 days)
+ * and activity recency. Also surfaces account creation date, last activity date,
+ * email verification status, and at-risk status. Renders a loading placeholder
+ * when `isLoading` is `true`.
+ */
 export function SingleAccountHealthCard({ stats, isLoading = false, formatters: propFormatters }: SingleAccountHealthCardProps) {
   const formatters = propFormatters ?? createDateFormatters();
   if (isLoading) {
