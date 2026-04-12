@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@adobe/css-tools/-/css-tools-4.4.4.tgz#2856c55443d3d461693f32d2b96fb6ea92e1ffa9"
   integrity sha512-Elp+iwUx5rN5+Y8xLt5/GRoG20WGoDCQ/1Fb+1LiGtvwbDavuSk0jhD/eZdckHAuzcDzccnkv+rEjyWfRx18gg==
 
-"@ajgifford/keepwatching-types@^0.10.0":
-  version "0.10.0"
-  resolved "https://npm.pkg.github.com/download/@ajgifford/keepwatching-types/0.10.0/5fcfcf00670b7e3c9060696cb6bf4e8af8b02a8b#5fcfcf00670b7e3c9060696cb6bf4e8af8b02a8b"
-  integrity sha512-vi0AHAGg71xlpvs8m1nZHFTK2Wr0m69NrCiEe/tYLLbSOLbnLn8rmJ9YZdCRyfLRtgb5ypjGoabvShMTDwUS9Q==
+"@ajgifford/keepwatching-types@^0.11.0":
+  version "0.11.0"
+  resolved "https://npm.pkg.github.com/download/@ajgifford/keepwatching-types/0.11.0/b55ac63fd3c993fc02b4a75d1ab20a612d1ea005#b55ac63fd3c993fc02b4a75d1ab20a612d1ea005"
+  integrity sha512-DQ/dPtC1hOldnOuDlRihtUHBziE0ZVd2ZgnFqvAkph3kJ9VS8pxY3kPINv3AeIsSCJifzAOQo6d8QkjNC4kISw==
 
 "@asamuzakjp/css-color@^3.2.0":
   version "3.2.0"
