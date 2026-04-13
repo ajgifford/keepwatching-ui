@@ -152,7 +152,7 @@ export function ProfileComparisonCard({ stats, isLoading = false, formatters }: 
         </Grid>
 
         <Box sx={{ borderBottom: 1, borderColor: 'divider', mb: 2 }}>
-          <Tabs value={activeTab} onChange={handleTabChange}>
+          <Tabs value={activeTab} onChange={handleTabChange} variant="scrollable" scrollButtons="auto">
             <Tab label="Overview" />
             <Tab label="Watching Stats" />
             <Tab label="Preferences" />
@@ -174,11 +174,11 @@ export function ProfileComparisonCard({ stats, isLoading = false, formatters }: 
                   alignItems: 'stretch',
                 }}
               >
-                <Box sx={{ display: 'flex', justifyContent: 'space-between', width: '100%', mb: 2 }}>
+                <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', width: '100%', mb: 2, flexWrap: 'wrap', gap: 1 }}>
                   <Typography variant="h6" fontWeight="bold">
                     {profile.profileName}
                   </Typography>
-                  <Box sx={{ display: 'flex', gap: 1 }}>
+                  <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap' }}>
                     <Chip
                       icon={<TvIcon fontSize="small" />}
                       label={`${profile.currentlyWatchingCount} watching`}

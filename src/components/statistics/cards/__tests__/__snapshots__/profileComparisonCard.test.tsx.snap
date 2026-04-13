@@ -135,8 +135,12 @@ exports[`ProfileComparisonCard should match snapshot with full data 1`] = `
           class="MuiTabs-root css-jhczcq-MuiTabs-root"
         >
           <div
-            class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
-            style="overflow: hidden; margin-bottom: 0px;"
+            class="MuiTabs-scrollableX MuiTabs-hideScrollbar css-i8yde5"
+            style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+          />
+          <div
+            class="MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-1fr578y-MuiTabs-scroller"
+            style="margin-bottom: 0px;"
           >
             <div
               class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
@@ -184,7 +188,7 @@ exports[`ProfileComparisonCard should match snapshot with full data 1`] = `
           class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-oeb44u-MuiListItem-root"
         >
           <div
-            class="MuiBox-root css-wu3gbn"
+            class="MuiBox-root css-zttclu"
           >
             <h6
               class="MuiTypography-root MuiTypography-h6 css-h9fkkg-MuiTypography-root"
@@ -192,7 +196,7 @@ exports[`ProfileComparisonCard should match snapshot with full data 1`] = `
               John
             </h6>
             <div
-              class="MuiBox-root css-1i27l4i"
+              class="MuiBox-root css-1mcghfl"
             >
               <div
                 class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-filledPrimary css-2mz69a-MuiChip-root"
@@ -349,7 +353,7 @@ exports[`ProfileComparisonCard should match snapshot with full data 1`] = `
           class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-oeb44u-MuiListItem-root"
         >
           <div
-            class="MuiBox-root css-wu3gbn"
+            class="MuiBox-root css-zttclu"
           >
             <h6
               class="MuiTypography-root MuiTypography-h6 css-h9fkkg-MuiTypography-root"
@@ -357,7 +361,7 @@ exports[`ProfileComparisonCard should match snapshot with full data 1`] = `
               Jane
             </h6>
             <div
-              class="MuiBox-root css-1i27l4i"
+              class="MuiBox-root css-1mcghfl"
             >
               <div
                 class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-filledPrimary css-2mz69a-MuiChip-root"
@@ -651,8 +655,12 @@ exports[`ProfileComparisonCard should match snapshot with preferences tab 1`] = 
           class="MuiTabs-root css-jhczcq-MuiTabs-root"
         >
           <div
-            class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
-            style="overflow: hidden; margin-bottom: 0px;"
+            class="MuiTabs-scrollableX MuiTabs-hideScrollbar css-i8yde5"
+            style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+          />
+          <div
+            class="MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-1fr578y-MuiTabs-scroller"
+            style="margin-bottom: 0px;"
           >
             <div
               class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
@@ -1023,8 +1031,12 @@ exports[`ProfileComparisonCard should match snapshot with watching stats tab 1`]
           class="MuiTabs-root css-jhczcq-MuiTabs-root"
         >
           <div
-            class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
-            style="overflow: hidden; margin-bottom: 0px;"
+            class="MuiTabs-scrollableX MuiTabs-hideScrollbar css-i8yde5"
+            style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+          />
+          <div
+            class="MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-1fr578y-MuiTabs-scroller"
+            style="margin-bottom: 0px;"
           >
             <div
               class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
@@ -1435,8 +1447,12 @@ exports[`ProfileComparisonCard should match snapshot without most watched movie 
           class="MuiTabs-root css-jhczcq-MuiTabs-root"
         >
           <div
-            class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
-            style="overflow: hidden; margin-bottom: 0px;"
+            class="MuiTabs-scrollableX MuiTabs-hideScrollbar css-i8yde5"
+            style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+          />
+          <div
+            class="MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-1fr578y-MuiTabs-scroller"
+            style="margin-bottom: 0px;"
           >
             <div
               class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
@@ -1484,7 +1500,7 @@ exports[`ProfileComparisonCard should match snapshot without most watched movie 
           class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-oeb44u-MuiListItem-root"
         >
           <div
-            class="MuiBox-root css-wu3gbn"
+            class="MuiBox-root css-zttclu"
           >
             <h6
               class="MuiTypography-root MuiTypography-h6 css-h9fkkg-MuiTypography-root"
@@ -1492,7 +1508,7 @@ exports[`ProfileComparisonCard should match snapshot without most watched movie 
               John
             </h6>
             <div
-              class="MuiBox-root css-1i27l4i"
+              class="MuiBox-root css-1mcghfl"
             >
               <div
                 class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-filledPrimary css-2mz69a-MuiChip-root"
@@ -1649,7 +1665,7 @@ exports[`ProfileComparisonCard should match snapshot without most watched movie 
           class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-oeb44u-MuiListItem-root"
         >
           <div
-            class="MuiBox-root css-wu3gbn"
+            class="MuiBox-root css-zttclu"
           >
             <h6
               class="MuiTypography-root MuiTypography-h6 css-h9fkkg-MuiTypography-root"
@@ -1657,7 +1673,7 @@ exports[`ProfileComparisonCard should match snapshot without most watched movie 
               Jane
             </h6>
             <div
-              class="MuiBox-root css-1i27l4i"
+              class="MuiBox-root css-1mcghfl"
             >
               <div
                 class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-filledPrimary css-2mz69a-MuiChip-root"
@@ -1903,8 +1919,12 @@ exports[`ProfileComparisonCard should match snapshot without most watched show 1
           class="MuiTabs-root css-jhczcq-MuiTabs-root"
         >
           <div
-            class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
-            style="overflow: hidden; margin-bottom: 0px;"
+            class="MuiTabs-scrollableX MuiTabs-hideScrollbar css-i8yde5"
+            style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+          />
+          <div
+            class="MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-1fr578y-MuiTabs-scroller"
+            style="margin-bottom: 0px;"
           >
             <div
               class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
@@ -1952,7 +1972,7 @@ exports[`ProfileComparisonCard should match snapshot without most watched show 1
           class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-oeb44u-MuiListItem-root"
         >
           <div
-            class="MuiBox-root css-wu3gbn"
+            class="MuiBox-root css-zttclu"
           >
             <h6
               class="MuiTypography-root MuiTypography-h6 css-h9fkkg-MuiTypography-root"
@@ -1960,7 +1980,7 @@ exports[`ProfileComparisonCard should match snapshot without most watched show 1
               John
             </h6>
             <div
-              class="MuiBox-root css-1i27l4i"
+              class="MuiBox-root css-1mcghfl"
             >
               <div
                 class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-filledPrimary css-2mz69a-MuiChip-root"
@@ -2117,7 +2137,7 @@ exports[`ProfileComparisonCard should match snapshot without most watched show 1
           class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-oeb44u-MuiListItem-root"
         >
           <div
-            class="MuiBox-root css-wu3gbn"
+            class="MuiBox-root css-zttclu"
           >
             <h6
               class="MuiTypography-root MuiTypography-h6 css-h9fkkg-MuiTypography-root"
@@ -2125,7 +2145,7 @@ exports[`ProfileComparisonCard should match snapshot without most watched show 1
               Jane
             </h6>
             <div
-              class="MuiBox-root css-1i27l4i"
+              class="MuiBox-root css-1mcghfl"
             >
               <div
                 class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-filledPrimary css-2mz69a-MuiChip-root"
